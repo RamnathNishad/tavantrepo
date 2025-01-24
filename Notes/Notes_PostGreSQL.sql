@@ -224,5 +224,138 @@ select * from test
 select * from orders
 
 
+---working with constraints-------------
+--Constraints: to specify some rules and restrictions 
+--on data to maintain the integrity or correctness of data
+--in database at any point of time.
+--Types of constraints:
+--1) PRIMARY KEY:- It maintains unique records in the tab;e
+--and duplicate records cannot be inserted in table
+--it doesn't allow NULL value in the column.
+--only one Primary key per table.
+
+create table employee
+(
+ecode int primary key,
+ename varchar(20)
+....
+)
+
+--2) CHECK constraints:- it accepts only the values allowed
+--as per the expression provided in the check constraint.
+	drop table test
+	create table test
+	(
+		ecode int primary key,
+		ename varchar(20),
+		salary int check(salary>10000 and salary<=50000),
+		gender char(1) check(gender in('M','F'))	
+	)
+
+insert into test values(1,'ravi',50000,'M')
 
 
+--3) DEFAULT constraint:- it takes default specfied value if
+--it is not provided while inserting
+
+drop table test
+
+create table test
+(
+ecode int,
+salary int default 5000,
+gender char(1) default 'M',
+doj date default now()
+)
+
+insert into test(ecode) values(101)
+
+select * from test
+
+
+--4) UNIQUE constraint:- It maintains unique values in a column
+--There can be more than one unique constraints per table
+--It can accept NULL value also
+
+drop table test
+create table test
+(
+	ecode int primary key,
+	ename varchar(20) not null,
+	emailid varchar(25) unique,
+	mobileno varchar(10) unique
+)
+insert into test values(101,'ravi','ravi@gmail.com','9986017462')
+
+insert into test values(102,'ravi','ravi@gmail.com','9986017462')
+
+--5) NOT NULL:- It makes the column mandatory, doesnot accept null
+
+--6) FOREIGN KEY :- It is called refrential integrity constraint
+--it accept only those values which are already present in 
+--other record which is refered by this.
+
+for e.g.
+
+department----(deptid(PK),dname,dhead)
+employee----(ecode,ename,salary,deptid(FK))
+
+create table dept
+(
+deptid int primary key,
+dname varchar(20),
+dhead int
+)
+create table emp
+(
+ecode int primary key,
+ename varchar(20),
+salary int,
+deptid int references dept(deptid) on delete cascade
+)
+
+--Rules:
+--INSERT rule: we cannot insert in the dependent table
+--if the key data is not present in the main table
+
+--DELETE rule:- we cannot delete the record from main table 
+--if there are dependent record present somewhere
+
+--on delete cascade : this clause makes sure that when the
+--main key record is delete, all its dependent records will 
+--also get deleted
+
+delete from dept where deptid=201
+
+
+
+insert into dept values(201,'account',109);
+
+insert into emp values(101,'ravi',1111,201)
+
+select * from dept;
+select * from emp;
+
+
+---altering the table---
+--1) Adding a new column:- 
+alter table emp add column city varchar(10)
+
+--2) Remove the column
+alter table emp drop column city
+
+--3) Rename the column
+alter table emp rename column empname to ename
+
+select * from emp
+
+--4) adding primary key
+alter table emp add constraint pk1 primary key(ecode)
+
+--5) adding foreign key
+alter table emp add constraint fk1 
+				foreign key(deptid) 
+					references dept(deptid)
+
+--6) renaming the table
+alter table emp rename to tbl_employee
