@@ -269,12 +269,150 @@ declare
 begin
 	--call the function 
 	select bonus,x from calculate_bonus(salary) into bvalue,xvalue;
-	raise notice 'bonus:%,x:%',bvalue,xvalue;
+	raise notice 'bonus:%, x:%',bvalue,xvalue;
 end;$$
 
 
+--Drawback of functions:- user-defined functions do not support  transaction
+--i.e. we cannot start a transaction is UDFs and commit or rollback.
+
+--So we have stored procedures which supports transactions.
+--no return type but out/inout parameters can be used.
+
+--syntax=>
+create or replace procedures proc_name(param_list) languague plpgsql
+as
+$$
+declare
+--variable declaration
+begin
+--body--
+end;$$
+
+--example : using stored procedure, update the salary of an employee passing
+--ecode and salary to be updated.
+
+create or replace procedure sp_updatesal(ec int,sal int)
+language plpgsql
+as $$
+begin
+	update employee set salary=sal where ecode=ec;
+	raise notice 'salary updated for the employee %',ec;
+end;$$
+
+--to call a stored procedure, use CALL statement
+call sp_updatesal(101,50000)
 
 
-select 
+
+--------------TRIGGERS------------
+These are like PL/SQL block which are defined to be fired
+automatically on some operation like INSERT,DELETE and UPDATE.
+BEFORE triggere and AFTER trigger :- means whether trigger shud  fire
+after completing the operation or before the operation.
+
+--Trigger can also be marked FOR EACH ROW to get fired for every 
+--records affected.
+
+OLD and NEW column name can be used to access the data before and after
+the changes are done in the record. 
+
+syntax=>
+create trigger trigger_name
+BEFORE | AFTER | INSTEAD OF event_name
+ON table_name
+[
+--trigger logic here...
+
+]
+
+e.g.
+CREATE FUNCTION trigger_function()
+   RETURNS TRIGGER
+   LANGUAGE PLPGSQL
+AS $$
+BEGIN
+   -- trigger logic
+END;
+$$
+
+create or replace function display() returns trigger language plpgsql
+as $$
+begin
+ raise notice 'trigger fired';
+ raise notice 'old values: % % % %',OLD.ecode,OLD.ename,OLD.salary,OLD.deptid;
+ raise notice 'new values: % % % %',NEW.ecode,NEW.ename,NEW.salary,NEW.deptid;
+ return new;
+end;
+$$
+
+
+create or replace trigger t1
+after update 
+on employee
+for each row
+execute function display();
+
+
+select * from employee;
+update employee set salary=salary+1000 where ecode=102;
+
+
+
+---ques: create a trigger which should log the record in another table
+--on deletion so that u can get the deleted records.
+
+create table log_tbl
+(
+ecode int,
+ename varchar,
+salary int,
+deptid int,
+date_of_trans date default now()
+)
+
+//define the trigger function to get the deleted records 
+//and insert into log table
+
+create or replace function log_data() returns trigger language plpgsql
+as
+$$
+declare
+ ec int;
+ en varchar;
+ sal int;
+ did int;
+begin
+ --get the deleted record values
+  select OLD.ecode,OLD.ename,OLD.salary,OLD.deptid into ec,en,sal,did;
+ --insert this record into log table
+ insert into log_tbl values(ec,en,sal,did,now());
+ raise notice 'record deleted and logged into log table';
+ return old;
+end;$$
+
+
+--define delete trigger 
+create or replace trigger del_trig 
+before delete
+on employee 
+for each row
+execute function log_data();
+
+select * from log_tbl;
+
+
+select * from employee;
+
+delete from employee where ecode=102;
+
+
+
+
+
+select * from employee;
+
+
+
 
 
