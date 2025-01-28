@@ -359,3 +359,159 @@ alter table emp add constraint fk1
 
 --6) renaming the table
 alter table emp rename to tbl_employee
+
+
+--Complex queries
+--1) Nested queries:- Query within another query.
+--It is used when in a query or sql statement the data needed
+--is not directly available. So we need another query to get 
+--that data which is needed in the main query.
+--for e.g.
+--Ques: Find the employees working in the deparment of employee
+--whose ecode is 101----deptid 201
+sol:
+select * 
+from employee 
+where deptid >All (select deptid 
+			  from employee 
+			  where ecode=103 or ecode=102)
+
+--operators used in nested queries based on whether inner
+--query gives multiple results or single.
+--if there is chance of multiple results by the inner query
+--following operators should be used:
+--a) IN :- if results are more, to match with either of the
+--values
+--b) >ANY:- greater than the minimum
+--c) <ANY:- less than the maximum
+--d) >ALL:- greater than the max
+--e) <ALL:- less than the minimum
+col---->4
+select *
+from tbl
+where col<ALL(5,10,7)
+
+
+
+
+--1.2:- Correlated query:- In this query the data needed by the
+--inner query depends on the outer query record. So inner
+--query is executed for each outer query record unlike normal
+--nested query where inner query is excecuted only once for 
+--its outer query.
+
+Ques:- Find those students whose marks are greater than 
+average marks of all students of his/her section
+select * 
+from students as o
+where marks > (select avg(marks) 
+				from students as i
+				where i.section=o.section)
+				
+ques: 
+find the employees who gets salary greater than the
+average salary in his/her department
+
+
+
+--2) Joins queries:- Due to normalization data is scatterred
+--across multiple tables, so we need these join queries to get
+--all the required information from various tables.
+--Types of joins:-
+--a) INNER JOINS:- We use this whe records matching from 
+--both the tables are needed.
+for e.g employee(deptid) and department(deptid)
+
+//ANSI
+select e.ecode,e.ename,e.salary,d.deptid,d.dname,d.dhead
+from employee as e,dept as d
+where e.deptid =d.deptid 
+
+
+select e.ecode,e.ename,e.salary,d.deptid,d.dname,d.dhead
+from employee as e 
+inner join 
+dept as d
+on (e.deptid =d.deptid) 
+
+--b) OUTER JOINS:-
+--i) LEFT OUTER JOIN:- it gives matching from both the tables
+--and non-matched records from left side table
+select e.ecode,e.ename,e.salary,d.deptid,d.dname,d.dhead
+from employee as e 
+left outer join 
+dept as d
+on (e.deptid =d.deptid)
+
+--ii) RIGHT OUTER JOIN:-it gives matching from both the tables
+--and non-matched records from right side table
+select e.ecode,e.ename,e.salary,d.deptid,d.dname,d.dhead
+from employee as e 
+right outer join 
+dept as d
+on (e.deptid =d.deptid)
+
+--iii) FULL OUTER JOIN:-
+it gives matching from both the tables as well as un-matched 
+also from both side tables
+--and non-matched records from right side table
+select e.ecode,e.ename,e.salary,d.deptid,d.dname,d.dhead
+from employee as e 
+full outer join 
+dept as d
+on (e.deptid =d.deptid)
+
+select * from employee
+select * from dept
+
+
+insert into dept values(202,'admin',106),(203,'sales',107)
+
+--self-join:- when the record is joined with another record
+--which is present same table. It is a special case of join.
+---VIEWS----------------------
+--These are sql queries compiled and stored in database
+--but do not store result of the query as it is resolved
+--runtime.
+--why to use views?
+--1) to keep the data or information ready needed by the
+--end user from various tables.
+--2) only relevant data or columns needed instead of whole
+--table then also we can use views by storing the query
+--as per relevant data needed.
+--3) makes ur data secure
+--4) queries are faster through views than adhoc queries
+--as these are pre-parsed and pre-compiled queries.
+
+syntax=>
+create view v1
+as
+select e.ecode,e.ename,e.salary,d.deptid,d.dname,d.dhead
+from employee as e 
+right outer join 
+dept as d
+on (e.deptid =d.deptid)
+
+--calling the view
+select * from v1;
+
+--Notes:- 
+--a) views follows constraints as per table which is used 
+--in the query of the view
+--b) we can do DML(I,D and U) operations thru views on the
+--base table used in the view but if the view is containing
+--multiple tables then we cannot perform DML operations.
+--To do this DML operation on views containing multiple
+--tables, we take the help of INSTEAD OF trigger.
+
+--to modify the definition of view
+create or replace view emp_v
+as
+select ecode,ename from employee;
+
+
+
+
+	
+
+
