@@ -401,16 +401,99 @@ execute function log_data();
 
 select * from log_tbl;
 
+--Transactions :- It is a group of sql statements which are executed
+--as a one unit i.e. either all shud get completed or all shoud be reverted
+--if any of the statements are failed. We make the data consistent due
+--to use of transactions.
+--Types of transactions:-
+--a) implicit :- for every statements, one implicit transaction is initiated
+--and immediately it is committed automatically by the server.
+--b) explicit:- we have to start the transaction and finish the transaction
+--using either COMMIT or ROLLBACK.
+
+syntax=>
+BEGIN TRANSACTION
+--statements--
+COMMIT;
+--or ROLLBACK
+
 
 select * from employee;
 
-delete from employee where ecode=102;
+begin transaction;
+delete from employee where ecode=101;
+update employee set salary=salary+1000 where ecode=102;
+
+commit;
+
+rollback;
+
+begin transaction isolation level repeatable read;
+insert into employee values(104,'ramnath',4444,201);
+
+commit;
+
+isolation levels:-
+1)READ UNCOMMITTED :- transation can see the uncommitted records also.
+this is not there is postgresql as default is READ COMMITTED
+2) READ COMMITTED:- only committed records will be visible to the transaction.
+3) REPEATABLE READ:- It makes sure that a transaction will get always
+same version of data throughout when it was started even though other
+transactions are committing the data into the table.
+4) READ SERIALIZABLE:- This assumes that the transaction are considered
+in a serial rather than parallel. so more waiting chances will be here but
+more consistent data u will get in ur transactions.
+
+
+
+------Error handling in PLSQL--------------
+
+do $$
+declare 
+ n1 int:=10;
+ n2 int:=2;
+ res int;
+begin 
+if n2=0 then
+	raise exception 'divide by zero error happened,denominator should not be 0';
+end if;
+res:=n1/n2;
+raise notice 'result:%',res;
+
+exception
+	--when sqlstate '22012' then
+	when others then
+	raise notice 'Error occurred:%',sqlerrm;
+end;$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 select * from employee;
+
+
+
+
+
+
+
 
 
 
