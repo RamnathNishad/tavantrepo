@@ -68,6 +68,80 @@ d) id selector:-
 e) immediate child selector:
 		ul.x>li{color:red;}
 
+====================CSS3 layouts==========================
+Layouts:-
+-Float
+-Flex
+-Columns
+-Display block
+
+---------CSS3 Media Queries-----------
+For different screen size or viewports like desktop,laptop,tablets,mobiles we can use mdeia queries to make the design responsive according to the viewports.
+We apply different styles for different view ports(scren sizes and resolutions)
+
+Desktop : 1200px
+Laptop: 1024px
+Tablet: 768px
+Phone: 480px
+
+
+======================Bootstrap====================
+It is  CSS library maintain by the community people for responsice design i.e. it is by default responsive. It contains bunch of css classes which can be used for various responsive designs.
+
+Bootstrap uses grid system that constitute of 12 columns grid system and it is flexible.
+
+Few commonly used Bootstrap components:-
+1) Navigation menu creation
+2) Creating different types of input forms
+3) Table classes
+4) Cards
+5) Carousels
+6) Accordian control
+7) Dialog box
+8) Different types of button classes
+
+ways of using the bootstrap in a web page:
+a) CDN url :- Content Delivery Network which is url on internet from various bootstrap providers like microsoft,google, twitter.
+
+<link href="url" />
+
+b) we can download the bootstrap files and use it locally in the page
+<link href="path/bootstrap.css" />
+
+two forms of bootstrap files are available:
+a) production environment:- minified version in which all white spaces are removed. so size is smaller. bootstrap.min.css
+b) development environment:- it is used for development env , bootstrap.css.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
