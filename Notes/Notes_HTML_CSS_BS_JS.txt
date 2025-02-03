@@ -124,6 +124,53 @@ b) development environment:- it is used for development env , bootstrap.css.
 
 
 
+=========================JavaScript==========================
+DOM:- Document Object Model is the tree representation of the page and it's elements 
+through which we can interact with them in our scripts. It is loaded in the browser memory.
+
+Each DOM object has properties, methods and events to work with them.
+
+for e.g. "window" is a the DOM representation of the browser window and "document" is for the page currently loaded.
+methods:
+window.alert(msg)
+window.confirm()
+window.prompt()
+ 
+properties:
+window.location.href=url;
+window.history
+
+events:-
+-load,unload,close,open
+
+
+ways of using scripts:-
+1) inline : within the element,used for small scripts
+2) embedded :- within the page in <script> tag either inside <head> or <body> element.
+3) external:- defined in a separate file with extension .js and link it in the page using 
+	<script src="file.js"></script>
+
+we can do following interactions with the elements:
+-chaning their styles
+-changing their content like image or text content
+-changing their position
+
+innerText vs innerHTML:- if a text has tags also to be interpreted, we should use innerHTML rather than innerText. for e.g.
+	document.getElementById("x").innerHTML="<b>Welcome</b>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
