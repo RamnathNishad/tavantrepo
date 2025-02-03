@@ -157,6 +157,54 @@ we can do following interactions with the elements:
 
 innerText vs innerHTML:- if a text has tags also to be interpreted, we should use innerHTML rather than innerText. for e.g.
 	document.getElementById("x").innerHTML="<b>Welcome</b>";
+	document.getElementsByTagName("p")[1]
+
+
+programming constructs:
+1) if-else
+2) for loop
+3) while
+4) do-while
+5) switch-case
+
+we can also use arrays:-
+javascript arrays:-
+
+var names=["ram","raj","rahul"];
+or
+var names =new Array(3);   //0 to n-1
+
+-array is not fixed size, it can grow/shrink at run time
+names.push("vijay");
+
+-to find the no of items in an array: names.length 
+var data=new Array(3,5);
+data[0][0]=100;
+
+-to remove last item from the array:-
+names.pop();
+
+-to remove the specified index location value
+names.splice(index,no of items to remove)
+name.splice(2,3);
+
+
+====string functions=========
+-length:- no of characters in a string
+-substring(startIndex,endIndex)
+-concat(str2)
+
+
+--Note:- we should always clear the setInterval timer.
+	var timer = window.setInterval(fn,duration) ---repeates a function again and again after a interval.
+	window.clearInterval(timer)
+
+window.setTimeout(fn,duration)----this will call the function only once after the specified duration.
+	window.clearTimeout(timer)
+
+
+
+
 
 
 
