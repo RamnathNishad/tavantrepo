@@ -202,6 +202,98 @@ name.splice(2,3);
 window.setTimeout(fn,duration)----this will call the function only once after the specified duration.
 	window.clearTimeout(timer)
 
+A) Browser objects:- already available inside browser irresepective of language. for e.g. window,document,location,history and so on.
+
+-window.alert(msg)
+-window.setInterval()
+-window.url="www.google.com";
+-window.close();
+-var w=window.open("home.html")
+
+
+B) Javascript objects:- only available in the javascript.
+for e.g. string,number,date
+
+1) string object:-
+var s="Hello"
+var s=new String("Hello");
+
+-length------------> no of characters in a string
+-toUpperCase()-----> s2.toUpperCase() 
+-toLowerCase()-----> s2.toLowerCase()
+-substring() or substr()----> extract specified num of chars 
+				from a string
+-charAt(i)-------> character at index i
+-var words= 'welcome to india'.split('')----returns array of splitted words
+
+-words.join("$")-----return all the array values joined with the $ char as a string
+	'welcome$to$india'
+
+
+
+2) Math Object:-
+-Math.abs(n)
+-Math.round(n)
+-Math.min(2,3,4,5)------>2
+-Math.max(2,3,4,5)------>5
+-Math.floor(2.4)-------->2
+-Math.ceil(2.4)--------->3
+-Math.pow(2,3)----->8
+-Math.sqrt(16)--------->4
+
+
+
+
+
+3) Date functions:-
+
+var dt=new Date();-----current date and time
+var dt2= new Date(2014,0,10); ---Jan 10 2014
+
+-dt.getMonth()---------> month of the date
+-getYear()------> returns year of the date
+-getDate()----
+-getHours()
+-getMinutes()
+-getSeconds()
+
+Q. display the watch in the page or status bar
+
+
+
+10:01:25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============JavaScript Validations======================
+Basic validations functions:-
+isNaN("abc")-----returns true if it is not a number
+isNull()---if a value or object is null
+
+Form validations using Regular expressions:-
+Pattern validations:-
+
+
+
+
+
+
+
+
 
 
 
