@@ -258,26 +258,7 @@ var dt2= new Date(2014,0,10); ---Jan 10 2014
 -getSeconds()
 
 Q. display the watch in the page or status bar
-
-
-
 10:01:25
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ===============JavaScript Validations======================
 Basic validations functions:-
@@ -286,15 +267,78 @@ isNull()---if a value or object is null
 
 Form validations using Regular expressions:-
 Pattern validations:-
+-------------Creating object using JSON-----------------
+JavaScript Object Notation:-  it is a way of storing objects data using key/value pair, it is very light-weight and text format , hence easily readable data used now a days in many applications.
+
+Syntax for defining single json object:-
+{
+	"ecode":101,
+	"ename":"Ramnath",
+	"salary":1111
+}
+
+Syntax for storing set of object records:
+[
+{
+	"ecode":101,
+	"ename":"Ramnath",
+	"salary":1111
+},
+{
+	"ecode":102,
+	"ename":"Ravi",
+	"salary":2222
+}	
+]
+
+syntax for converting a json string into json object:-
+var str="{'ecode':101,'ename':'ravi','salary':1111}";
+	//str.ecode invalid
+
+
+var empObj=JSON.parse(str);
+	alert(empObj.ecode)
+
+syntax for converting json object into json string:
+	var str = JSON.stringify(empObj);
+
+=================adding events to html elements=================
+ways of binding events to elements:-
+1) within the html element :-
+	<input type="button" onclick="handler()" />
+2) bind the events using javascript:-
+	a) using element with event property 
+		<input type="button" id="b1"  value="Display" />
+		<script>
+			document.getElementById("b1").onclick=function(){
+				alert('button is clicked');	
+			}
+		</script>
+	b) using addEventListener method of the element:
+		<script>
+		document.getElementById("b1").addEventListener("click",function(){
+						alert('button is clicked');
+		});
+		</script>
+
+HTML5 web storage:- used to store some user related data in browser.
+Two objects are there:-
+a) localStorage:- This is stored permanently till we don't clear it. Even if browser is closed and user comes back, it will be saved and can be accessed again. e.g. user profiles related data can be stored in this.
+
+b) sessionStorage:- This is stored only till the browser session is there. once browser is closed it will remove the data from sesssion storage object. This can be used for carrying some info while navigating across pages. 
+
+Methods to work with this:
+-setItem("name","value") :- it is to store the data in the web storage
+-getItem("name"):- returns the value stored for the item. always validate before  accessing it.
+It gives "undefined" if item is not present.
+-clearItem("name")
+
+where it stores:- in developer (inspect option of the browser) window, under the "Application", both are stored separately.
 
 
 
 
-
-
-
-
-
+ 
 
 
 
