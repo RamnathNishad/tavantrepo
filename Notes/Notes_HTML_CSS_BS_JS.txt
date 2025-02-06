@@ -336,9 +336,65 @@ It gives "undefined" if item is not present.
 where it stores:- in developer (inspect option of the browser) window, under the "Application", both are stored separately.
 
 
+Ques: Design a Home page using few menu options as below:
+	Home 	About 	Settings
+
+When user clicks "Settings" options it should go to next page which should have option to change the page settings like:
+ =============================================== 
+|		Page Settings		               |
+ ============================================== |
+|	-text color : use html5 color box	               |	
+|	-page background color : use html5 color box    |
+|	-font style (bold,italic): use checkboxes                |
+|	-font size: use numeric spinner control	               |
+ ===============================================
+Provide one "Apply" button to save these settings changed by the user and a hyperlink to go back to home page. 
+Pages should retain these settings if user comes back again after closing the browser.
+==================ES6 Features====================
+EcmaScript is the standard followed by the JavaScript for having compatibility across al browsers.
+
+Scopes of variables in JavaScript:-
+1) local scope:- variables defined inside the function or block means it is accessible only inside that function or block.
+2) global scope:-  defined outside all the functions becomes global scope and can be referred anywhere inside the page.
+
+using "var" keyword global variable is declared.
+var x;
+function show(){
+	x=100;
+}
+function display(){
+	alert(x);
+}
+display();
+
+====================hoisting in javascript===============
+-by default variables declared using "var" keyword will be hoisted(moved) at the top of the block hence scope of the variable will change to global to the block.
+To have local scope, declare it will "let" keyword.
+var x=0;
+for(let x=1;x<=10;x++){
+	console.log("x:", x);
+}
+console.log("x:",x);
 
 
- 
+-------------es6------------
+//const and let both will have local scope; const cannot be modified throughout its life-time unlike let.
+//var 
+//let
+//const
+const x=100;
+let y=200;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
