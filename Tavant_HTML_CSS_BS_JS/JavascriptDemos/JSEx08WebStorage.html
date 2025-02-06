@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function saveName(){
+            var name = document.getElementById("txtName").value;
+            sessionStorage.setItem("username", name);
+            alert("Name saved successfully");
+        }
+    </script>
+</head>
+<body>
+    <h1>Working with HTML5 WebStorage objects</h1><hr/>
+
+    <h2>Session Storage</h2>
+    <label>Enter your name:</label>
+    <input type="text" id="txtName" />
+    <button onclick="saveName()">Save Name</button>
+    <a href="page2.html">Go to Page 2</a>
+</body>
+</html>

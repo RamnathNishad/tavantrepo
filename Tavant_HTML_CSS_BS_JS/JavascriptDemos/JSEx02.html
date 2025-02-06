@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function setStyle1(){
+            document.getElementById("x").style.color = "red";
+            document.getElementById("x").style.fontSize = "30px";
+        }
+        function setStyle2(){
+            document.getElementById("x").style.color = "blue";
+            document.getElementById("x").style.fontSize = "20px";
+        }
+        function changeMsg(){
+            document.getElementById("a").innerHTML = "<i>Welcome to JavaScript</i>";
+        }
+        function changePosition(){
+            document.getElementById("d1").style.left = "400px";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="x" onmouseover="setStyle1()" 
+        onmouseout="setStyle2()">
+        Working with JavaScript Basics - Mouse Events</h1><hr/>
+
+    <h1 id="a" onmouseover="changeMsg()">Welcome</h1>
+
+    <img src="/images/cuties.jpg" width="200" height="200" 
+        onmouseover="this.src='/images/vaibhav.jpg'" 
+        onmouseout="this.src='/images/cuties.jpg'">
+
+    <div id="d1"  onclick="changePosition()" 
+    style="position:absolute;left:0;top:400;background-color:red; width: 200px;height: 200px;"/>
+
+     
+</body>
+</html>

@@ -1,0 +1,17 @@
+h2{
+    color:green;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red ;
+}
+p{
+    color:blue;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red ;
+}
+body{
+    background-color: lightblue;
+}

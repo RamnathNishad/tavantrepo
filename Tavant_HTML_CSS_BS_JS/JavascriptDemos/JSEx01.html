@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myscript.js"></script>
+    
+    <script>
+        let w;
+        function sayHello() {
+            window.alert('Hello World!');
+            // window.location.href = 'https://www.google.com';
+        }
+        function quit(){
+            if(w){
+                console.log("Closing window");
+            }else{
+                window.alert("No window to close");
+            }
+            
+        }
+        function openWindow(){
+            w=window.open("https://www.google.com","_blank","width=400,height=400");
+        }
+        function setParaStyle(){
+            var allParas=document.getElementsByTagName("p");
+            allParas[1].style.color="red";
+        }
+    </script>
+</head>
+<body>
+    <h1>Working with JavaScript Basics</h1><hr/>
+    <input type="button" value="Hello World" onclick="alert('Hello World!')"> <br/>
+    <input type="button" value="Say Hello" onclick="sayHello()"> <br/>
+    <input type="button" value="Say Hi" onclick="sayHi()"> <br/>
+    <input type="button" value="open window" onclick="openWindow()"> <br/>
+    <input type="button" value="close window" onclick="quit()"> <br/>
+
+    <p>Para1</p>
+    <p>Para2</p>
+    <p>Para3</p>
+    <input type="button" value="Change Para2" onclick="setParaStyle()"> <br/>
+</body>
+</html>

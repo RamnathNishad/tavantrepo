@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="validations.js"></script>
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+            font-style: italic ;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Validations</h1><hr/>
+    <form onsubmit="return validateForm()">
+        <table>
+            <tr>
+                <th>Enter name:</th>
+                <td>
+                    <input type="text" id="uname" name="uname" placeholder="Enter name" required>
+                    <p id="nameError" class="error"></p>
+                </td>
+            </tr>
+            <tr>
+                <th>Enter age:</th>
+                <td>
+                    <input type="number" id="age" name="age" placeholder="Enter age" required>
+                    <p id="ageError" class="error"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

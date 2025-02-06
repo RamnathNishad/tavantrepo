@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Woking with HTML5 Form elements</h1><hr/>
+    </header>
+    <section>
+        <article>
+    <form method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required/><br/><br/>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required/><br/><br/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/><br/><br/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required/><br/><br/>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required/><br/><br/>
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" required/><br/><br/>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required/><br/><br/>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" required/><br/><br/>
+        <label for="range">Range:</label>
+        <input type="range" id="range" max="100" min="0" value="10" name="range" required/><br/><br/>
+  
+        <label>Gender:</label>
+        <input type="radio" id="gender" name="gender" value="M"/>Male
+        <input type="radio" id="gender" name="gender" value="F"/>Female
+        <br/><br/>
+        <label>Mode of travel:</label>
+        <input type="checkbox" id="mode" name="mode" value="bus"/>Bus
+        <input type="checkbox" id="mode" name="mode" value="train"/>Train
+        <input type="checkbox" id="mode" name="mode" value="flight"/>Flight<br/><br/>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" required></textarea><br/><br/>
+        
+        <label for="city">City:</label>
+        <select name="city" id="city" required>
+            <option value="BLR">Bangalore</option>
+            <option value="DLI">Delhi</option>
+            <option value="HYD">Hyderabad</option>
+        </select>
+        <input type="submit" value="Submit"/>
+       
+    </form>
+    </article>
+    </section>
+    <footer>
+        <hr/>
+        <p>Copyright &copy; - Tavant Technologies</p>
+    </footer>
+</body>
+</html>

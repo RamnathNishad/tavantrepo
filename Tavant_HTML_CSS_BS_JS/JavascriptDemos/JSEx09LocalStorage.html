@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var users=[];
+
+        function saveData(){
+            var name = document.getElementById("txtName").value;
+            var city = document.getElementById("txtCity").value;
+       
+            var user = {
+                name: name,
+                city: city
+            };
+            users.push(user);
+
+            localStorage.setItem("users", JSON.stringify(users));
+
+            document.getElementById("msg").innerHTML = "Data saved successfully";
+
+            //display the users
+            displayUsers();
+        }
+        function displayUsers(){
+        //console.log(users);
+            users = JSON.parse(localStorage.getItem("users"));
+
+            var data="<table><tr><th>Name</th><th>City</th></tr>";
+            for(var i=0; i<users.length; i++){
+                data += "<tr><td>" + users[i].name + "</td><td>" + users[i].city + "</td></tr>";
+            }
+            data += "</table>";
+            document.getElementById("data").innerHTML = data;
+        }
+    </script>
+</head>
+<body onload="displayUsers()">
+    <h1>Working with HTML5 WebStorage objects</h1><hr/>
+
+    <h2>Local Storage</h2>
+    <table>
+        <tr>
+            <td>
+                Enter username :
+            </td>
+            <td>
+                <input type="text" id="txtName" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter city :
+            </td>
+            <td>
+                <input type="text" id="txtCity" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Save" onclick="saveData()" />
+            </td>
+            <td>
+                <p id="msg"></p>
+            </td>
+        </tr>
+    </table>
+
+    <div id="data"></div>
+</body>
+</html>

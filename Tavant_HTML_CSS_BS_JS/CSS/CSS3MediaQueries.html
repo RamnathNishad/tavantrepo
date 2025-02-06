@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: yellow;
+        }
+
+        @media screen and (max-width:768px) {
+            body{
+                background-color: pink;
+            }
+            p{
+                color:black;
+            }
+        }
+        @media screen and (max-width:1024px) {
+            body{
+                background-color:white;
+            }
+            p{
+                color:red;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            body{
+                background-color: aqua;
+            }
+            p{
+                color:brown;
+            }
+            button{
+                display: block;
+                width: 300px;
+                margin:10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>
+        This is a sample paragraph for responsive design
+    </p>
+    <button>Button1</button>
+    <button>Button2</button>
+    <button>Button3</button>
+    <button>Button4</button>
+    <button>Button5</button>
+    <button>Button6</button>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var users=[];
+        if(localStorage.getItem("users")==undefined){
+            localStorage.setItem("users",JSON.stringify(users));
+        }
+ 
+        function store(){
+            var user={
+                name:document.getElementById("name").value,
+                age:document.getElementById("age").value
+            };
+            var users=JSON.parse(localStorage.getItem("users"));
+            users.push(user);
+            localStorage.setItem("users",JSON.stringify(users));
+        }
+        function display(){
+            var users=JSON.parse(localStorage.getItem("users"));
+            if(users.length==0){
+                document.getElementById("d1").innerHTML="No users in the list";
+                return;
+            }else{
+                createTable(users);
+            }
+        }
+        function createTable(users){
+            // var users=JSON.parse(localStorage.getItem("users"));
+            var table="<table><tr><th>Name</th><th>Age</th></tr>";
+            for(var i=0;i<users.length;i++){
+                table+="<tr>";
+                table+="<td>"+users[i].name+"</td>";
+                table+="<td>"+users[i].age+"</td>";
+                table+="</tr>";
+            }
+            table+="</table>";
+            document.getElementById("d1").innerHTML=table;
+        }
+    </script>
+</head>
+<body>
+    <h1>Working with JavaScript Basics</h1><hr/>
+    <input type="text" id="name" placeholder="Enter your name"> <br/>
+    <input type="text" id="age" placeholder="Enter your age"> <br/>
+    <input type="button" value="Add user" onclick="store()"> 
+    <input type="button" value="View users" onclick="display()"> <br/>
+    <div id="d1"></div>
+</body>
+</html>
