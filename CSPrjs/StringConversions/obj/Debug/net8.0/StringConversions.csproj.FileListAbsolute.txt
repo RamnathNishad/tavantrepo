@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\StringConversions\bin\Debug\net8.0\StringConversions.exe
+D:\tavant_demos\CSPrjs\StringConversions\bin\Debug\net8.0\StringConversions.deps.json
+D:\tavant_demos\CSPrjs\StringConversions\bin\Debug\net8.0\StringConversions.runtimeconfig.json
+D:\tavant_demos\CSPrjs\StringConversions\bin\Debug\net8.0\StringConversions.dll
+D:\tavant_demos\CSPrjs\StringConversions\bin\Debug\net8.0\StringConversions.pdb
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\StringConversions.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\StringConversions.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\StringConversions.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\StringConversions.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\StringConversions.dll
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\refint\StringConversions.dll
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\StringConversions.pdb
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\StringConversions.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\StringConversions\obj\Debug\net8.0\ref\StringConversions.dll

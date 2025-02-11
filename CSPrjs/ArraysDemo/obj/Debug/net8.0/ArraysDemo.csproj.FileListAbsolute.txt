@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.exe
+D:\tavant_demos\CSPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.deps.json
+D:\tavant_demos\CSPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.runtimeconfig.json
+D:\tavant_demos\CSPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.dll
+D:\tavant_demos\CSPrjs\ArraysDemo\bin\Debug\net8.0\ArraysDemo.pdb
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.dll
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\refint\ArraysDemo.dll
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.pdb
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ArraysDemo.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\ArraysDemo\obj\Debug\net8.0\ref\ArraysDemo.dll

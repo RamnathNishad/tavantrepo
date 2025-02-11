@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.exe
+D:\tavant_demos\CSPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.deps.json
+D:\tavant_demos\CSPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.runtimeconfig.json
+D:\tavant_demos\CSPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.dll
+D:\tavant_demos\CSPrjs\AggregationAndComposition\bin\Debug\net8.0\AggregationAndComposition.pdb
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.dll
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\refint\AggregationAndComposition.dll
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.pdb
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\AggregationAndComposition.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\AggregationAndComposition\obj\Debug\net8.0\ref\AggregationAndComposition.dll

@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\SampleDemo\bin\Debug\net8.0\SampleDemo.exe
+D:\tavant_demos\CSPrjs\SampleDemo\bin\Debug\net8.0\SampleDemo.deps.json
+D:\tavant_demos\CSPrjs\SampleDemo\bin\Debug\net8.0\SampleDemo.runtimeconfig.json
+D:\tavant_demos\CSPrjs\SampleDemo\bin\Debug\net8.0\SampleDemo.dll
+D:\tavant_demos\CSPrjs\SampleDemo\bin\Debug\net8.0\SampleDemo.pdb
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\SampleDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\SampleDemo.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\SampleDemo.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\SampleDemo.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\SampleDemo.dll
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\refint\SampleDemo.dll
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\SampleDemo.pdb
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\SampleDemo.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\SampleDemo\obj\Debug\net8.0\ref\SampleDemo.dll

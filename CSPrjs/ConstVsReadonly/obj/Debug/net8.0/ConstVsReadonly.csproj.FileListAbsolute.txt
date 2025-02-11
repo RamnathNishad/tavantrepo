@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ConstVsReadonly.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ConstVsReadonly.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ConstVsReadonly.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ConstVsReadonly.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\ConstVsReadonly\bin\Debug\net8.0\ConstVsReadonly.exe
+D:\tavant_demos\CSPrjs\ConstVsReadonly\bin\Debug\net8.0\ConstVsReadonly.deps.json
+D:\tavant_demos\CSPrjs\ConstVsReadonly\bin\Debug\net8.0\ConstVsReadonly.runtimeconfig.json
+D:\tavant_demos\CSPrjs\ConstVsReadonly\bin\Debug\net8.0\ConstVsReadonly.dll
+D:\tavant_demos\CSPrjs\ConstVsReadonly\bin\Debug\net8.0\ConstVsReadonly.pdb
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ConstVsReadonly.dll
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\refint\ConstVsReadonly.dll
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ConstVsReadonly.pdb
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ConstVsReadonly.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\ConstVsReadonly\obj\Debug\net8.0\ref\ConstVsReadonly.dll

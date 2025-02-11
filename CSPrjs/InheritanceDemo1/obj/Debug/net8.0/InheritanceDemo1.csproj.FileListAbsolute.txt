@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\InheritanceDemo1\bin\Debug\net8.0\InheritanceDemo1.exe
+D:\tavant_demos\CSPrjs\InheritanceDemo1\bin\Debug\net8.0\InheritanceDemo1.deps.json
+D:\tavant_demos\CSPrjs\InheritanceDemo1\bin\Debug\net8.0\InheritanceDemo1.runtimeconfig.json
+D:\tavant_demos\CSPrjs\InheritanceDemo1\bin\Debug\net8.0\InheritanceDemo1.dll
+D:\tavant_demos\CSPrjs\InheritanceDemo1\bin\Debug\net8.0\InheritanceDemo1.pdb
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\InheritanceDemo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\InheritanceDemo1.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\InheritanceDemo1.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\InheritanceDemo1.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\InheritanceDemo1.dll
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\refint\InheritanceDemo1.dll
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\InheritanceDemo1.pdb
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\InheritanceDemo1.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\InheritanceDemo1\obj\Debug\net8.0\ref\InheritanceDemo1.dll

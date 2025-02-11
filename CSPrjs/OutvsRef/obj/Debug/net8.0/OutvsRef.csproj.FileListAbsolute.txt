@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\OutvsRef\bin\Debug\net8.0\OutvsRef.exe
+D:\tavant_demos\CSPrjs\OutvsRef\bin\Debug\net8.0\OutvsRef.deps.json
+D:\tavant_demos\CSPrjs\OutvsRef\bin\Debug\net8.0\OutvsRef.runtimeconfig.json
+D:\tavant_demos\CSPrjs\OutvsRef\bin\Debug\net8.0\OutvsRef.dll
+D:\tavant_demos\CSPrjs\OutvsRef\bin\Debug\net8.0\OutvsRef.pdb
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\OutvsRef.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\OutvsRef.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\OutvsRef.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\OutvsRef.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\OutvsRef.dll
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\refint\OutvsRef.dll
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\OutvsRef.pdb
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\OutvsRef.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\OutvsRef\obj\Debug\net8.0\ref\OutvsRef.dll

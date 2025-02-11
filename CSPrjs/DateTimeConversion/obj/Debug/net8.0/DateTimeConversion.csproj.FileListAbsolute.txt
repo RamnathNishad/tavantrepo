@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\DateTimeConversion\bin\Debug\net8.0\DateTimeConversion.exe
+D:\tavant_demos\CSPrjs\DateTimeConversion\bin\Debug\net8.0\DateTimeConversion.deps.json
+D:\tavant_demos\CSPrjs\DateTimeConversion\bin\Debug\net8.0\DateTimeConversion.runtimeconfig.json
+D:\tavant_demos\CSPrjs\DateTimeConversion\bin\Debug\net8.0\DateTimeConversion.dll
+D:\tavant_demos\CSPrjs\DateTimeConversion\bin\Debug\net8.0\DateTimeConversion.pdb
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\DateTimeConversion.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\DateTimeConversion.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\DateTimeConversion.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\DateTimeConversion.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\DateTimeConversion.dll
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\refint\DateTimeConversion.dll
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\DateTimeConversion.pdb
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\DateTimeConversion.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\DateTimeConversion\obj\Debug\net8.0\ref\DateTimeConversion.dll

@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\EnumDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\EnumDemo.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\EnumDemo.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\EnumDemo.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\EnumDemo\bin\Debug\net8.0\EnumDemo.exe
+D:\tavant_demos\CSPrjs\EnumDemo\bin\Debug\net8.0\EnumDemo.deps.json
+D:\tavant_demos\CSPrjs\EnumDemo\bin\Debug\net8.0\EnumDemo.runtimeconfig.json
+D:\tavant_demos\CSPrjs\EnumDemo\bin\Debug\net8.0\EnumDemo.dll
+D:\tavant_demos\CSPrjs\EnumDemo\bin\Debug\net8.0\EnumDemo.pdb
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\EnumDemo.dll
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\refint\EnumDemo.dll
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\EnumDemo.pdb
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\EnumDemo.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\EnumDemo\obj\Debug\net8.0\ref\EnumDemo.dll

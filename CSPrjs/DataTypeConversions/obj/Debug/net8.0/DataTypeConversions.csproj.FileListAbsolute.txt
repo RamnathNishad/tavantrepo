@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\DataTypeConversions\bin\Debug\net8.0\DataTypeConversions.exe
+D:\tavant_demos\CSPrjs\DataTypeConversions\bin\Debug\net8.0\DataTypeConversions.deps.json
+D:\tavant_demos\CSPrjs\DataTypeConversions\bin\Debug\net8.0\DataTypeConversions.runtimeconfig.json
+D:\tavant_demos\CSPrjs\DataTypeConversions\bin\Debug\net8.0\DataTypeConversions.dll
+D:\tavant_demos\CSPrjs\DataTypeConversions\bin\Debug\net8.0\DataTypeConversions.pdb
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\DataTypeConversions.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\DataTypeConversions.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\DataTypeConversions.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\DataTypeConversions.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\DataTypeConversions.dll
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\refint\DataTypeConversions.dll
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\DataTypeConversions.pdb
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\DataTypeConversions.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\DataTypeConversions\obj\Debug\net8.0\ref\DataTypeConversions.dll

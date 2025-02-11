@@ -1,0 +1,14 @@
+D:\tavant_demos\CSPrjs\StructDemo\bin\Debug\net8.0\StructDemo.exe
+D:\tavant_demos\CSPrjs\StructDemo\bin\Debug\net8.0\StructDemo.deps.json
+D:\tavant_demos\CSPrjs\StructDemo\bin\Debug\net8.0\StructDemo.runtimeconfig.json
+D:\tavant_demos\CSPrjs\StructDemo\bin\Debug\net8.0\StructDemo.dll
+D:\tavant_demos\CSPrjs\StructDemo\bin\Debug\net8.0\StructDemo.pdb
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\StructDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\StructDemo.AssemblyInfoInputs.cache
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\StructDemo.AssemblyInfo.cs
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\StructDemo.csproj.CoreCompileInputs.cache
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\StructDemo.dll
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\refint\StructDemo.dll
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\StructDemo.pdb
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\StructDemo.genruntimeconfig.cache
+D:\tavant_demos\CSPrjs\StructDemo\obj\Debug\net8.0\ref\StructDemo.dll

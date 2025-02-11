@@ -41,12 +41,74 @@ success conevrsion
 
 
 ===================static modifier======================
+it is a modifier which indicates the member of a class is not meant for its instances.
+it is allocated once per class not per instance.
+so it is accessed also using class name.
+
+static method can only access static member(methods n fields) but non-static methods can access
+both static as well as non static members also.
+
+static can be called class name only.
+
+
 
 ====================out vs ref=================
+Normally value-type variables are passed to a method by-value and objects are passed by-reference by default.
+If we want to pass value-type variables also by-reference to a method, we can use out or ref keyword.
+out: we use when the modification of the parameter is mandatory before leaving the method
+ref:- optional modification of the parameter inside the method passed.
+
 
 ====================const vs readonly=====================
+const:- is declared and assigned at the same time and cannot be changed till its scope is there.
+readonly:- can be assigned only through constructor method i.e. one time assignment. later cannot be modified.
 
 
+
+Q. Create an array for the cinema hall tickets of 25 by 25 seats.
+User enters the number of seats to be booked. Once booking is successfull, the seat should be marked as 1. For e.g. if the user enter 2 seats to be booked, then seat[0][0]=1 and seat[0][1]=1 should be assigned. If number of tickets is unavailable, it should display error.
+After booking, all the seats should be displayed on screen which should show 0 in free seats and 1 in booked seats.
+
+
+
+
+
+
+
+
+OOPs:-
+1) Abstraction:-  
+ecommerce----customer----->car,family, cid,cname,contactno,billing address, pincode
+employee----> ecode,ename,salary,emailid 
+
+2) Encapsulation:- putting all the related things together
+
+relations:-
+3.1) Inheritance:- 
+	kind-of or is-a relations
+3.2) Aggregation/Composition:- part-of or has-a relation
+	Aggregation:- contained objects still exist even if their container is not there
+	Composition:- if the container is not their, contained object also does not exists
+			Policy---->Nominee
+
+	cardinality ratio:
+		1:1-----> COURSE------LECTURER
+		1:m---->DEPARTMENT----->EMPLOYEE
+		m:1---->
+		m:n---->STUDENT------>COURSE
+ 
+
+
+4) Polymorphism:- One object behaves differently in different situations
+	servant----->cook,watchman,tutor
+a) static polymorphism:- overloading of the method. binding of the object to a type is pre-decided during compilation and cannot be changed to other type at runtime.
+	
+b) dynamic polymorphism:-	overriding of the methods across inheritance. binding of the object is decided at runtime 
+
+
+
+
+=================constructore and destructor==================
 
 
 
