@@ -1,0 +1,79 @@
+using command line tool for .net core application development:-
+
+basic types:- 
+a) value-types:-
+predefined:
+int,char,double,float,decimal,datetime,long,byte,uint,short,boolean and so on
+user-defined types:-
+-enum
+-struct
+
+
+b) reference types:-
+predefined:string
+user-defined types:-
+-arrays
+-classes
+-interfaces
+
+
+Arrays:-
+-single-dimension:-
+-multi-dimension:-
+	-i)Rectangular  array: a particular dimension will have same number of items
+	ii)Jagged array:- a dimension may have different number of items
+
+--Data-conversions:-
+1) value-to-value :- lower to higher(implicit) but higher to lower precision (explicit) as data loss may happen
+2) value-to-reference:- boxing
+3) reference-to-value:- unboxing
+4) reference-to-reference:- base to derived or vice-versa
+
+
+==============Convert vs Parse vs TryParse========================
+1) Convert :- will give error is string is invalid and gives default value 0 if string null else
+success conevrsion
+2) TryParse:- if string is invalid it gives default value and if null also gives default value else true if successfull converision
+3) Parse:- if string valid then successfull conversion, if string is null or invalid,it gives exception ArgumentNullExcpetion and FormatException respectively
+
+==================DateTime parsing===================
+
+
+
+===================static modifier======================
+
+====================out vs ref=================
+
+====================const vs readonly=====================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
