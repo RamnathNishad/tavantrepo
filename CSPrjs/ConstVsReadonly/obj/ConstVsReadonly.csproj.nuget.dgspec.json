@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tavant_demos\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj": {}
+    "D:\\tavantrepo\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj": {}
   },
   "projects": {
-    "D:\\tavant_demos\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj": {
+    "D:\\tavantrepo\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj",
+        "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj",
         "projectName": "ConstVsReadonly",
-        "projectPath": "D:\\tavant_demos\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj",
+        "projectPath": "D:\\tavantrepo\\CSPrjs\\ConstVsReadonly\\ConstVsReadonly.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\tavant_demos\\CSPrjs\\ConstVsReadonly\\obj\\",
+        "outputPath": "D:\\tavantrepo\\CSPrjs\\ConstVsReadonly\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

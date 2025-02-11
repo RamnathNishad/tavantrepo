@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tavant_demos\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj": {}
+    "D:\\tavantrepo\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj": {}
   },
   "projects": {
-    "D:\\tavant_demos\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj": {
+    "D:\\tavantrepo\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj",
+        "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj",
         "projectName": "DateTimeConversion",
-        "projectPath": "D:\\tavant_demos\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj",
+        "projectPath": "D:\\tavantrepo\\CSPrjs\\DateTimeConversion\\DateTimeConversion.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\tavant_demos\\CSPrjs\\DateTimeConversion\\obj\\",
+        "outputPath": "D:\\tavantrepo\\CSPrjs\\DateTimeConversion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

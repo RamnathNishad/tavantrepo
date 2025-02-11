@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\AggregationAndComposition\\AggregationAndComposition.csproj",
+      "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\AggregationAndComposition\\AggregationAndComposition.csproj",
       "projectName": "AggregationAndComposition",
-      "projectPath": "D:\\tavant_demos\\CSPrjs\\AggregationAndComposition\\AggregationAndComposition.csproj",
+      "projectPath": "D:\\tavantrepo\\CSPrjs\\AggregationAndComposition\\AggregationAndComposition.csproj",
       "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-      "outputPath": "D:\\tavant_demos\\CSPrjs\\AggregationAndComposition\\obj\\",
+      "outputPath": "D:\\tavantrepo\\CSPrjs\\AggregationAndComposition\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

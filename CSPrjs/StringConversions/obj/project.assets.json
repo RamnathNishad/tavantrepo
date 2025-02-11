@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\StringConversions\\StringConversions.csproj",
+      "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\StringConversions\\StringConversions.csproj",
       "projectName": "StringConversions",
-      "projectPath": "D:\\tavant_demos\\CSPrjs\\StringConversions\\StringConversions.csproj",
+      "projectPath": "D:\\tavantrepo\\CSPrjs\\StringConversions\\StringConversions.csproj",
       "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-      "outputPath": "D:\\tavant_demos\\CSPrjs\\StringConversions\\obj\\",
+      "outputPath": "D:\\tavantrepo\\CSPrjs\\StringConversions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

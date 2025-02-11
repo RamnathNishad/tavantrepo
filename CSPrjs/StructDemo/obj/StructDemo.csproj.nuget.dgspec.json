@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tavant_demos\\CSPrjs\\StructDemo\\StructDemo.csproj": {}
+    "D:\\tavantrepo\\CSPrjs\\StructDemo\\StructDemo.csproj": {}
   },
   "projects": {
-    "D:\\tavant_demos\\CSPrjs\\StructDemo\\StructDemo.csproj": {
+    "D:\\tavantrepo\\CSPrjs\\StructDemo\\StructDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\StructDemo\\StructDemo.csproj",
+        "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\StructDemo\\StructDemo.csproj",
         "projectName": "StructDemo",
-        "projectPath": "D:\\tavant_demos\\CSPrjs\\StructDemo\\StructDemo.csproj",
+        "projectPath": "D:\\tavantrepo\\CSPrjs\\StructDemo\\StructDemo.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\tavant_demos\\CSPrjs\\StructDemo\\obj\\",
+        "outputPath": "D:\\tavantrepo\\CSPrjs\\StructDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

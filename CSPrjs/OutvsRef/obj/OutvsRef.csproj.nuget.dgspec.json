@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tavant_demos\\CSPrjs\\OutvsRef\\OutvsRef.csproj": {}
+    "D:\\tavantrepo\\CSPrjs\\OutvsRef\\OutvsRef.csproj": {}
   },
   "projects": {
-    "D:\\tavant_demos\\CSPrjs\\OutvsRef\\OutvsRef.csproj": {
+    "D:\\tavantrepo\\CSPrjs\\OutvsRef\\OutvsRef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\OutvsRef\\OutvsRef.csproj",
+        "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\OutvsRef\\OutvsRef.csproj",
         "projectName": "OutvsRef",
-        "projectPath": "D:\\tavant_demos\\CSPrjs\\OutvsRef\\OutvsRef.csproj",
+        "projectPath": "D:\\tavantrepo\\CSPrjs\\OutvsRef\\OutvsRef.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\tavant_demos\\CSPrjs\\OutvsRef\\obj\\",
+        "outputPath": "D:\\tavantrepo\\CSPrjs\\OutvsRef\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

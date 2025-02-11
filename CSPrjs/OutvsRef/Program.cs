@@ -10,7 +10,6 @@
             Console.WriteLine($"Before: Salary:{salary}\tBonus:{bonus}");
             CalculateBonus( salary, out bonus );
             Console.WriteLine($"After: Salary:{salary}\tBonus:{bonus}");
-
         }
 
         static void CalculateBonus(int salary, out double bonus)

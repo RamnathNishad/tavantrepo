@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tavant_demos\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj": {}
+    "D:\\tavantrepo\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj": {}
   },
   "projects": {
-    "D:\\tavant_demos\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj": {
+    "D:\\tavantrepo\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj",
+        "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj",
         "projectName": "InheritanceDemo1",
-        "projectPath": "D:\\tavant_demos\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj",
+        "projectPath": "D:\\tavantrepo\\CSPrjs\\InheritanceDemo1\\InheritanceDemo1.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\tavant_demos\\CSPrjs\\InheritanceDemo1\\obj\\",
+        "outputPath": "D:\\tavantrepo\\CSPrjs\\InheritanceDemo1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

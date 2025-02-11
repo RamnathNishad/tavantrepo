@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tavant_demos\\CSPrjs\\StaticDemo\\StaticDemo.csproj",
+      "projectUniqueName": "D:\\tavantrepo\\CSPrjs\\StaticDemo\\StaticDemo.csproj",
       "projectName": "StaticDemo",
-      "projectPath": "D:\\tavant_demos\\CSPrjs\\StaticDemo\\StaticDemo.csproj",
+      "projectPath": "D:\\tavantrepo\\CSPrjs\\StaticDemo\\StaticDemo.csproj",
       "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-      "outputPath": "D:\\tavant_demos\\CSPrjs\\StaticDemo\\obj\\",
+      "outputPath": "D:\\tavantrepo\\CSPrjs\\StaticDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
