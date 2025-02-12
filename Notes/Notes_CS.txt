@@ -109,7 +109,69 @@ b) dynamic polymorphism:-	overriding of the methods across inheritance. binding 
 
 
 =================constructor and destructor==================
+ctor:- 
+-it is autimatically called when object is created
+-it is used to perform initial tasks as soon as object comes into memory like data-initialization is one the task, connection creation , file opening before manupulating.
 
+-syntax=>
+*name must be same as classname
+*no return type
+class Employee
+{
+	public Employee(){}
+}
+*ctor can be overloaded multiple times
+ctor can be :
+-private :- if we dont' want user to create instance of the class, we shud use private ctor
+	Employee obj=new Employee();// not allowed
+	e.g. Singleton pattern does not allow object creation by the users rather instance is provided by the server for use.
+-public :- object creation is allowed by the users
+-static:- is used to access or initialized static fields of the class as it is called only once and not for each instance creation and before non-static ctor, static ctor is called.
+
+
+===================constructor chaining=================
+It is used in inheritance where base and derived classes both field initialization through ctors.
+-derived class ctor needs to pass data to the base class ctor using base(p1,p2,...)
+Note: derived class ctor automatically calls base class blank ctor but if the base class has parameterized ctor, we need to call it manually
+	public Derived(int a,int b): base(a)
+	{
+		this.b=b;
+	}
+
+
+
+depicting cardinality ratios:
+
+class Product
+{
+	int pid;
+	int price;
+}
+class Order
+{
+	int oid;
+	DateTime orderDate;
+	Product[] items;
+}
+
+class Course
+{
+	int cid;
+	string cname;
+}
+class Faculty
+{
+	int fid;
+	string fname;
+	Course course;
+}
+
+-----------Polymorphism----------------
+1) static :- overloading :- no of parameters,data-types of parameters.
+2) dynamic :- overriding: base to derived class 
+		-virtual:- optional overridding at derived level
+		-abstract:- mandatory overriding at derived level
+		-interface
 
 
 

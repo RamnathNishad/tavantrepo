@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\VirtualDemo\bin\Debug\net8.0\VirtualDemo.exe
+D:\tavantrepo\CSPrjs\VirtualDemo\bin\Debug\net8.0\VirtualDemo.deps.json
+D:\tavantrepo\CSPrjs\VirtualDemo\bin\Debug\net8.0\VirtualDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\VirtualDemo\bin\Debug\net8.0\VirtualDemo.dll
+D:\tavantrepo\CSPrjs\VirtualDemo\bin\Debug\net8.0\VirtualDemo.pdb
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.dll
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\refint\VirtualDemo.dll
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.pdb
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\VirtualDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\VirtualDemo\obj\Debug\net8.0\ref\VirtualDemo.dll

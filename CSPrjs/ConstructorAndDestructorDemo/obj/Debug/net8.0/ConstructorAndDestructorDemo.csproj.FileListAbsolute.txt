@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\bin\Debug\net8.0\ConstructorAndDestructorDemo.exe
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\bin\Debug\net8.0\ConstructorAndDestructorDemo.deps.json
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\bin\Debug\net8.0\ConstructorAndDestructorDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\bin\Debug\net8.0\ConstructorAndDestructorDemo.dll
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\bin\Debug\net8.0\ConstructorAndDestructorDemo.pdb
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.dll
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\refint\ConstructorAndDestructorDemo.dll
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.pdb
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ConstructorAndDestructorDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\ConstructorAndDestructorDemo\obj\Debug\net8.0\ref\ConstructorAndDestructorDemo.dll

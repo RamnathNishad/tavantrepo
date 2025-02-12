@@ -1,7 +1,9 @@
-﻿namespace OutvsRef
+﻿
+namespace OutvsRef
 {
     internal class Program
-    {
+    {   
+
         static void Main(string[] args)
         {
             int salary = 4000;
@@ -24,4 +26,20 @@
             }
         }
     }
+
+
+    //class Demo
+    //{
+    //    //int x = 100;
+    //    string name = "ravi";
+
+    //    public static void DisplayX(int x)
+    //    {
+    //        Console.WriteLine("X:"+x);
+    //    }
+    //    public void DisplayName()
+    //    {
+    //        Console.WriteLine("Name:"+name);
+    //    }
+    //}
 }

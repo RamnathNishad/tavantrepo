@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\OverloadingDemo\bin\Debug\net8.0\OverloadingDemo.exe
+D:\tavantrepo\CSPrjs\OverloadingDemo\bin\Debug\net8.0\OverloadingDemo.deps.json
+D:\tavantrepo\CSPrjs\OverloadingDemo\bin\Debug\net8.0\OverloadingDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\OverloadingDemo\bin\Debug\net8.0\OverloadingDemo.dll
+D:\tavantrepo\CSPrjs\OverloadingDemo\bin\Debug\net8.0\OverloadingDemo.pdb
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.dll
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\refint\OverloadingDemo.dll
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.pdb
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\OverloadingDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\OverloadingDemo\obj\Debug\net8.0\ref\OverloadingDemo.dll

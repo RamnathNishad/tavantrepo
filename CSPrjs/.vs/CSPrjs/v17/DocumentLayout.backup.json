@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\tavant_demos\\CSPrjs\\",
+  "WorkspaceRootPath": "D:\\tavantrepo\\CSPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBB30FF1-B901-4D67-8F63-1D83F86D9318}|OutvsRef\\OutvsRef.csproj|d:\\tavant_demos\\csprjs\\outvsref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBB30FF1-B901-4D67-8F63-1D83F86D9318}|OutvsRef\\OutvsRef.csproj|solutionrelative:outvsref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CD13A46-5028-4286-85CD-E3CB174BF845}|AbstractDemo\\AbstractDemo.csproj|d:\\tavantrepo\\csprjs\\abstractdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD13A46-5028-4286-85CD-E3CB174BF845}|AbstractDemo\\AbstractDemo.csproj|solutionrelative:abstractdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{335595BB-8AF7-4D2F-9E13-3E8C944ADF0E}|ArraysDemo\\ArraysDemo.csproj|d:\\tavant_demos\\csprjs\\arraysdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{335595BB-8AF7-4D2F-9E13-3E8C944ADF0E}|ArraysDemo\\ArraysDemo.csproj|solutionrelative:arraysdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24F924D2-797B-4288-8132-C95EC4B6C868}|VirtualDemo\\VirtualDemo.csproj|d:\\tavantrepo\\csprjs\\virtualdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F924D2-797B-4288-8132-C95EC4B6C868}|VirtualDemo\\VirtualDemo.csproj|solutionrelative:virtualdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C390721-17B1-4FC7-B954-D55DA7FFAFE5}|AggregationAndComposition\\AggregationAndComposition.csproj|d:\\tavant_demos\\csprjs\\aggregationandcomposition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C390721-17B1-4FC7-B954-D55DA7FFAFE5}|AggregationAndComposition\\AggregationAndComposition.csproj|solutionrelative:aggregationandcomposition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB3B9267-1002-4718-B4FD-DF2D64C28A1A}|OverloadingDemo\\OverloadingDemo.csproj|d:\\tavantrepo\\csprjs\\overloadingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB3B9267-1002-4718-B4FD-DF2D64C28A1A}|OverloadingDemo\\OverloadingDemo.csproj|solutionrelative:overloadingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF246AB-1550-4D75-BC6C-DDC1330F0000}|InheritanceDemo1\\InheritanceDemo1.csproj|d:\\tavant_demos\\csprjs\\inheritancedemo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF246AB-1550-4D75-BC6C-DDC1330F0000}|InheritanceDemo1\\InheritanceDemo1.csproj|solutionrelative:inheritancedemo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9BFEDCF-CFB5-49EF-A2C2-A15E66B42E75}|CtorChaining\\CtorChaining.csproj|d:\\tavantrepo\\csprjs\\ctorchaining\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFEDCF-CFB5-49EF-A2C2-A15E66B42E75}|CtorChaining\\CtorChaining.csproj|solutionrelative:ctorchaining\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8010DE67-2AD2-422D-B39E-CF3724057E5A}|ConstructorAndDestructorDemo\\ConstructorAndDestructorDemo.csproj|d:\\tavantrepo\\csprjs\\constructoranddestructordemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8010DE67-2AD2-422D-B39E-CF3724057E5A}|ConstructorAndDestructorDemo\\ConstructorAndDestructorDemo.csproj|solutionrelative:constructoranddestructordemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,52 +36,66 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavant_demos\\CSPrjs\\OutvsRef\\Program.cs",
-              "RelativeDocumentMoniker": "OutvsRef\\Program.cs",
-              "ToolTip": "D:\\tavant_demos\\CSPrjs\\OutvsRef\\Program.cs",
-              "RelativeToolTip": "OutvsRef\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywA0AAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\AbstractDemo\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractDemo\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\AbstractDemo\\Program.cs",
+              "RelativeToolTip": "AbstractDemo\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvw0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T10:19:48.249Z",
+              "WhenOpened": "2025-02-12T05:32:08.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavant_demos\\CSPrjs\\ArraysDemo\\Program.cs",
-              "RelativeDocumentMoniker": "ArraysDemo\\Program.cs",
-              "ToolTip": "D:\\tavant_demos\\CSPrjs\\ArraysDemo\\Program.cs",
-              "RelativeToolTip": "ArraysDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\VirtualDemo\\Program.cs",
+              "RelativeDocumentMoniker": "VirtualDemo\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\VirtualDemo\\Program.cs",
+              "RelativeToolTip": "VirtualDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T10:19:45.176Z",
+              "WhenOpened": "2025-02-12T05:25:58.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavant_demos\\CSPrjs\\AggregationAndComposition\\Program.cs",
-              "RelativeDocumentMoniker": "AggregationAndComposition\\Program.cs",
-              "ToolTip": "D:\\tavant_demos\\CSPrjs\\AggregationAndComposition\\Program.cs",
-              "RelativeToolTip": "AggregationAndComposition\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAuwC0AAAAcAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\OverloadingDemo\\Program.cs",
+              "RelativeDocumentMoniker": "OverloadingDemo\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\OverloadingDemo\\Program.cs",
+              "RelativeToolTip": "OverloadingDemo\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T09:28:55.717Z",
+              "WhenOpened": "2025-02-12T05:20:32.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavant_demos\\CSPrjs\\InheritanceDemo1\\Program.cs",
-              "RelativeDocumentMoniker": "InheritanceDemo1\\Program.cs",
-              "ToolTip": "D:\\tavant_demos\\CSPrjs\\InheritanceDemo1\\Program.cs",
-              "RelativeToolTip": "InheritanceDemo1\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwAsAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\CtorChaining\\Program.cs",
+              "RelativeDocumentMoniker": "CtorChaining\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\CtorChaining\\Program.cs",
+              "RelativeToolTip": "CtorChaining\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIBCwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T09:21:19.795Z"
+              "WhenOpened": "2025-02-12T05:03:48.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\ConstructorAndDestructorDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ConstructorAndDestructorDemo\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\ConstructorAndDestructorDemo\\Program.cs",
+              "RelativeToolTip": "ConstructorAndDestructorDemo\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:41:51.957Z",
+              "EditorCaption": ""
             }
           ]
         }

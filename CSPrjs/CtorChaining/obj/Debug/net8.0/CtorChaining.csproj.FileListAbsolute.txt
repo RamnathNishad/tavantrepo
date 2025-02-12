@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.sourcelink.json
+D:\tavantrepo\CSPrjs\CtorChaining\bin\Debug\net8.0\CtorChaining.exe
+D:\tavantrepo\CSPrjs\CtorChaining\bin\Debug\net8.0\CtorChaining.deps.json
+D:\tavantrepo\CSPrjs\CtorChaining\bin\Debug\net8.0\CtorChaining.runtimeconfig.json
+D:\tavantrepo\CSPrjs\CtorChaining\bin\Debug\net8.0\CtorChaining.dll
+D:\tavantrepo\CSPrjs\CtorChaining\bin\Debug\net8.0\CtorChaining.pdb
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.dll
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\refint\CtorChaining.dll
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.pdb
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\CtorChaining.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\CtorChaining\obj\Debug\net8.0\ref\CtorChaining.dll
