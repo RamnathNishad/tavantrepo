@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\bin\Debug\net8.0\SortedDictionaryDemo.exe
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\bin\Debug\net8.0\SortedDictionaryDemo.deps.json
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\bin\Debug\net8.0\SortedDictionaryDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\bin\Debug\net8.0\SortedDictionaryDemo.dll
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\bin\Debug\net8.0\SortedDictionaryDemo.pdb
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.dll
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\refint\SortedDictionaryDemo.dll
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.pdb
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\SortedDictionaryDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\SortedDictionaryDemo\obj\Debug\net8.0\ref\SortedDictionaryDemo.dll

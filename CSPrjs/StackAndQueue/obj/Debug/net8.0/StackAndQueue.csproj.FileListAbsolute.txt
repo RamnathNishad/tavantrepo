@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\StackAndQueue\bin\Debug\net8.0\StackAndQueue.exe
+D:\tavantrepo\CSPrjs\StackAndQueue\bin\Debug\net8.0\StackAndQueue.deps.json
+D:\tavantrepo\CSPrjs\StackAndQueue\bin\Debug\net8.0\StackAndQueue.runtimeconfig.json
+D:\tavantrepo\CSPrjs\StackAndQueue\bin\Debug\net8.0\StackAndQueue.dll
+D:\tavantrepo\CSPrjs\StackAndQueue\bin\Debug\net8.0\StackAndQueue.pdb
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.sourcelink.json
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.dll
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\refint\StackAndQueue.dll
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.pdb
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\StackAndQueue.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\StackAndQueue\obj\Debug\net8.0\ref\StackAndQueue.dll

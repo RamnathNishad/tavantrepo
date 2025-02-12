@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\ListDemo\bin\Debug\net8.0\ListDemo.exe
+D:\tavantrepo\CSPrjs\ListDemo\bin\Debug\net8.0\ListDemo.deps.json
+D:\tavantrepo\CSPrjs\ListDemo\bin\Debug\net8.0\ListDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\ListDemo\bin\Debug\net8.0\ListDemo.dll
+D:\tavantrepo\CSPrjs\ListDemo\bin\Debug\net8.0\ListDemo.pdb
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.dll
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\refint\ListDemo.dll
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.pdb
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ListDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\ListDemo\obj\Debug\net8.0\ref\ListDemo.dll

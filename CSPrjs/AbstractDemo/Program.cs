@@ -28,6 +28,10 @@
         //area
         public abstract void Area();
         //perimeter
+        public void FillShape()
+        {
+            Console.WriteLine("FillColor");
+        }
     }
     class Circle : Shape
     {

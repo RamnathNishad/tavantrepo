@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\CollectionDemo\bin\Debug\net8.0\CollectionDemo.exe
+D:\tavantrepo\CSPrjs\CollectionDemo\bin\Debug\net8.0\CollectionDemo.deps.json
+D:\tavantrepo\CSPrjs\CollectionDemo\bin\Debug\net8.0\CollectionDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\CollectionDemo\bin\Debug\net8.0\CollectionDemo.dll
+D:\tavantrepo\CSPrjs\CollectionDemo\bin\Debug\net8.0\CollectionDemo.pdb
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.dll
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\refint\CollectionDemo.dll
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.pdb
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\CollectionDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\CollectionDemo\obj\Debug\net8.0\ref\CollectionDemo.dll

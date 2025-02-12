@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.exe
+D:\tavantrepo\CSPrjs\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.deps.json
+D:\tavantrepo\CSPrjs\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.dll
+D:\tavantrepo\CSPrjs\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.pdb
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.dll
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\refint\InterfaceDemo.dll
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.pdb
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\InterfaceDemo\obj\Debug\net8.0\ref\InterfaceDemo.dll

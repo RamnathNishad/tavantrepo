@@ -172,6 +172,112 @@ class Faculty
 		-virtual:- optional overridding at derived level
 		-abstract:- mandatory overriding at derived level
 		-interface
+*abstract keyword:
+-abstract method does not have definition
+-abstract must be overridden at derived classes
+-class also must be declared as an abstract if there are any abstract methods in it.
+-an abstract class may have bothe non-abstract as well as abstract methods
+-an abstract class instance is allowed using new keyword
+
+interface:-
+we use in place multiple inheritance, interfaces are used
+class Demo : Parent,IinterfaceTypr
+{
+
+}
+
+* by default interface methods are public and abstract
+
+interface IEmployee
+{
+}
+class Employee : Parent,IEmployee
+{
+
+}
+
+
+*inteface instance is also not allowed same as abstract class
+* we can implement multiple interfaces in a class
+*interface inheritance also allowed
+interface I1
+{
+}
+
+interface I2 : I1
+{
+}
+
+explicit implementation
+interface I1
+{
+	void Display();
+}
+interface I2
+{
+	void Display();
+}
+class Demo : I1,I2
+{
+	public void I1.Display()
+	{
+	}
+	public void I2.Display()
+	{
+	}
+}
+
+I1 obj=new Demo();
+I1.Display();
+
+I2 obj2=new Demo();
+obj2.Display();
+
+
+
+
+
+
+
+-------destructor---
+-executed automatically when object is destroyed
+-we use for some clearling tasks like resource releasing 
+syntax=>
+
+	~Employee()
+	{
+		//resource releasing statements
+	}
+-No access specifier
+-No overloading of destructor
+-non-parameterised
+-no return type
+
+========================Collections======================
+unlike arrays, collections have variable size and can grow and shrink at runtime.
+Two types of collections:-
+1) Non-generics:-  It is not strongly-typed i.e. everything is stored as an object tyoe so while accessing we need check their type and accordingly type-cast before using it.
+problem:
+	-if typecasting is wrong, exception will be there
+	-extra lines of code for checking the types
+
+System.Collections  e.g. ArrayList,Hashtable,Stack,Queue
+
+
+2) Generics:- System.Collections.Generic:- stronly-typed 
+System.Collections.Generics
+	List<>
+	Dictionary<,>
+	Hashtable<>
+	Stack<>,Queue<>
+	SortedDictionary<,>
+	Hashset<>
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\DictinaryDemo\bin\Debug\net8.0\DictinaryDemo.exe
+D:\tavantrepo\CSPrjs\DictinaryDemo\bin\Debug\net8.0\DictinaryDemo.deps.json
+D:\tavantrepo\CSPrjs\DictinaryDemo\bin\Debug\net8.0\DictinaryDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\DictinaryDemo\bin\Debug\net8.0\DictinaryDemo.dll
+D:\tavantrepo\CSPrjs\DictinaryDemo\bin\Debug\net8.0\DictinaryDemo.pdb
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.dll
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\refint\DictinaryDemo.dll
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.pdb
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\DictinaryDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\DictinaryDemo\obj\Debug\net8.0\ref\DictinaryDemo.dll
