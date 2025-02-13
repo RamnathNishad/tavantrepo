@@ -267,23 +267,67 @@ System.Collections  e.g. ArrayList,Hashtable,Stack,Queue
 2) Generics:- System.Collections.Generic:- stronly-typed 
 System.Collections.Generics
 	List<>
-	Dictionary<,>
-	Hashtable<>
+	Dictionary<,>	
 	Stack<>,Queue<>
 	SortedDictionary<,>
-	Hashset<>
+	Hashset<>:- no duplicate values and supports set operations Union,Intersect,Minus
+
+
+======================Sorting Collections=========================
+It gives one Sort() which is default sorting.
+It is already implemented for primitive value collection but for custom type collection we need implement it.
+two ways to do it:
+1) IComparable<> :- default Sort()
+2) IComparer<>:- custom sort wherein we need to pass the comparer object
+
+==========================Exception handling===============================
+Errors:
+1) Compilation error:- syntax mistakes and detected by compiler during compilation. Developers need to rectify.
+2) Runtime errors: it is notified during execution
+	a) logical errors:-  when desired expected output is not there, so we need to check the various outputs and execution paths. Testing is done here for getting these errors.
+	In visual studio we do debugging to find logical errors:
+	i)break points:- program pauses at these points so we can analyse the status of variables and output. program must be in debug mode not in without debug
+		we can use debug windows:
+		i)watch window:- tracing some variables , how their values are chaning
+		ii)immediate window:- any expressions on the state of variables can be checked
+		iii)Locals window:- for block level variable, we use 	
+	
+	Debugging steps:
+		i)steo over --line by line----> F10
+		ii) step into :- debugging continuos inside the sun-methods---F11
+		iii) step-out:- continuing without debugging further
+
+	b) Exceptions:- no syntax or logic mistakes but program behaves abnormal on some situations and terminates abruptly.
+	i) Pre-defined exceptions:- already exception classes are defined in the compiler
+	CLR collects all the exception details and wraps in an exception object and throws it. Application has to catch the exception and handle it else it will terminate the application.
+		we handle exception using try/catch/finally
+	
+	ii) Custom exceptions:-
+	a)define the exception class by inheriting with System.Exception
+	b) throw the exception
+	c) handle it 
+
+System.Exception
+
+
+Predefined :- SystemException----Exception
+
+Custom:- ApplicationException---Exception
 
 
 
+Inner exception:-
 
-
-
-
-
-
-
-
-
+try
+{
+ //divide by zero
+}
+catch(DivideByZeroException ex)
+{
+	//logging in file
+	throw FileNotFoundException 
+	
+}
 
 
 

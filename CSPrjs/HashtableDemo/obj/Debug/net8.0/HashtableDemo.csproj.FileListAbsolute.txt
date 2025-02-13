@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.exe
+D:\tavantrepo\CSPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.deps.json
+D:\tavantrepo\CSPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.dll
+D:\tavantrepo\CSPrjs\HashtableDemo\bin\Debug\net8.0\HashtableDemo.pdb
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.dll
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\refint\HashtableDemo.dll
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.pdb
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\HashtableDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\HashtableDemo\obj\Debug\net8.0\ref\HashtableDemo.dll

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Collections;
+using System.Runtime.Intrinsics.Arm;
 
 namespace ListDemo
 {
@@ -8,22 +9,26 @@ namespace ListDemo
         static void Main(string[] args)
         {
             List<int> numbers = new List<int>();
-            numbers.Add(10);
             numbers.Add(20);
+            numbers.Add(10);
             numbers.Add(30);
-            numbers.Add(40);
             numbers.Add(50);
+            numbers.Add(40);
+
+            numbers.Sort();
 
             foreach (int i in numbers)
             {
-                //Console.WriteLine(i);
+                Console.WriteLine(i);
             }
 
 
             List<Employee> lstEmps=new List<Employee>();
-            lstEmps.Add(new Employee {Ecode=101,Ename="Ravi",Salary=1111,Deptid=201 });
             lstEmps.Add(new Employee { Ecode = 102, Ename = "Rahul", Salary = 2222, Deptid = 202 });
+            lstEmps.Add(new Employee {Ecode=101,Ename="Ravi",Salary=2222,Deptid=201 });
             lstEmps.Add(new Employee { Ecode = 103, Ename = "Rohit", Salary = 3333, Deptid = 203 });
+            
+            lstEmps.Sort(new SortBySalary());
 
             foreach (Employee e in lstEmps)
             {
@@ -38,11 +43,11 @@ namespace ListDemo
             {
                 if (lstEmps[i].Ecode == 102)
                 {
-                    lstEmps.RemoveAt(i);
+                    //lstEmps.RemoveAt(i);
                 }
                 else
                 {
-                    Console.WriteLine(lstEmps[i].ToString());
+                    //Console.WriteLine(lstEmps[i].ToString());
                 }
                 }
 
@@ -51,6 +56,10 @@ namespace ListDemo
             {
                 Console.WriteLine(ien.Current.ToString());
             }
+
+            string s1 = "Hello";
+            string s2 = "Hello";
+            Console.WriteLine(s1.CompareTo(s2));
         }
     }
 }

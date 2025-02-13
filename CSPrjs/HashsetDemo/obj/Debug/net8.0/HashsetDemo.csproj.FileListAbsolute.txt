@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\HashsetDemo\bin\Debug\net8.0\HashsetDemo.exe
+D:\tavantrepo\CSPrjs\HashsetDemo\bin\Debug\net8.0\HashsetDemo.deps.json
+D:\tavantrepo\CSPrjs\HashsetDemo\bin\Debug\net8.0\HashsetDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\HashsetDemo\bin\Debug\net8.0\HashsetDemo.dll
+D:\tavantrepo\CSPrjs\HashsetDemo\bin\Debug\net8.0\HashsetDemo.pdb
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.dll
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\refint\HashsetDemo.dll
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.pdb
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\HashsetDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\HashsetDemo\obj\Debug\net8.0\ref\HashsetDemo.dll

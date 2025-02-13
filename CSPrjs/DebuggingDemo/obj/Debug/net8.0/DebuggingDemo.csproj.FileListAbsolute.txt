@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\DebuggingDemo\bin\Debug\net8.0\DebuggingDemo.exe
+D:\tavantrepo\CSPrjs\DebuggingDemo\bin\Debug\net8.0\DebuggingDemo.deps.json
+D:\tavantrepo\CSPrjs\DebuggingDemo\bin\Debug\net8.0\DebuggingDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\DebuggingDemo\bin\Debug\net8.0\DebuggingDemo.dll
+D:\tavantrepo\CSPrjs\DebuggingDemo\bin\Debug\net8.0\DebuggingDemo.pdb
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.dll
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\refint\DebuggingDemo.dll
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.pdb
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\DebuggingDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\DebuggingDemo\obj\Debug\net8.0\ref\DebuggingDemo.dll

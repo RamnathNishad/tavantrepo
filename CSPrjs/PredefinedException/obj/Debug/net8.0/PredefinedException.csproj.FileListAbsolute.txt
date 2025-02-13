@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\PredefinedException\bin\Debug\net8.0\PredefinedException.exe
+D:\tavantrepo\CSPrjs\PredefinedException\bin\Debug\net8.0\PredefinedException.deps.json
+D:\tavantrepo\CSPrjs\PredefinedException\bin\Debug\net8.0\PredefinedException.runtimeconfig.json
+D:\tavantrepo\CSPrjs\PredefinedException\bin\Debug\net8.0\PredefinedException.dll
+D:\tavantrepo\CSPrjs\PredefinedException\bin\Debug\net8.0\PredefinedException.pdb
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.sourcelink.json
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.dll
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\refint\PredefinedException.dll
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.pdb
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\PredefinedException.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\PredefinedException\obj\Debug\net8.0\ref\PredefinedException.dll
