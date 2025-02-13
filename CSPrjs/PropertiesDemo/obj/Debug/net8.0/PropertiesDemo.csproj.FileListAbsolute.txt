@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.exe
+D:\tavantrepo\CSPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.deps.json
+D:\tavantrepo\CSPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.dll
+D:\tavantrepo\CSPrjs\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.pdb
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.dll
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\refint\PropertiesDemo.dll
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.pdb
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\PropertiesDemo\obj\Debug\net8.0\ref\PropertiesDemo.dll

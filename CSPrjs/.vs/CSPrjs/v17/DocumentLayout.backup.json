@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\tavantrepo\\CSPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA763A1D-BA2E-491C-A6FA-E2C186B24E4A}|CustomExceptionDemo\\CustomExceptionDemo.csproj|d:\\tavantrepo\\csprjs\\customexceptiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA763A1D-BA2E-491C-A6FA-E2C186B24E4A}|CustomExceptionDemo\\CustomExceptionDemo.csproj|solutionrelative:customexceptiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4BF2B47-189F-46F2-BBF6-457E8E95EAF1}|PredefinedException\\PredefinedException.csproj|d:\\tavantrepo\\csprjs\\predefinedexception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4BF2B47-189F-46F2-BBF6-457E8E95EAF1}|PredefinedException\\PredefinedException.csproj|solutionrelative:predefinedexception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E52012B-5C38-4B18-92DB-2CA2E545DE10}|DelegateDemo\\DelegateDemo.csproj|d:\\tavantrepo\\csprjs\\delegatedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E52012B-5C38-4B18-92DB-2CA2E545DE10}|DelegateDemo\\DelegateDemo.csproj|solutionrelative:delegatedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\CustomExceptionDemo\\Program.cs",
-              "RelativeDocumentMoniker": "CustomExceptionDemo\\Program.cs",
-              "ToolTip": "D:\\tavantrepo\\CSPrjs\\CustomExceptionDemo\\Program.cs",
-              "RelativeToolTip": "CustomExceptionDemo\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwD4AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\DelegateDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DelegateDemo\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\DelegateDemo\\Program.cs",
+              "RelativeToolTip": "DelegateDemo\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T05:27:16.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\PredefinedException\\Program.cs",
-              "RelativeDocumentMoniker": "PredefinedException\\Program.cs",
-              "ToolTip": "D:\\tavantrepo\\CSPrjs\\PredefinedException\\Program.cs",
-              "RelativeToolTip": "PredefinedException\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T05:17:20.88Z",
+              "WhenOpened": "2025-02-13T09:14:23.157Z",
               "EditorCaption": ""
             }
           ]

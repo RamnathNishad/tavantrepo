@@ -330,14 +330,47 @@ catch(DivideByZeroException ex)
 }
 
 
+=================Properties=====================
+These are way to access the private fields of a class called get/set methods or properties.
+	public int Ecode{get;set;}
+
+property can be readoonly also by making set as private or do not define it at all.
+It gives object initializer as well as collection initializer syntaxes.
+
+==========================delegate================
+-It is a data-type which can hold references of functions.
+-It is like function pointer f C/C++ but it is more type-safe means it binds only a particular signature of methods specified during delegate declaration.
+steps:
+1) declare :- what kind of methods can be binded
+2) initialize:- binding of the methods
+3) call:- invoking the binded methods
+
+Usage: it is used to peform dynamic invocation of methods at runtime without having any relations among the objects.
+
+Delegates are of two categories:
+1) Single-Cast delegate:- only one method is binded at a time
+2) Multi-cast delegate:- more than one methods are binded and invoked together. it is recommended for methods with void return type as we get only result from the last method invoked.
+d1=>m1,m2
+d2=>m3,m4,m5
+d3=d1+d2;
+d3()
+d3=d3-d1;
+d3();
+
+* with delegate we can also bind anonymous methods
+* delegate also accepts lambda expression using =>
+	(a,b)=>{return a+b;}
+
+======predefined generic delegates========
+Action<>:- used for void return type methods
+Func<>:- used for methods with some return type
 
 
 
 
 
 
-
-
+ 
 
 
 
