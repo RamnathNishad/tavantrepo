@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+           
             //LinqSimpleDemo();
 
             var lstEmps = Employee.GetEmps();
@@ -12,14 +13,17 @@
             //1. Find employees whose salary is greater than 20000
             //SQL: select * from employee where salary>20000
             //LINQ:-
-            var result=from e in lstEmps
-                       where e.Salary>20000
-                       select e;
+            //var result=from e in lstEmps
+            //           where e.Salary>20000
+            //           select e;
+            
+            //using extension methods
+            var result = lstEmps.Where(e => e.Salary > 20000);
 
 
             foreach (var r in result)
             {
-                //Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}");
+                Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}");
             }
             //2. get the employees records sorted by salary descending
             //SQL: select * from employee order by salary desc
@@ -27,6 +31,10 @@
             var res2 = from e in lstEmps
                        orderby e.Salary descending
                        select e;
+
+            //extension method
+            res2=lstEmps.OrderByDescending(e => e.Salary);
+
             foreach (var r in res2)
             {
                 //Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}");
@@ -39,6 +47,14 @@
                            e.Ecode,
                            e.Salary
                        };
+
+            //using extension method
+            res3 = lstEmps.Select(e => new
+            {
+                e.Ecode,
+                e.Salary
+            });
+
             foreach (var r in res3)
             {
                 //Console.WriteLine($"{r.Ecode}\t{r.Salary}");
@@ -53,6 +69,13 @@
                            e.Salary,
                            Bonus=0.1*e.Salary
                        };
+
+            res4 = lstEmps.Select(e=> new
+            {
+                e.Ecode,
+                e.Salary,
+                Bonus = 0.1 * e.Salary
+            });
             foreach (var r in res4)
             {
                 //Console.WriteLine($"{r.Ecode}\t{r.Salary}\t{r.Bonus}");
@@ -86,6 +109,18 @@
                            NoOfEmps = g.Count()
                        };
 
+            //using extension method
+            res6 = lstEmps.GroupBy(e => e.Deptid)
+                          .Select(g => new
+                          {
+                              Deptid = g.Key,
+                              TotalSal = g.Sum(e => e.Salary),
+                              AvgSalary = g.Average(e => e.Salary),
+                              MaxSalary = g.Max(e => (e.Salary == null ? 0 : e.Salary)),
+                              MinSalary = g.Min(e => e.Salary),
+                              NoOfEmps = g.Count()
+                          });
+
             foreach (var r in res6)
             {
                 //Console.WriteLine($"{r.Deptid}\t{r.TotalSal}\t{r.TotalSal}\t{r.MaxSalary}\t{r.MinSalary}\t{r.NoOfEmps}");
@@ -109,6 +144,19 @@
                            d.Dhead
                        };
 
+            //using extension method
+            res7 = lstEmps.Join(lstDepts, 
+                                e => e.Deptid, 
+                                d => d.Deptid, 
+                                (e, d) => new
+                                {
+                                    e.Ecode,
+                                    e.Ename,
+                                    e.Salary,
+                                    d.Deptid,
+                                    d.Dname,
+                                    d.Dhead
+                                });
             foreach (var r in res7)
             {
                 //Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}\t{r.Dname}\t{r.Dhead}");
@@ -120,6 +168,9 @@
             var res8 = (from e in lstEmps
                        where e.Ename.Contains("R")
                        select e);
+            
+            //OR
+            res8 = lstEmps.Where(e => e.Ename.Contains("R"));
 
             foreach (var r in res8)
             {
@@ -135,13 +186,19 @@
             //LINQ:
             var res9 = from e in lstEmps
                        where e.Deptid==(from p in lstEmps 
-                                       where p.Ecode>101 
+                                       where p.Ecode==101 
                                        select p.Deptid).SingleOrDefault()
                        select e;
 
+            //OR
+            res9 = lstEmps.Where(e => e.Deptid == lstEmps.Where(o => o.Ecode == 101)
+                                                         .Select(o => o.Deptid)
+                                                         .SingleOrDefault());
+
+    
             foreach (var r in res9)
             {
-                Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}");
+                //Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}");
             }
         }
 

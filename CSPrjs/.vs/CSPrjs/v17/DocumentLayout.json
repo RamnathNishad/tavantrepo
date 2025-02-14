@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\tavantrepo\\CSPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D00DE32D-995C-404B-9343-AFF9EE387CCA}|LinqDemo\\LinqDemo.csproj|d:\\tavantrepo\\csprjs\\linqdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00DE32D-995C-404B-9343-AFF9EE387CCA}|LinqDemo\\LinqDemo.csproj|solutionrelative:linqdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D00DE32D-995C-404B-9343-AFF9EE387CCA}|LinqDemo\\LinqDemo.csproj|d:\\tavantrepo\\csprjs\\linqdemo\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00DE32D-995C-404B-9343-AFF9EE387CCA}|LinqDemo\\LinqDemo.csproj|solutionrelative:linqdemo\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D00DE32D-995C-404B-9343-AFF9EE387CCA}|LinqDemo\\LinqDemo.csproj|d:\\tavantrepo\\csprjs\\linqdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00DE32D-995C-404B-9343-AFF9EE387CCA}|LinqDemo\\LinqDemo.csproj|solutionrelative:linqdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36A71FE4-C180-4578-A596-4A4D27AEF858}|FileOperations\\FileOperations.csproj|d:\\tavantrepo\\csprjs\\fileoperations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A71FE4-C180-4578-A596-4A4D27AEF858}|FileOperations\\FileOperations.csproj|solutionrelative:fileoperations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Department.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\LinqDemo\\Department.cs",
-              "RelativeDocumentMoniker": "LinqDemo\\Department.cs",
-              "ToolTip": "D:\\tavantrepo\\CSPrjs\\LinqDemo\\Department.cs",
-              "RelativeToolTip": "LinqDemo\\Department.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:33:47.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\LinqDemo\\Employee.cs",
-              "RelativeDocumentMoniker": "LinqDemo\\Employee.cs",
-              "ToolTip": "D:\\tavantrepo\\CSPrjs\\LinqDemo\\Employee.cs",
-              "RelativeToolTip": "LinqDemo\\Employee.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:03:45.634Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\LinqDemo\\Program.cs",
-              "RelativeDocumentMoniker": "LinqDemo\\Program.cs",
-              "ToolTip": "D:\\tavantrepo\\CSPrjs\\LinqDemo\\Program.cs",
-              "RelativeToolTip": "LinqDemo\\Program.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAcwI0AAAAjAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\FileOperations\\Program.cs",
+              "RelativeDocumentMoniker": "FileOperations\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\FileOperations\\Program.cs",
+              "RelativeToolTip": "FileOperations\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywBAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T04:53:51.39Z",
+              "WhenOpened": "2025-02-14T09:06:53.81Z",
               "EditorCaption": ""
             }
           ]

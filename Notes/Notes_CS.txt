@@ -396,6 +396,48 @@ rules:
 
 -Single()
 -First()
+==========================File operations=========================
+Two formats of data can be stored in files:-
+1) Text format:- character data so size is more, easily readable
+2) Binary format:- binary data so size is smaller,not readable directly
+
+Text format:- StreamWriter and StreamReader found in System.IO
+Binary format:- BinaryWriter and BinaryReader
+------------------------------------------------------------------------------
+Serialization:- Process saving state of an object to a stream
+Deserialization:- Reading the state of an object from a stream
+Binary format:-  System.Runtime.Formatter.Binary.BinaryFormatter
+Xml format:-  System.Xml.XmlSerializer
+SoapFormat: SoapSerializer
+
+
+
+
+
+
+
+
+
+
+
+"123456"-----> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
