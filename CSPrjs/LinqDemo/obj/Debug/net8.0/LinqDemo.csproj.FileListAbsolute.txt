@@ -1,0 +1,15 @@
+D:\tavantrepo\CSPrjs\LinqDemo\bin\Debug\net8.0\LinqDemo.exe
+D:\tavantrepo\CSPrjs\LinqDemo\bin\Debug\net8.0\LinqDemo.deps.json
+D:\tavantrepo\CSPrjs\LinqDemo\bin\Debug\net8.0\LinqDemo.runtimeconfig.json
+D:\tavantrepo\CSPrjs\LinqDemo\bin\Debug\net8.0\LinqDemo.dll
+D:\tavantrepo\CSPrjs\LinqDemo\bin\Debug\net8.0\LinqDemo.pdb
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.sourcelink.json
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.dll
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\refint\LinqDemo.dll
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.pdb
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\LinqDemo.genruntimeconfig.cache
+D:\tavantrepo\CSPrjs\LinqDemo\obj\Debug\net8.0\ref\LinqDemo.dll

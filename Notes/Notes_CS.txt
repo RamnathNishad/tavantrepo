@@ -368,6 +368,28 @@ Func<>:- used for methods with some return type
 
 
 
+=====================LINQ=================================
+Language Integrated Query:- It is a common programming model for querying heterogeneous data sources like SQL,XML,Collections(Objects) etc.
+
+It was introduced from .NET 3.5.
+
+Two syntaxes for Linq:-
+a) using query operators:- select,from,where,orderby and so on.
+b) using extension methods and lamda operator:-
+
+Pre-requisites:-
+-uses of "var" keyword:- type-inference, implicit-typing
+	var x=100;
+	x="hello";//invalid
+rules:
+	a) declaration and assignment must be in the same line
+	b) u cannot "var" for method arguments
+	c) c cannot use it as return type of a method
+	d) it cannot be used for class fields
+
+
+-extension methods:-  It is a way of extending methods in a type without modifying it.
+-lambda expression
 
 
  

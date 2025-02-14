@@ -1,0 +1,5 @@
+D:\tavantrepo\CSPrjs\ImplicitTypingUsingVarDemo\obj\Debug\net8.0\ImplicitTypingUsingVarDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\CSPrjs\ImplicitTypingUsingVarDemo\obj\Debug\net8.0\ImplicitTypingUsingVarDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\CSPrjs\ImplicitTypingUsingVarDemo\obj\Debug\net8.0\ImplicitTypingUsingVarDemo.AssemblyInfo.cs
+D:\tavantrepo\CSPrjs\ImplicitTypingUsingVarDemo\obj\Debug\net8.0\ImplicitTypingUsingVarDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\CSPrjs\ImplicitTypingUsingVarDemo\obj\Debug\net8.0\ImplicitTypingUsingVarDemo.sourcelink.json
