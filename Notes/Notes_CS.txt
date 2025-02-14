@@ -391,8 +391,11 @@ rules:
 -extension methods:-  It is a way of extending methods in a type without modifying it.
 -lambda expression
 
+-SingleOrDefault():- convert into single element , throws exception sequence contains more than one elements
+-FirstOrDefault():- gives only the first record, does not throw exception if multiple elemenst are present in the sequence.
 
- 
+-Single()
+-First()
 
 
 

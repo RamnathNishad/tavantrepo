@@ -111,7 +111,37 @@
 
             foreach (var r in res7)
             {
-                Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}\t{r.Dname}\t{r.Dhead}");
+                //Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}\t{r.Dname}\t{r.Dhead}");
+            }
+
+            //8. Find employees names staring with 'R'
+            //SQL: select * from employee where ename like 'R%'
+            //LINQ:
+            var res8 = (from e in lstEmps
+                       where e.Ename.Contains("R")
+                       select e);
+
+            foreach (var r in res8)
+            {
+                //Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}");
+            }
+
+            //Nested query:-
+            //9. select *
+            //from employee
+            //where e.deptid=(select deptid
+            //                from employee
+            //                where ecode=101)
+            //LINQ:
+            var res9 = from e in lstEmps
+                       where e.Deptid==(from p in lstEmps 
+                                       where p.Ecode>101 
+                                       select p.Deptid).SingleOrDefault()
+                       select e;
+
+            foreach (var r in res9)
+            {
+                Console.WriteLine($"{r.Ecode}\t{r.Ename}\t{r.Salary}\t{r.Deptid}");
             }
         }
 
