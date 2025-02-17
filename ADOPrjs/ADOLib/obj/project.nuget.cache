@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PvLNH5gKZ90=",
+  "success": true,
+  "projectFilePath": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\ADOLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\raman\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\raman\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\raman\\.nuget\\packages\\npgsql\\8.0.6\\npgsql.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

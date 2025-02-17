@@ -1,0 +1,12 @@
+D:\tavant_demos\ADOPrjs\ADOLib\bin\Debug\net8.0\ADOLib.deps.json
+D:\tavant_demos\ADOPrjs\ADOLib\bin\Debug\net8.0\ADOLib.dll
+D:\tavant_demos\ADOPrjs\ADOLib\bin\Debug\net8.0\ADOLib.pdb
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ADOLib.csproj.AssemblyReference.cache
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ADOLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ADOLib.AssemblyInfoInputs.cache
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ADOLib.AssemblyInfo.cs
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ADOLib.csproj.CoreCompileInputs.cache
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ADOLib.dll
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\refint\ADOLib.dll
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ADOLib.pdb
+D:\tavant_demos\ADOPrjs\ADOLib\obj\Debug\net8.0\ref\ADOLib.dll

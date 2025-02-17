@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOClientConsole", "ADOClientConsole\ADOClientConsole.csproj", "{D16282A2-F301-4CBD-8366-5E9F4B3CD042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOLib", "ADOLib\ADOLib.csproj", "{FD3A951B-52A3-459E-A879-6F2682E6087E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D16282A2-F301-4CBD-8366-5E9F4B3CD042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16282A2-F301-4CBD-8366-5E9F4B3CD042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16282A2-F301-4CBD-8366-5E9F4B3CD042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16282A2-F301-4CBD-8366-5E9F4B3CD042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3A951B-52A3-459E-A879-6F2682E6087E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3A951B-52A3-459E-A879-6F2682E6087E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3A951B-52A3-459E-A879-6F2682E6087E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3A951B-52A3-459E-A879-6F2682E6087E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
