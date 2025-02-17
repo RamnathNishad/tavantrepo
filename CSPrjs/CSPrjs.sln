@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo", "LinqDemo\LinqDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOperations", "FileOperations\FileOperations.csproj", "{36A71FE4-C180-4578-A596-4A4D27AEF858}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{C529F188-0976-48C5-BCD8-516BB754140D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{36A71FE4-C180-4578-A596-4A4D27AEF858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36A71FE4-C180-4578-A596-4A4D27AEF858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36A71FE4-C180-4578-A596-4A4D27AEF858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C529F188-0976-48C5-BCD8-516BB754140D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C529F188-0976-48C5-BCD8-516BB754140D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C529F188-0976-48C5-BCD8-516BB754140D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C529F188-0976-48C5-BCD8-516BB754140D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

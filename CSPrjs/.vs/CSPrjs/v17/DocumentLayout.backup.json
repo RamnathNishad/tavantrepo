@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\tavantrepo\\CSPrjs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F68AD333-F044-438B-B6F2-B5D9E63A9C4B}|SampleDemo\\SampleDemo.csproj|d:\\tavantrepo\\csprjs\\sampledemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68AD333-F044-438B-B6F2-B5D9E63A9C4B}|SampleDemo\\SampleDemo.csproj|solutionrelative:sampledemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C529F188-0976-48C5-BCD8-516BB754140D}|MyLibrary\\MyLibrary.csproj|d:\\tavantrepo\\csprjs\\mylibrary\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C529F188-0976-48C5-BCD8-516BB754140D}|MyLibrary\\MyLibrary.csproj|solutionrelative:mylibrary\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A71FE4-C180-4578-A596-4A4D27AEF858}|FileOperations\\FileOperations.csproj|d:\\tavantrepo\\csprjs\\fileoperations\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A71FE4-C180-4578-A596-4A4D27AEF858}|FileOperations\\FileOperations.csproj|solutionrelative:fileoperations\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36A71FE4-C180-4578-A596-4A4D27AEF858}|FileOperations\\FileOperations.csproj|d:\\tavantrepo\\csprjs\\fileoperations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36A71FE4-C180-4578-A596-4A4D27AEF858}|FileOperations\\FileOperations.csproj|solutionrelative:fileoperations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,11 +32,50 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\SampleDemo\\Program.cs",
+              "RelativeDocumentMoniker": "SampleDemo\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\SampleDemo\\Program.cs",
+              "RelativeToolTip": "SampleDemo\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBAwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:56:43.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\MyLibrary\\Customer.cs",
+              "RelativeDocumentMoniker": "MyLibrary\\Customer.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\MyLibrary\\Customer.cs",
+              "RelativeToolTip": "MyLibrary\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:52:32.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\FileOperations\\Project.cs",
+              "RelativeDocumentMoniker": "FileOperations\\Project.cs",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\FileOperations\\Project.cs",
+              "RelativeToolTip": "FileOperations\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:40:49.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\tavantrepo\\CSPrjs\\FileOperations\\Program.cs",
               "RelativeDocumentMoniker": "FileOperations\\Program.cs",
-              "ToolTip": "D:\\tavantrepo\\CSPrjs\\FileOperations\\Program.cs*",
-              "RelativeToolTip": "FileOperations\\Program.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAywBQAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\tavantrepo\\CSPrjs\\FileOperations\\Program.cs",
+              "RelativeToolTip": "FileOperations\\Program.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAcwOEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T09:06:53.81Z",
               "EditorCaption": ""

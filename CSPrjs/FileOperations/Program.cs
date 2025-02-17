@@ -4,6 +4,9 @@ using MessagePack;
 using System.Xml;
 using System.Runtime.Serialization;
 using System.Xml.Serialization;
+using N1;
+using N3;
+using N1.N2;
 
 namespace FileOperations
 {
@@ -11,6 +14,16 @@ namespace FileOperations
     {
         static void Main(string[] args)
         {
+
+           N1.Hr hr = new N1.Hr();
+
+            Department dept=new Department ();
+            Project project=new Project ();
+
+            N3.Hr hr2 = new N3.Hr();    
+
+
+
             //WriteTextFormat();
             //ReadTextFormat();
 
@@ -202,4 +215,29 @@ public class Employee
     public string Ename { get; set; }
     //[Key(2)] 
     public int Salary { get; set; }
+}
+
+namespace N1
+{
+
+    class Hr
+    {
+
+    }
+
+    namespace N2
+    {
+        class Department
+        {
+
+        }
+    }
+}
+
+namespace N3
+{
+    class Hr
+    {
+
+    }
 }

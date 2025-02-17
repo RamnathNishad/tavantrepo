@@ -402,14 +402,71 @@ Two formats of data can be stored in files:-
 2) Binary format:- binary data so size is smaller,not readable directly
 
 Text format:- StreamWriter and StreamReader found in System.IO
-Binary format:- BinaryWriter and BinaryReader
+Binary format:- BinaryWriter and BinaryReader 
 ------------------------------------------------------------------------------
 Serialization:- Process saving state of an object to a stream
 Deserialization:- Reading the state of an object from a stream
-Binary format:-  System.Runtime.Formatter.Binary.BinaryFormatter
-Xml format:-  System.Xml.XmlSerializer
+Binary format:-  use MessagePack.MessagePackSerializer 
+Xml format:-  System.Xml.Serializer.XmlSerializer
 SoapFormat: SoapSerializer
 
+========================Namespaces=================================
+It is a logical grouping of data-types.
+-To resolve name-conflicts if the name is already defined , we can enclosed it in a different namesapce.
+-proper cataloging of the data-types.
+
+namespace N1
+{
+
+	class Employee
+	{
+
+	}
+	class Department
+	{
+
+	}
+}
+ to refer these classes n types:
+	using N1;
+
+-Nesting of namespace can be done.
+
+
+namespace Tavant
+{
+
+	class Hr
+	{
+
+	}
+	
+	namespace Blr
+	{
+
+	internal class Employee
+	{
+
+	}
+	}
+
+	namespace Hyd
+	{
+	class Account
+	{
+
+	}
+	}
+}
+
+
+using Tavant;
+using Tavant.Hyd;
+	
+	Account ac=new Account();
+
+
+project------->namespace
 
 
 
@@ -420,7 +477,61 @@ SoapFormat: SoapSerializer
 
 
 
-"123456"-----> 
+
+=================working with classlibrary projects====================
+These are the assemblies to be shared across projects.
+steps:
+1) create the classlibrary project
+2) define all the classes n types as public which u want to share in another project
+3) build it with no compilation errors. it generates .dll file not meant for executing directly as it is only for sharing.
+4) go to the consumer project(may be another library or standalone)  and add reference of the class library
+5) import the namespace in which classes are define : "using namespace_name;"  statement
+6) use the classes in the consumer application
+
+=================Access specifiers================================
+-private:- accessed within the class only
+-public"- unlimited access , inside other also 
+-protected:- only to derived classes
+-internal:- it is public in its parent project but it is private and cannot accessed in other projects
+-protected internal:- it is public in its parent project like internal but for external projects it is protected i.e can be accessed only inside derived classes in other project
+
+
+==================ADO.NET=========================================
+Two approaches in ADO.NET:-
+a) Connected model:- connection has to be always active and open till u r working with the data
+
+b) Disconnected model:- Data is retrieved inside memory collection and connection is closed.
+perform all the manipulations in the memory only. we don't need connection here.
+once done, reopen the connection and save the changes into database.
+
+
+In connected model:
+steps for working with PostGreSql:
+1) first install the NpgSql package from Nuget repository
+2) import the namespace to get following classes:
+	a) connection:- to configure connection details like server,database,authentication like username and pwd
+	b) command:- for sql statements like SELECT ,INSERT,DELETE,UPDATE and stored procedures
+		-Parameter
+	c) DataReader :-
+	
+using System.Data.NpgSql
+	NpgConnection
+
+Host=localhost;Database=empdb;Username=postgres;Password=sa;Persist Security Info=True
+
+
+
+====================Design Patterns===============================
+
+
+
+
+
+
+
+
+
+
 
 
 
