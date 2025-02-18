@@ -1,0 +1,15 @@
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.AssemblyInfoInputs.cache
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.AssemblyInfo.cs
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.csproj.CoreCompileInputs.cache
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.sourcelink.json
+D:\tavantrepo\ADOPrjs\DesignPatterns\bin\Debug\net8.0\DesignPatterns.exe
+D:\tavantrepo\ADOPrjs\DesignPatterns\bin\Debug\net8.0\DesignPatterns.deps.json
+D:\tavantrepo\ADOPrjs\DesignPatterns\bin\Debug\net8.0\DesignPatterns.runtimeconfig.json
+D:\tavantrepo\ADOPrjs\DesignPatterns\bin\Debug\net8.0\DesignPatterns.dll
+D:\tavantrepo\ADOPrjs\DesignPatterns\bin\Debug\net8.0\DesignPatterns.pdb
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.dll
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\refint\DesignPatterns.dll
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.pdb
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\DesignPatterns.genruntimeconfig.cache
+D:\tavantrepo\ADOPrjs\DesignPatterns\obj\Debug\net8.0\ref\DesignPatterns.dll

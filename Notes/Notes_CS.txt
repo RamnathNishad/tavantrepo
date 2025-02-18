@@ -521,8 +521,329 @@ Host=localhost;Database=empdb;Username=postgres;Password=sa;Persist Security Inf
 
 
 
-====================Design Patterns===============================
+====================Storing and Reading ConnectionString from config file========== 
+steps:
+1) add App.Config file in the executing application and store the connection string in it:
+<configuration>
+	<connectionStrings>
+		<add connectionString="Host=localhost;Database=empdb;Username=postgres;Password=sa;Persist Security Info=True" 
+			 name="pgconstr"/>
+	</connectionStrings>
+</configuration>
 
+2) install the System.Configuration.ConfigurationManage from Nuget in the project
+3) import the namespace System.Configuration
+4) read and use the connection string:
+	ConfigurationManager.ConnectionStrings["constr"].ConnectionString
+
+=====================retrieving identity column value in ADO.NET================
+a) table column must be "serial" for making it auto-generated i.e. identity values
+b) command text in ADO.NET shoud be:
+	"insert into table_name(col1,col2,...) values(@v1,@v2,... ) returning id;"
+c) int idValue= (int)cmd.ExecuteScalar();
+
+
+============calling stored procedure=================
+-make sure CommandType is specified as System.Data.CommandType.StoredProcedure
+
+
+====================Design Patterns===============================
+These are patterns used to have more maintainable codes 
+
+SOLID principles:-
+i)S:- Single-Responsibility Principle(SRP):- A method or class must perform only one task rather than mutiple tasks. If it is there refactor the code and make more methods as per their tasks.
+
+ii)O:- Open/Closed Principle (OCP):- A class should be opened for extension but closed for modifications.
+
+iii)L:- Liskov Substitution Principle(LSP):-  A derived class should replace base class without breaking the base class functionalities.
+ 
+ class Hyundai
+{
+	public virtual void MannualGear(){};	
+}
+
+
+class HyundaiEra : Hyndai
+{
+	public  override void MannualGear()
+	{
+		Console.WriteLine("HyundaiEra: Manual Gear");
+	}
+}
+
+class HyundaiEraPlus : Hyundai
+{
+	public void AutomaticGear()
+	{
+		Console.WriteLine("HyundaiEraPlus : Automatic Gear");
+	}
+}
+
+Hyundai car=new HyundaiEra();
+car.MannualGear();
+
+car=new HyundaiEraPlus();
+car.AutomaticGear();
+
+iv) I:- Interface Seggregation Principle(ISP):- a class should implement interfaces if it is not meant for it.
+
+interface IAdmin
+{
+	void AddUser();
+	void DeletUser();	
+}
+interface IGuests
+{	
+	void UpdateUserDetails();
+	List<User> GetUserDetails(int id);
+}
+
+class Admin : IAdmin,IGuests
+{
+	//all methods
+}
+
+class Guest : IGuests
+{
+	//void UpdateUserDetails();
+	//List<User> GetUserDetails(int id);
+}
+
+v) D:- Dependency Principle:- The higher class or module should depends on the lower classes or module through abstraction instead of direct dependency(concrete class).
+
+class UI
+{
+	IDal dal;
+	public UI(IDal dal)
+	{
+		this.dal=dal;
+	}
+	public void Add(){dal.Add();}
+	public void Delete(dal.Delete();){}
+}
+
+interface IDal
+{
+	void Add();
+	void Delete();
+}
+class DAL : IDal
+{
+	void Add(){}
+	void Delete(){}
+}
+class DALPostGre : IDal
+{
+	void Add(){}
+	void Delete(){}
+}
+
+main()
+{
+	IDal dal=new Dal();
+	UI ui=new UI(dal);
+	
+	dal=new DalPostGre()
+	UI ui=new UI(dal);
+}
+
+
+
+
+===============Factory Pattern============================
+It provides a way to instantiate the objects without specifying their exact class
+
+interface IAccount
+{
+	void Deposit();
+	void Withdraw();
+}
+
+class SavingsAccount : IAccount
+{
+
+}
+class CurrentAccount : IAccount
+{
+
+}
+
+
+class AccountFactory
+{
+	public static IAccount CreateAccount(int choice)
+	{
+		if(choice==1)
+		{
+			return new SavingsAccount();
+		}
+		if(choice==2)
+		{
+			return CurrentAccount();
+		}
+	}
+}
+
+
+main()
+{
+	int choice=1;
+	IAccount account=	AccountFactory.CreateAccount(choice);
+	account.Deposit();
+	account.WithDraw();
+}
+
+
+==================SingleTon=================
+Only one instance of a class is used throughout.
+
+class Employee
+{
+
+}
+class SingleTon
+{
+	Employee emp=null;
+	public static Employee GetEmpInstance()
+	{
+		if(emp==null)
+		{
+			emp=new Employee();
+		}
+		return emp;
+	}
+	
+} 
+
+=====================Builder Pattern======================
+It separates object creation from its representation.
+
+interface IBuilder
+{
+	void BuildMouse();
+	void BuildMonitor();
+	void GetComputer();	
+}
+
+class ComputerBuilder : IBuilder
+{
+	private Computer computer;
+	public ComputerBuilder()
+	{
+		computer=new Computer();
+	}
+	public void BuildMouse()
+	{
+		computer.Mouse="mouse";		
+	}
+	public void BuildMonitor()
+	{
+		computer.Monitor="monitor";
+	}
+	public Computer GetComputer()
+	{
+		return computer;
+	}
+}
+
+class Computer
+{
+	public string Mouse{get;set;}
+	public string Monitor{get;set;}
+
+	
+	public void Display()
+	{
+		Console.WriteLine("Mouse:"+ Mouse);
+		Console.WriteLine("Monitor:" + monitor);
+	}
+}
+
+main()
+{
+	ComputerBuilder builder=new ComputerBuilder();
+	builder.BuildMouse();
+	builder.BuildMonitor();
+	Computer computer=builder.GetComputer();
+}
+
+========================Adapter Pattern===========================
+It allows incompatible interfaces to work together
+
+class Student
+{
+	public void SendRequestToPrinciple()
+	{
+		string msg="We want 5 days leave on final match day";	
+		Teacher t=new Teacher();
+		t.Request(msg);
+	}
+}
+
+//Adapter 
+Teacher-----can communicate to Principle
+class Teacher
+{
+	Principle p;
+	public void Request(string msg)
+	{
+		p=new Principle();
+		p.SendMsg(msg);
+	}
+}
+
+
+//Adaptee
+class Principle
+{
+	public void SendMsg(string msg)
+	{
+		CW(msg);
+	}
+}
+
+========================Iterator Pattern==========================
+It provides a way to access elements of an aggregate object sequentially without exposing its underlying structure
+
+class Iterator<T> : IEnumerable<T>
+{
+	private List<T> collection;
+	int position=-1;	
+	public bool MoveNext()
+	{
+		position+=1;
+		if(position>=collection.Count)
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+	public T Current()
+	{
+		get
+		{
+			return collection[position];
+		}
+	}
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

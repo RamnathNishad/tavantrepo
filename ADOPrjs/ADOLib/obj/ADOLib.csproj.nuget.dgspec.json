@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tavant_demos\\ADOPrjs\\ADOLib\\ADOLib.csproj": {}
+    "D:\\tavantrepo\\ADOPrjs\\ADOLib\\ADOLib.csproj": {}
   },
   "projects": {
-    "D:\\tavant_demos\\ADOPrjs\\ADOLib\\ADOLib.csproj": {
+    "D:\\tavantrepo\\ADOPrjs\\ADOLib\\ADOLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\ADOLib.csproj",
+        "projectUniqueName": "D:\\tavantrepo\\ADOPrjs\\ADOLib\\ADOLib.csproj",
         "projectName": "ADOLib",
-        "projectPath": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\ADOLib.csproj",
+        "projectPath": "D:\\tavantrepo\\ADOPrjs\\ADOLib\\ADOLib.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\obj\\",
+        "outputPath": "D:\\tavantrepo\\ADOPrjs\\ADOLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "Npgsql": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [

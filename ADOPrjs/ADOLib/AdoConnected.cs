@@ -1,4 +1,5 @@
 ﻿using Npgsql; //for PostGreSql
+using System.Configuration;
 
 namespace ADOLib
 {
@@ -8,7 +9,9 @@ namespace ADOLib
         public AdoConnected()
         {
             con= new NpgsqlConnection();
-            con.ConnectionString = "Host=localhost;Database=empdb;Username=postgres;Password=sa;Persist Security Info=True";
+            //read the connection string from the configuration file
+            string conStr = ConfigurationManager.ConnectionStrings["pgconstr"].ConnectionString;
+            con.ConnectionString = conStr;
         }
 
 
@@ -17,7 +20,7 @@ namespace ADOLib
             try
             {
                 //configure command for INSERT statement
-                NpgsqlCommand cmd = new NpgsqlCommand("insert into employee values(@ec,@en,@sal,@did)", con);
+                NpgsqlCommand cmd = new NpgsqlCommand("insert into employee values(@ec,@en,@sal,@did) returning ecode;", con);
                 cmd.CommandType = System.Data.CommandType.Text;
                 //specify the parameters values
                 cmd.Parameters.Clear();

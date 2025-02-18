@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\tavant_demos\\ADOPrjs\\",
+  "WorkspaceRootPath": "D:\\tavantrepo\\ADOPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D16282A2-F301-4CBD-8366-5E9F4B3CD042}|ADOClientConsole\\ADOClientConsole.csproj|d:\\tavant_demos\\adoprjs\\adoclientconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|d:\\tavantrepo\\adoprjs\\designpatterns\\areacalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\areacalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|d:\\tavantrepo\\adoprjs\\designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|d:\\tavantrepo\\adoprjs\\designpatterns\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|d:\\tavantrepo\\adoprjs\\designpatterns\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|d:\\tavantrepo\\adoprjs\\designpatterns\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{361DB2AA-52B3-4C0C-8365-35D85B16FA5B}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16282A2-F301-4CBD-8366-5E9F4B3CD042}|ADOClientConsole\\ADOClientConsole.csproj|d:\\tavantrepo\\adoprjs\\adoclientconsole\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D16282A2-F301-4CBD-8366-5E9F4B3CD042}|ADOClientConsole\\ADOClientConsole.csproj|solutionrelative:adoclientconsole\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3A951B-52A3-459E-A879-6F2682E6087E}|ADOLib\\ADOLib.csproj|d:\\tavantrepo\\adoprjs\\adolib\\adoconnected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3A951B-52A3-459E-A879-6F2682E6087E}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\adoconnected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16282A2-F301-4CBD-8366-5E9F4B3CD042}|ADOClientConsole\\ADOClientConsole.csproj|d:\\tavantrepo\\adoprjs\\adoclientconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D16282A2-F301-4CBD-8366-5E9F4B3CD042}|ADOClientConsole\\ADOClientConsole.csproj|solutionrelative:adoclientconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD3A951B-52A3-459E-A879-6F2682E6087E}|ADOLib\\ADOLib.csproj|d:\\tavant_demos\\adoprjs\\adolib\\adodisconnected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD3A951B-52A3-459E-A879-6F2682E6087E}|ADOLib\\ADOLib.csproj|d:\\tavantrepo\\adoprjs\\adolib\\adodisconnected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD3A951B-52A3-459E-A879-6F2682E6087E}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\adodisconnected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3A951B-52A3-459E-A879-6F2682E6087E}|ADOLib\\ADOLib.csproj|d:\\tavant_demos\\adoprjs\\adolib\\adoconnected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3A951B-52A3-459E-A879-6F2682E6087E}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\adoconnected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +46,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\IShape.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\IShape.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\IShape.cs",
+              "RelativeToolTip": "DesignPatterns\\IShape.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T05:37:21.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AreaCalculator.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\AreaCalculator.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\AreaCalculator.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\AreaCalculator.cs",
+              "RelativeToolTip": "DesignPatterns\\AreaCalculator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T05:23:22.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\Circle.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Circle.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\Circle.cs",
+              "RelativeToolTip": "DesignPatterns\\Circle.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T05:22:43.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Square.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\Square.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Square.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\Square.cs",
+              "RelativeToolTip": "DesignPatterns\\Square.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T05:21:38.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavant_demos\\ADOPrjs\\ADOClientConsole\\Program.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\DesignPatterns\\Program.cs",
+              "RelativeToolTip": "DesignPatterns\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwCwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T05:11:06.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\ADOClientConsole\\App.config",
+              "RelativeDocumentMoniker": "ADOClientConsole\\App.config",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\ADOClientConsole\\App.config",
+              "RelativeToolTip": "ADOClientConsole\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-18T04:31:39.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\ADOClientConsole\\Program.cs",
               "RelativeDocumentMoniker": "ADOClientConsole\\Program.cs",
-              "ToolTip": "D:\\tavant_demos\\ADOPrjs\\ADOClientConsole\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\ADOClientConsole\\Program.cs",
               "RelativeToolTip": "ADOClientConsole\\Program.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAywHYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAywHUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T11:16:33.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AdoConnected.cs",
-              "DocumentMoniker": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\AdoConnected.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\ADOLib\\AdoConnected.cs",
               "RelativeDocumentMoniker": "ADOLib\\AdoConnected.cs",
-              "ToolTip": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\AdoConnected.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\ADOLib\\AdoConnected.cs",
               "RelativeToolTip": "ADOLib\\AdoConnected.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T11:12:41.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "AdoDisconnected.cs",
-              "DocumentMoniker": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\AdoDisconnected.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ADOPrjs\\ADOLib\\AdoDisconnected.cs",
               "RelativeDocumentMoniker": "ADOLib\\AdoDisconnected.cs",
-              "ToolTip": "D:\\tavant_demos\\ADOPrjs\\ADOLib\\AdoDisconnected.cs",
+              "ToolTip": "D:\\tavantrepo\\ADOPrjs\\ADOLib\\AdoDisconnected.cs",
               "RelativeToolTip": "ADOLib\\AdoDisconnected.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAA2wGUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

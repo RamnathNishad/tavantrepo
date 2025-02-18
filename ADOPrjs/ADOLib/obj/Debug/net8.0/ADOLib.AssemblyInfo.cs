@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ADOLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+227c20dfe9cef8f1ccdd570d01e04493816c4300")]
 [assembly: System.Reflection.AssemblyProductAttribute("ADOLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ADOLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
