@@ -1,0 +1,16 @@
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\bin\Debug\net8.0\BusinessLayerHRMSLib.deps.json
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\bin\Debug\net8.0\BusinessLayerHRMSLib.dll
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\bin\Debug\net8.0\BusinessLayerHRMSLib.pdb
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.AssemblyInfoInputs.cache
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.AssemblyInfo.cs
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.csproj.CoreCompileInputs.cache
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.sourcelink.json
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.dll
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\refint\BusinessLayerHRMSLib.dll
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.pdb
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\ref\BusinessLayerHRMSLib.dll
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\bin\Debug\net8.0\EFCoreDBFirstLib.dll
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\bin\Debug\net8.0\EFCoreDBFirstLib.pdb
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\BusinessLayerHRMSLib.csproj.AssemblyReference.cache
+D:\tavantrepo\EFCorePrjs\BusinessLayerHRMSLib\obj\Debug\net8.0\Business.309C6B41.Up2Date

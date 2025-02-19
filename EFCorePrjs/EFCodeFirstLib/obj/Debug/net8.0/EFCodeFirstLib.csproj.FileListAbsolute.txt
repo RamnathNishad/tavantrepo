@@ -1,0 +1,15 @@
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\bin\Debug\net8.0\EFCodeFirstLib.deps.json
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\bin\Debug\net8.0\EFCodeFirstLib.dll
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\bin\Debug\net8.0\EFCodeFirstLib.pdb
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.csproj.AssemblyReference.cache
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.AssemblyInfoInputs.cache
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.AssemblyInfo.cs
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.csproj.CoreCompileInputs.cache
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.sourcelink.json
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.dll
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\refint\EFCodeFirstLib.dll
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.pdb
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\ref\EFCodeFirstLib.dll
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\bin\Debug\net8.0\EFCodeFirstLib.runtimeconfig.json
+D:\tavantrepo\EFCorePrjs\EFCodeFirstLib\obj\Debug\net8.0\EFCodeFirstLib.genruntimeconfig.cache

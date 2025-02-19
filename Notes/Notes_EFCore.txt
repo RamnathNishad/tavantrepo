@@ -1,0 +1,60 @@
+Software Architecures:-
+1) Monolithic :- Every components such as UI,Logic,Database code will be in a single executable unit of code.
+2) Layered based application(N-tier):- Presentation layer(UI), Business layer and Database layer all are separately coded and maintained. It may have tight coupling if not properly designed.
+3) Microservice Architetures:-  look into the slides
+4) Event-based architecture:- works on events where task is executed when some event happens like message queue e.g. buy/sell stock prices when it reaches a set point
+5) Serverless architecture:- Azure function is such example where we can deploy a standalone function and call it using applications. Here we don't need any server for the function deployed.
+
+
+
+==================Entity Framework Core===================
+EF:- It is an ORM tools from Microsoft for mapping database objects into application entity models.
+-It is an open-source
+-Works for SQL databases like MS Sql Server,Oracle,MySql,PostGreSql etc
+
+ORM(Object-Relational Mapping) tool
+
+
+Steps for EF Core database first approach:
+1) install the following packages 
+-Microsoft.EntityFrameworkCore(common for all SQL Databases)
+-Npgsql.EntityFrameworkCore.PostgreSQL  (specifically for PostGreSql) 
+
+2) Create the model classes as per table in database and DbContext class for databsae interaction and link model class with DbContext using DbSet<Model_type>
+
+public EmpDBContext(DbContextOptions<EmpDBContext> options)
+    :base(options)
+{
+    
+}
+public DbSet<Employee> Employee { get; set; }
+
+3) We need to install and configure dependency inject services in console app
+Microsoft.Extensions.DependencyInjection
+
+configure dependency injection for Dal and Context instances:
+
+
+Steps for EF Core Code-first approach:
+1) install the following packages 
+-Microsoft.EntityFrameworkCore(common for all SQL Databases)
+-Npgsql.EntityFrameworkCore.PostgreSQL  (specifically for PostGreSql) 
+
+2) Create the model classes as per table in database and DbContext class for databsae interaction and link model class with DbContext using DbSet<Model_type>
+
+public EmpDBContext(DbContextOptions<EmpDBContext> options)
+    :base(options)
+{
+    
+}
+public DbSet<Employee> Employee { get; set; }
+
+3) Install a package to get the Migration commands
+
+4) Add-Migration and Update-Database
+
+
+
+
+
+ 
