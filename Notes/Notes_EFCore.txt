@@ -55,6 +55,86 @@ public DbSet<Employee> Employee { get; set; }
 
 
 
+ASP.NET Core MVC:- It is applicatio design architecture which involves three components ie. 
+Model:- It represents the entities data along with their business logic
+View:- Input/Output 
+Controller:- Listening the request from user and deciding what model to use and what view to return as an output
+
+All these work together with their corresponding responisbilites....
+advantage of using MVC in ASP.NET Core:-
+-in-built dependency injection
+-Routing or navigation across
+-Middlewares of ASP.NET Core
+
+
+Stages:-
+-create builder
+-configure middlewares
+-build app using builder
+-use middlewares
+-run the app
+
+
+Two types of views:
+1) Weakly-typed views:- no model is binded
+2) Strongly-typed views:- model is binded with the view and it is accessed inside the view using "Model". How binding is done with is using one statement at the top of the view cshtml file:
+	@model HRMS.Employee
+
+
+	<h1>@Model.Ecode
+
+
+
+
+MVC----->DataAccessLayer------>Repository layer---->DbContext(EF Core)
+
+
+=================Statemanagement In ASP.NET MVC Core======================
+Two ways:-
+Client-side:-
+	-Cookies:- text files stored on client-pc, depends on browser settings
+	-QueryString :- it is passed using name and value pair in the url itself
+	 
+Server-side:-
+	-Session:-  specific to browser or user session using key/value, scope is anywhere in the application
+	-ViewData:- dictionaly object with scope from action to view only, stores as an object, needs type-cast for use
+	-ViewBag:- dictionary object with scope from action to view only but it is dynamic type, no type-casting but no intelligence in Visual Studio
+	-TempData:- Dictionary key/value but scope is across controllers. It is removed from the memory as soon as we access it. It can be retain while accessing by calling "Keep()" method 
+
+
+--To access Session object, we need to enable it in Program.cs file with middleware:
+ 	builder.Services.AddSession();
+	app.UseSession()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
