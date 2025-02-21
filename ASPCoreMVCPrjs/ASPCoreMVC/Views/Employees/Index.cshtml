@@ -52,7 +52,8 @@
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.Ecode }) |
                 @Html.ActionLink("Details", "Details", new { id=item.Ecode }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.Ecode })
+                @Html.ActionLink("Delete", "Delete", new { id=item.Ecode }) |
+                <a asp-action="Details" asp-route-id="@item.Ecode">Details</a>
             </td>
         </tr>
 }

@@ -44,6 +44,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/tavantrepo/ASPCoreMVCPrjs/ASPCoreMVC/Views/Second/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vjb25kXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/tavantrepo/ASPCoreMVCPrjs/ASPCoreMVC/Views/Second/CreateTagHelper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vjb25kXENyZWF0ZVRhZ0hlbHBlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/tavantrepo/ASPCoreMVCPrjs/ASPCoreMVC/Views/Second/DisplayDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vjb25kXERpc3BsYXlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/tavantrepo/ASPCoreMVCPrjs/ASPCoreMVC/Views/Second/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vjb25kXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

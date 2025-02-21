@@ -9,15 +9,22 @@ namespace ASPCoreMVC.Models
     {
         [Key]
         [Column("ecode")]
+        [Required]
+        [RegularExpression(@"\d{3,3}",ErrorMessage ="ecode must be exactly 3-digits")]
         public int Ecode { get; set; }
 
         [Column("ename")]
+        [Required]
+        [StringLength(10)]        
         public string Ename { get; set; }
 
         [Column("salary")]
+        [Required]
+        [Range(500,20000)]
         public int Salary { get; set; }
 
         [Column("deptid")]
+        [Required]
         public int Deptid { get; set; }
 
         public static List<Employee> employees = new List<Employee>

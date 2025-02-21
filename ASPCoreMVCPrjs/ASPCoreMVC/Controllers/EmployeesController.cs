@@ -35,8 +35,20 @@ namespace ASPCoreMVC.Controllers
         [HttpPost]
         public IActionResult Create(Employee emp)
         {
-            dal.AddEmployee(emp);
-            return RedirectToAction("Index");
+            if(dal.GetEmpById(emp.Ecode)!=null)
+            {
+                ModelState.AddModelError("Ecode", "duplicate ecode");
+            }
+
+            if (ModelState.IsValid)
+            {
+                dal.AddEmployee(emp);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View();
+            }
         }
 
         [HttpGet]

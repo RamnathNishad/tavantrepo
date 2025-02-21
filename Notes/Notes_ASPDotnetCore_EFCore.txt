@@ -108,8 +108,54 @@ Server-side:-
 
 
 
+-------------------------Model Validations------------------------------
+Model validations is to be done:
+1) client-side:- Javascript
+	using Annotations
+		-Required
+		-String max/min length
+		-Range 
+		
+
+2) server-side:- ModelState.IsValid boolean property gets set to false if there is any model error is there.
+we can add model property error logically using:
+	ModelState.AddModelError("property of model","error message"); this will set the IsValid property false.
+We should always perform task if there is no model error i..e ModelStat.IsValid is true.
 
 
+
+
+
+
+------------------------Html Helpers and Tag Helpers-----------------------
+
+3 ways of desiging Views Html elements:-
+1) Manuallly writing the raw html elements 
+
+2) using HtmlHelper classes: These are classes to generate html elements after compilation at server.
+based on whether view is weakly-typed or strong-typed, we have two syntaxes
+
+		<input type="text" id="txtname" name="txtname" />
+	WK:- @Html.TextBox("txtname")
+	ST:- @Html.TextBoxFor(modelItem=>modelItem.Uname)
+
+-Form:-
+	@using(Html.BeginForm())
+	{
+
+	}
+	<form>
+
+	</form>
+-Label
+-Textbox
+-Radio
+-Checkbox
+-Dropdown
+-TextArea
+
+
+3) Tag helpers:-
 
 
 

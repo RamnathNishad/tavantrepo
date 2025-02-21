@@ -1,0 +1,47 @@
+﻿@model ASPCoreMVC.Models.Customer
+@{
+    ViewData["Title"] = "CreateTagHelper";
+}
+
+<h1>Create for using TagHelper</h1>
+<form asp-action="Create">
+    <table>
+        <tr>
+            <th>Enter Id:</th>
+            <td>
+                <input asp-for="Id" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <th>Enter Name:</th>
+            <td>
+                <input asp-for="Name" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <th>Select Gender:</th>
+            <td>
+                <input type="radio" asp-for="Gender" value="M" /> Male
+                <input type="radio" asp-for="Gender" value="F" /> Female
+            </td>
+        </tr>
+        <tr>
+            <th>Select City:</th>
+            <td>
+                <select asp-for="City" asp-items="Model.Cities">
+                    <option value="">-select city-</option>
+                </select> 
+            </td>
+        </tr>
+        <tr>
+            <th>Select Langauges:</th>
+            <td>
+                @foreach (var item in Model.Languages)
+                {
+                    <input type="checkbox" name="Languages" value="@item" />@item
+                }
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Submit" />
+</form>
