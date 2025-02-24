@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p0Laq2O75vY=",
+  "dgSpecHash": "w2+84/WOIbc=",
   "success": true,
   "projectFilePath": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\ASPCoreMVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\raman\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -74,7 +75,10 @@
     "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.13\\microsoft.entityframeworkcore.8.0.13.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.13\\microsoft.entityframeworkcore.abstractions.8.0.13.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.13\\microsoft.entityframeworkcore.analyzers.8.0.13.nupkg.sha512",
-    "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.11\\microsoft.entityframeworkcore.relational.8.0.11.nupkg.sha512",
+    "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.13\\microsoft.entityframeworkcore.design.8.0.13.nupkg.sha512",
+    "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\8.0.13\\microsoft.entityframeworkcore.proxies.8.0.13.nupkg.sha512",
+    "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.13\\microsoft.entityframeworkcore.relational.8.0.13.nupkg.sha512",
+    "C:\\Users\\raman\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.13\\microsoft.entityframeworkcore.tools.8.0.13.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "C:\\Users\\raman\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

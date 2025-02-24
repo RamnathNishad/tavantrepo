@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASPCoreMVC.Controllers
-{   
+{
+    //[Route("Employees")]
     public class EmployeesController : Controller
     {
         private readonly IEmployeeDataAccess dal;
@@ -10,6 +11,7 @@ namespace ASPCoreMVC.Controllers
         {
             this.dal = dal;
         }
+        //[Route("Home")]
         public IActionResult Index()
         {
             ViewData.Add("heading", "Employee Management Application");
@@ -67,6 +69,7 @@ namespace ASPCoreMVC.Controllers
         }
 
         [HttpGet]
+        //[Route("Hrms/GetEmpById/{id}")]
         public IActionResult Details(int id)
         {
             var record = dal.GetEmpById(id);

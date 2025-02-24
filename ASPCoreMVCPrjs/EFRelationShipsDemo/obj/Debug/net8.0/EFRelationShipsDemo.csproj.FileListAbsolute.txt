@@ -1,0 +1,13 @@
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\bin\Debug\net8.0\EFRelationShipsDemo.deps.json
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\bin\Debug\net8.0\EFRelationShipsDemo.dll
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\bin\Debug\net8.0\EFRelationShipsDemo.pdb
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.csproj.AssemblyReference.cache
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.AssemblyInfoInputs.cache
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.AssemblyInfo.cs
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.csproj.CoreCompileInputs.cache
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.sourcelink.json
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.dll
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\refint\EFRelationShipsDemo.dll
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\EFRelationShipsDemo.pdb
+D:\tavantrepo\ASPCoreMVCPrjs\EFRelationShipsDemo\obj\Debug\net8.0\ref\EFRelationShipsDemo.dll

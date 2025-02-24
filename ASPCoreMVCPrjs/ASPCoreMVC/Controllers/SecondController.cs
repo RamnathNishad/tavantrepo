@@ -1,4 +1,5 @@
 ﻿using ASPCoreMVC.Models;
+using EFRelationShipsDemo;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -6,6 +7,11 @@ namespace ASPCoreMVC.Controllers
 {
     public class SecondController : Controller
     {
+        private readonly SampleDbContext db;
+        public SecondController(SampleDbContext db)
+        {
+            this.db= db;
+        }
         public IActionResult Index()
         {
             ViewData.Add("y", Request.HttpContext.Session.GetInt32("y"));
@@ -19,7 +25,7 @@ namespace ASPCoreMVC.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            var customer = new Customer
+            var customerVM = new Models.CustomerVM
             {
                 Cities=new List<SelectListItem>
                 {
@@ -34,10 +40,10 @@ namespace ASPCoreMVC.Controllers
                     "English","Kanada","Hindi"
                 }
             };
-            return View(customer);
+            return View(customerVM);
         }
         [HttpPost]
-        public IActionResult Create(Customer customer)
+        public IActionResult Create(Models.Customer customer)
         {
             return View("DisplayDetails",customer);
         }

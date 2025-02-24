@@ -1,4 +1,5 @@
 using ASPCoreMVC.Models;
+using EFRelationShipsDemo;
 using Microsoft.EntityFrameworkCore;
 
 namespace ASPCoreMVC
@@ -15,6 +16,10 @@ namespace ASPCoreMVC
             //configure dependency injection for DbContext 
             builder.Services.AddDbContext<EmpDBContext>(opts =>
                 opts.UseNpgsql("Host=localhost;Database=empdb;Username=postgres;Password=sa;Persist Security Info=True")
+            );
+
+            builder.Services.AddDbContext<SampleDbContext>(options =>
+            options.UseNpgsql("Host=localhost;Database=sampledb;Username=postgres;Password=sa;Persist Security Info=True")
             );
 
             //configure dependency injection for DataAccess component
@@ -38,6 +43,8 @@ namespace ASPCoreMVC
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Employees}/{action=Index}/{id?}");
+
+           
 
             app.UseSession();
 

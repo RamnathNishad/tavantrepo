@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "D:\\tavantrepo\\ASPCoreMVCPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\controllers\\secondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\controllers\\secondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\views\\second\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\views\\second\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\controllers\\secondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\controllers\\secondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\views\\second\\displaydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\views\\second\\displaydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\views\\second\\createtaghelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\views\\second\\createtaghelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\models\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\models\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,136 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\Controllers\\EmployeesController.cs",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Controllers\\EmployeesController.cs*",
-              "RelativeToolTip": "ASPCoreMVC\\Controllers\\EmployeesController.cs*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T07:17:32.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ASPCoreMVC\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-21T07:12:31.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Employees\\Create.cshtml",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\Views\\Employees\\Create.cshtml",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Employees\\Create.cshtml",
-              "RelativeToolTip": "ASPCoreMVC\\Views\\Employees\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T07:08:25.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\Models\\Employee.cs",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\Employee.cs",
-              "RelativeToolTip": "ASPCoreMVC\\Models\\Employee.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T06:58:58.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\Views\\Employees\\Index.cshtml",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "ASPCoreMVC\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T06:39:54.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\Create.cshtml",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\Views\\Second\\Create.cshtml",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\Create.cshtml",
-              "RelativeToolTip": "ASPCoreMVC\\Views\\Second\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T06:35:56.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CreateTagHelper.cshtml",
               "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\CreateTagHelper.cshtml",
               "RelativeDocumentMoniker": "ASPCoreMVC\\Views\\Second\\CreateTagHelper.cshtml",
               "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\CreateTagHelper.cshtml",
               "RelativeToolTip": "ASPCoreMVC\\Views\\Second\\CreateTagHelper.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T06:21:39.7Z",
+              "WhenOpened": "2025-02-24T07:24:43.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DisplayDetails.cshtml",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\DisplayDetails.cshtml",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\Views\\Second\\DisplayDetails.cshtml",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\DisplayDetails.cshtml",
-              "RelativeToolTip": "ASPCoreMVC\\Views\\Second\\DisplayDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASPCoreMVC\\Views\\Second\\Create.cshtml",
+              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Views\\Second\\Create.cshtml",
+              "RelativeToolTip": "ASPCoreMVC\\Views\\Second\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T05:40:09.599Z",
+              "WhenOpened": "2025-02-24T07:21:55.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "ASPCoreMVC\\Models\\Customer.cs",
-              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\Customer.cs",
-              "RelativeToolTip": "ASPCoreMVC\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T04:49:50.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "SecondController.cs",
               "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Controllers\\SecondController.cs",
               "RelativeDocumentMoniker": "ASPCoreMVC\\Controllers\\SecondController.cs",
               "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Controllers\\SecondController.cs",
               "RelativeToolTip": "ASPCoreMVC\\Controllers\\SecondController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIBCwBMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T04:33:08.566Z",
+              "WhenOpened": "2025-02-24T07:21:20.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ASPCoreMVC\\Models\\Customer.cs",
+              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\Customer.cs",
+              "RelativeToolTip": "ASPCoreMVC\\Models\\Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:20:01.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerVM.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\CustomerVM.cs",
+              "RelativeDocumentMoniker": "ASPCoreMVC\\Models\\CustomerVM.cs",
+              "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Models\\CustomerVM.cs",
+              "RelativeToolTip": "ASPCoreMVC\\Models\\CustomerVM.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:19:48.053Z",
               "EditorCaption": ""
             }
           ]

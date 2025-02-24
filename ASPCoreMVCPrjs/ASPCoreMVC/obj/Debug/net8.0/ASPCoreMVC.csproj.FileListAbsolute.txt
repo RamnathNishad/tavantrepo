@@ -239,3 +239,8 @@ D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\Microsoft.Extensions.Lo
 D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\Npgsql.dll
 D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\EFRelationShipsDemo.dll
+D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\EFRelationShipsDemo.pdb
+D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\Castle.Core.dll
+D:\tavantrepo\ASPCoreMVCPrjs\ASPCoreMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll

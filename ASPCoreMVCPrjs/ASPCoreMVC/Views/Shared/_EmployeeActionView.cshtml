@@ -1,0 +1,7 @@
+﻿@model ASPCoreMVC.Models.Employee
+
+@Html.ActionLink("Edit", "Edit", new { id = Model.Ecode },htmlAttributes:new{@class="btn btn-primary"} )|
+@Html.ActionLink("Details", "Details", new { id = Model.Ecode }, htmlAttributes: new { @class = "btn btn-warning" }) |
+@Html.ActionLink("Delete", "Delete", new { id = Model.Ecode }, htmlAttributes: new { @class = "btn btn-danger" }) |
+@* <a asp-action="Details" asp-route-id="@Model.Ecode">Details</a>
+ *@
