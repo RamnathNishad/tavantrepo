@@ -1,5 +1,6 @@
 using ASPCoreMVC.Models;
 using EFRelationShipsDemo;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 namespace ASPCoreMVC
@@ -27,19 +28,42 @@ namespace ASPCoreMVC
 
             builder.Services.AddSession();
 
+            //add authentication and authorization middleware
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+            {
+                options.LoginPath = "/Account/Login";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+            });
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminPolicy", policy =>
+                {
+                    policy.RequireRole("Admin");
+                });                
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+            //if (!app.Environment.IsDevelopment())
+            //{
+            //    app.UseExceptionHandler();
+            //}
+            //else
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+
+            //app.UseMiddleware<CustomException>();
+
             app.UseStaticFiles();
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
-
+            
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Employees}/{action=Index}/{id?}");

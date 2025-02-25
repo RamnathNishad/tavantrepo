@@ -161,26 +161,213 @@ based on whether view is weakly-typed or strong-typed, we have two syntaxes
 
 
 
+4)---------------------MVC
+
+One-to-One, One-to-Many, and Many-to-Many Relationships
+Navigation Properties
+Cascade Delete Behavior
+Lazy and eager loading
+URL Routing (Attribute and Conventional Routing), Constraints in routing	
+-Partial Views
+-ViewModel and Data Transfer Objects (DTOs)  
+-Authentication and Authorization
+- Identity in ASP.NET Core MVC  
+- Implementing User Registration and Login  
+- Role-Based and Policy-Based Authorization  
+
+
+
+
+Relationshi[p in EF Core models:-
+1) one-to-one
+2) one-to-many
+3) many-to-many
+
+
+3 ways we can create these relationship:-
+a) using annotation:  [ForeignKey]
+
+class Department
+{
+	public int Id{get;set;}
+	public string Dname{get;set;}
+}
+
+class Employee
+{
+	[Key]
+	public int Ecode{get;set;}
+	public string Ename {get;set;}
+	[ForeignKey]
+	public int Deptid{get;set;}
+
+	public Department Department{get;set;} //navigation
+}
+
+
+b) using navigation:- follows conventions
+
+c) using Fluent API :- (more control and configurable for few features which are not possible using annotation like cascaade on delete features etc.
 
 
 
 
 
+Category(CatId,Cname)
+	SubCategory:(SubCatId,SubCatName,CatId(FK))
+		Product:(Id,Price,Name,SubCatId(FK))
+
+public class Category
+{
+
+	public int Id{get;set:}
+	public string CategoryName{get;set;}
+
+	public List<SubCategory> SubCategories{get;set;}
+} 
+
+public class SubCategory
+{
+
+	public int Id{get;set:}
+	public string SubCategoryName{get;set;}
+
+	[ForeignKey("CatId")
+	public Category Category{get;set;}
+
+	public List<Product>Products{get;set;}
+} 
+
+public class Product
+{
+
+	public int Id{get;set:}
+	public string ProductName{get;set;}
+	public int Price{get;set;}
+	
+	[ForeignKey("SubCategoryId")
+	public SubCategory SubCategory{get;set;}
+} 
+
+------------------------------Routing in ASP.NET Core------------------------------
+1) Conventional Routing which is configured in Program.cs file uisng MapControllerRoute().
+2) Attribute based routing:- This can be done on controllers and action methods: must be enabled in Program.cs using 
+	[RoutePrefix("Employee")] ---for controller
+	[Route("Home")] ----for action methods
+	[Route("Home/{id}/{name}")]
+	public IActionResult DoTask(int id,int name)
+	{
+
+	}
+
+3) Partial views:- It is not dierctly accessed, it is call and used by other views. A complex views can be breaked into multiple partial views. Also partial views are sharable into other views.
+
+-create the view as a partial view
+-render the view in the parent views
+	Html.RenderPartial():- returns void
+	Html.Partial():- returns Html of the partial view
+
+Note:- when the model is not passed to a partial then by default it takes parent view model
+
+
+==================ViewModel and DTOs======================
+
+class Employee
+{
+	public int Ecode{get;set;}
+	public string Ename{get;set;}
+	public int Salary{get;set;}
+	public int Deptid{get;set;}
+}
+
+class EmployeeVM
+{
+	public int Ecode{get;set;}
+	public string Ename{get;set;}
+	public int Salary{get;set;}
+	public int Deptid{get;set;}
+	public List<SelectListItem> DeptIds{ get; set; }
+}
 
 
 
+Takeway:-
+1)Relationshi[p in EF Core models:-
+	a) one-to-one
+	b) one-to-many
+	c) many-to-many
+2)Routing in ASP.NET Core
+3)ViewModel and DTOs
+4) Partial views
+5) Assignments using Partial Views,ViewModel
 
-
-
-
-
-
-
-
-
-
-
-
-
+===================================
+today's agenda:
+-Layout
+-@RenderBody() :- is the portion of view which is designed in the view without any section name. Only one RenDerBody() is allowed in Layout.
+-@RenderSection("section_name",optional_boolean):- this section will be defined inside the views linked with the layout. We can have more than one sections can be defined.
 
  
+
+_ViewStart.cshtml is a special view file which is executed before each view. We use this to link the layout.cshtml with all the views:
+	@{
+		Layout="_Layout"; //default locatiois just with the "Shared" folder
+	}
+
+-Exception handling in ASP.NET MVC
+
+When there is an exception, ASP.NET gives the developer error page but in production we should have custom error page to display errors.
+we configure this using Middleware conditionally.
+	if environment is developer or Production we can accordingly choose the error page. In launchsettings.json environment can be defined.
+
+
+Levels of exception handling:
+1) try/catch :- used at all action method level
+2) at global level:- it is handled in OnException method of custom exeption class.
+
+ 
+
+
+
+
+
+a) try/catch/finally
+
+
+
+
+-Authorization and Authentication in MVC
+Authentication is validatin the user credentials and Authorization means what the authenticated user has permissions to do.
+
+1) in Program.cs
+we need to use middleware for authentication:
+	builder.Service.AddAuthentication(options=>{
+	//what kind of authentication like Cookie based or token based
+});
+
+	app.UseAuthentication(); //first this 
+	app.UseAuthorization(); //then this sequence is mandatory
+
+2) Controller Action method:-
+	[Authorize]
+	public IActionResult Add()
+	{
+
+	}
+
+
+
+
+
+-Restful API (Web API)
+
+
+http://localhost:5071/Account/Login?ReturnUrl=%2FEmployees%2FIndex
+ 
+
+
+
+
+
+
+

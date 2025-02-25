@@ -31,8 +31,11 @@
         </nav>
     </header>
     <div class="container">
+        @Html.ActionLink("Logout","Logout","Account")
         <main role="main" class="pb-3">
+          
             @RenderBody()
+            @RenderSection("s1", false)
         </main>
     </div>
 

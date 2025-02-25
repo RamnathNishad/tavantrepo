@@ -1,9 +1,12 @@
 ﻿using ASPCoreMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ASPCoreMVC.Controllers
 {
     //[Route("Employees")]
+
+    //[Authorize]
     public class EmployeesController : Controller
     {
         private readonly IEmployeeDataAccess dal;
@@ -12,8 +15,20 @@ namespace ASPCoreMVC.Controllers
             this.dal = dal;
         }
         //[Route("Home")]
+        [Authorize]
+        //[AllowAnonymous]
         public IActionResult Index()
         {
+            //try
+            //{
+                int a = 10, b = 2;
+                var result = a / b;
+            //}
+            //catch (Exception ex) 
+            //{
+            //    return RedirectToAction("Error", "Home",new { errMsg = ex.Message });
+            //}
+
             ViewData.Add("heading", "Employee Management Application");
 
             ViewBag.Message = "Hello";
@@ -29,6 +44,7 @@ namespace ASPCoreMVC.Controllers
         }
 
         [HttpGet]
+        [Authorize(Policy ="AdminPolicy")]
         public IActionResult Create()
         {
             return View();
@@ -88,5 +104,7 @@ namespace ASPCoreMVC.Controllers
             dal.UpdateEmployee(emp);
             return RedirectToAction("Index");
         }
+
+        
     }
 }

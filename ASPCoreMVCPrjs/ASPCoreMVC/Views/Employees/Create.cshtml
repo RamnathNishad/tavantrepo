@@ -2,6 +2,11 @@
 
 @{
     ViewData["Title"] = "Create";
+    //Layout = null;
+}
+
+@section s1 {
+    <h2>This is Section 1 of Create page</h2>
 }
 
 <h1>Create</h1>
@@ -46,3 +51,5 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+
