@@ -1,122 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\tavantrepo\\EFCorePrjs\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|d:\\tavantrepo\\efcoreprjs\\efcodefirstlib\\customerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|solutionrelative:efcodefirstlib\\customerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Migrations\\20250219095456_add_col_country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EFCodeFirstLib\\Migrations\\20250219095456_add_col_country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|d:\\tavantrepo\\efcoreprjs\\efcodefirstlib\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|solutionrelative:efcodefirstlib\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|d:\\tavantrepo\\efcoreprjs\\efcodefirstlib\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|solutionrelative:efcodefirstlib\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Migrations\\20250219094319_initial_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EFCodeFirstLib\\Migrations\\20250219094319_initial_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|d:\\tavantrepo\\efcoreprjs\\efcodefirstlib\\icustomerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2E321EC-4012-48A8-BCAF-AB6F4ACB4329}|EFCodeFirstLib\\EFCodeFirstLib.csproj|solutionrelative:efcodefirstlib\\icustomerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250219095456_add_col_country.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Migrations\\20250219095456_add_col_country.cs",
-              "RelativeDocumentMoniker": "EFCodeFirstLib\\Migrations\\20250219095456_add_col_country.cs",
-              "ToolTip": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Migrations\\20250219095456_add_col_country.cs",
-              "RelativeToolTip": "EFCodeFirstLib\\Migrations\\20250219095456_add_col_country.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:54:56.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250219094319_initial_create.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Migrations\\20250219094319_initial_create.cs",
-              "RelativeDocumentMoniker": "EFCodeFirstLib\\Migrations\\20250219094319_initial_create.cs",
-              "ToolTip": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Migrations\\20250219094319_initial_create.cs",
-              "RelativeToolTip": "EFCodeFirstLib\\Migrations\\20250219094319_initial_create.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:43:19.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerDataAccess.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\CustomerDataAccess.cs",
-              "RelativeDocumentMoniker": "EFCodeFirstLib\\CustomerDataAccess.cs",
-              "ToolTip": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\CustomerDataAccess.cs",
-              "RelativeToolTip": "EFCodeFirstLib\\CustomerDataAccess.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:16:05.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICustomerDataAccess.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\ICustomerDataAccess.cs",
-              "RelativeDocumentMoniker": "EFCodeFirstLib\\ICustomerDataAccess.cs",
-              "ToolTip": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\ICustomerDataAccess.cs",
-              "RelativeToolTip": "EFCodeFirstLib\\ICustomerDataAccess.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAzwAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:15:44.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerDBContext.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\CustomerDBContext.cs",
-              "RelativeDocumentMoniker": "EFCodeFirstLib\\CustomerDBContext.cs",
-              "ToolTip": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\CustomerDBContext.cs",
-              "RelativeToolTip": "EFCodeFirstLib\\CustomerDBContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA1wBgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:15:09.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Customer.cs",
-              "RelativeDocumentMoniker": "EFCodeFirstLib\\Customer.cs",
-              "ToolTip": "D:\\tavantrepo\\EFCorePrjs\\EFCodeFirstLib\\Customer.cs",
-              "RelativeToolTip": "EFCodeFirstLib\\Customer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:12:40.842Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

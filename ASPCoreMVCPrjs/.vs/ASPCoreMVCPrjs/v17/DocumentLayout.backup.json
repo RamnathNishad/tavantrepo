@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|solutionrelative:aspcoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D740DBA4-B44F-453A-97E9-903AB5F11282}|ASPCoreMVC\\ASPCoreMVC.csproj|d:\\tavantrepo\\aspcoremvcprjs\\aspcoremvc\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "ASPCoreMVC\\Views\\Account\\AccessDenied.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T09:27:33.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T09:27:33.868Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "ASPCoreMVC\\Models\\UserDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T09:07:48.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T09:07:48.158Z"
             },
             {
               "$type": "Document",
@@ -76,18 +74,17 @@
               "RelativeToolTip": "ASPCoreMVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T09:00:48.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T09:00:48.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Program.cs",
               "RelativeDocumentMoniker": "ASPCoreMVC\\Program.cs",
               "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Program.cs",
               "RelativeToolTip": "ASPCoreMVC\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAEwEAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAEwEAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T07:27:57.209Z",
               "EditorCaption": ""
@@ -102,12 +99,11 @@
               "RelativeToolTip": "ASPCoreMVC\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T06:57:59.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T06:57:59.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ASPCoreMVC\\Controllers\\AccountController.cs",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "ASPCoreMVC\\Controllers\\AccountController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAcwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T06:57:23.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T06:57:23.952Z"
             },
             {
               "$type": "Document",
@@ -126,7 +121,7 @@
               "RelativeDocumentMoniker": "ASPCoreMVC\\Controllers\\EmployeesController.cs",
               "ToolTip": "D:\\tavantrepo\\ASPCoreMVCPrjs\\ASPCoreMVC\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "ASPCoreMVC\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywBYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T04:59:57.952Z",
               "EditorCaption": ""

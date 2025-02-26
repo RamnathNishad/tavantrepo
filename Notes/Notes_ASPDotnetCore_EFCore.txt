@@ -359,10 +359,57 @@ we need to use middleware for authentication:
 
 
 
--Restful API (Web API)
+-Restful API (Web API):- Representation State Transfer:-
+Services over HTTP protocol. It does not store any client information on the server, it is stateless.
+Everything is referred as a resource on the server which can be accessed using unique uri.
+
+It works closely with the HTTP methods like GET,POST,DELETE and UPDATE.
+HTTP POST-----> creates a new resource on the server
+HTTP PUT------>updating resource on the server
+HTTP GET------>retreiving the resource from the server
+HTTP DELETE-> deleting the resource on the server
+
+*Note:- resource can be anything on the server such as a file,a record etc
+
+WEB API:- 
+-reponse format is based on the requested format and by default format is JSON and XML, Binary.
 
 
-http://localhost:5071/Account/Login?ReturnUrl=%2FEmployees%2FIndex
+
+
+
+ASP.NET Core WEB API:-
+-MVC pattern---->without view
+-Routing feature
+-Authentication
+-Dependency injection service
+
+
+Securing the WEB API endpoints using JWT token:-
+
+JWT :- Json Web Toten is a token based authentication. It has 3 sections:-
+	-Header
+	-Payload
+	-(Header+Payload+Signature with Secret key)
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
