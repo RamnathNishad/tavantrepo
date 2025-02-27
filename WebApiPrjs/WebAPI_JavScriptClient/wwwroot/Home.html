@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/consumeapi.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnGetAll").click(getAllEmps);
+            $("#btnAdd").click(addEmp);
+            $("#btnDelete").click(deleteEmpById);
+            $("#btnUpdate").click(updateEmp);
+            $("#btnFind").click(getEmpById);
+        })
+    </script>
+</head>
+<body>
+    <h1>Consuming WEB API using Jquery AJAX</h1><hr />
+
+    <table>
+        <tr>
+            <th>Enter ecode:</th>
+            <td><input type="number" id="txtEc" /></td>
+        </tr>
+        <tr>
+            <th>Enter ename:</th>
+            <td><input type="text" id="txtEn" /></td>
+        </tr>
+        <tr>
+            <th>Enter salary:</th>
+            <td><input type="number" id="txtSal" /></td>
+        </tr>
+        <tr>
+            <th>Enter deptid:</th>
+            <td><input type="number" id="txtDid" /></td>
+        </tr>
+    </table>
+    <input type="button" value="Display" id="btnGetAll"/>
+    <input type="button" value="Search by id" id="btnFind" />
+
+    <input type="button" value="Insert" id="btnAdd" />
+    <input type="button" value="Delete" id="btnDelete" />
+    <input type="button" value="Update" id="btnUpdate" />
+    <div id="d1"></div>
+</body>
+</html>

@@ -403,6 +403,40 @@ JWT :- Json Web Toten is a token based authentication. It has 3 sections:-
 
 
 
+=====================CORS Policy===================
+CORS:- Cross-Origin-Resource-Sharing
+
+
+
+c=> c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+{
+    Name = "Authorization",
+    Type = SecuritySchemeType.Http,
+    Scheme = "Bearer",
+    BearerFormat = "JWT",
+    In = ParameterLocation.Header,
+    Description = "Enter 'Bearer <your_token>' in the input field."
+})
+
+--Consuming API using AJAX requests
+--Configuring CORS policy
+--Role-based authorization
+--Handling exception in WEB API using try/catch
+--Configuring MediaTypeformatter like xml in WEB API
+
+
+2mrw's
+-Global Exception handling in WEB API
+-ASP.NET MVC client for WEB API 
+--Validation with ModelState
+
+
+
+
+
+
+
+
 
 
 

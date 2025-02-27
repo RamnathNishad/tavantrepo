@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
 namespace EmployeesWebApi.Controllers
@@ -11,23 +12,34 @@ namespace EmployeesWebApi.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+        private readonly IConfiguration _config;
+        public AccountController(IConfiguration config)
+        {
+            this._config = config;
+        }
+
+
         [HttpPost]
         [Route("Login")]
         public IActionResult Login(UserDetails user)
-        {
+        {   
             //validate user from database
             if(user.UserName=="admin" && user.Password=="admin123")
             {
                 //generate token
-                var secretKey = "abcdefghijklmnopqrstuvwxyz123456";
+                var secretKey = _config["jwt:secretKey"];
                 var securityKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
 
                 var tokenParams = new JwtSecurityToken
                 (
-                    issuer:"tavant",
-                    audience:"tavant",
+                    issuer: _config["jwt:issuer"],
+                    audience: _config["jwt:audience"],
                     expires:DateTime.Now.AddMinutes(2),
-                    signingCredentials:new SigningCredentials(securityKey,SecurityAlgorithms.HmacSha256)
+                    signingCredentials:new SigningCredentials(securityKey,SecurityAlgorithms.HmacSha256),
+                    claims:new List<Claim> 
+                    {
+                        new Claim(ClaimTypes.Role,"Guest")
+                    }
                 );
 
                 var tokenHandler = new JwtSecurityTokenHandler();

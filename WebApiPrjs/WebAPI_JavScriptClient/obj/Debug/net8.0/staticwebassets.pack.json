@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\Home.html",
+      "PackagePath": "staticwebassets\\Home.html"
+    },
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\consumeapi.js",
+      "PackagePath": "staticwebassets\\lib\\consumeapi.js"
+    },
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.7.1.js"
+    },
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.7.1.min.map"
+    },
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.7.1.slim.js"
+    },
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.7.1.slim.min.js"
+    },
+    {
+      "Id": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.7.1.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPI_JavScriptClient.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPI_JavScriptClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebAPI_JavScriptClient.props",
+      "PackagePath": "build\\WebAPI_JavScriptClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPI_JavScriptClient.props",
+      "PackagePath": "buildMultiTargeting\\WebAPI_JavScriptClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAPI_JavScriptClient.props",
+      "PackagePath": "buildTransitive\\WebAPI_JavScriptClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

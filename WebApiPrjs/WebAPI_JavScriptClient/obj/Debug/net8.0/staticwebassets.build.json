@@ -1,0 +1,846 @@
+{
+  "Version": 1,
+  "Hash": "bh//lMsmgQ9mDeekD7wTjIVdCdYxpn3m6t6v6zeffxA=",
+  "Source": "WebAPI_JavScriptClient",
+  "BasePath": "_content/WebAPI_JavScriptClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI_JavScriptClient\\wwwroot",
+      "Source": "WebAPI_JavScriptClient",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\Home.html",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "Home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x0ywfal705",
+      "Integrity": "v6QJQl8UNBKpUlR2te2E37j0KkuATDt1jK/xDDf4mp4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Home.html"
+    },
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\consumeapi.js",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "lib/consumeapi#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eoay2v8mt6",
+      "Integrity": "cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\consumeapi.js"
+    },
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.js",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "lib/jquery-3.7.1#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0i3buxo5is",
+      "Integrity": "eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-3.7.1.js"
+    },
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.js",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "lib/jquery-3.7.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-3.7.1.min.js"
+    },
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.map",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "lib/jquery-3.7.1.min#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ql58znfkzc",
+      "Integrity": "Xn1tnCi38hAGU16IdetH6WZ4UqFMRiTu0wHGzqGa5is=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-3.7.1.min.map"
+    },
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.js",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "lib/jquery-3.7.1.slim#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2z0ns9nrw6",
+      "Integrity": "UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-3.7.1.slim.js"
+    },
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.js",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "lib/jquery-3.7.1.slim.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "muycvpuwrr",
+      "Integrity": "kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-3.7.1.slim.min.js"
+    },
+    {
+      "Identity": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.map",
+      "SourceId": "WebAPI_JavScriptClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\",
+      "BasePath": "_content/WebAPI_JavScriptClient",
+      "RelativePath": "lib/jquery-3.7.1.slim.min#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v8kevnro24",
+      "Integrity": "AbenI8g7j9bDQ9+2A1hdQPmWh/KT01qcSx/mfoOy3WQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-3.7.1.slim.min.map"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Home.html",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v6QJQl8UNBKpUlR2te2E37j0KkuATDt1jK/xDDf4mp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:10:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v6QJQl8UNBKpUlR2te2E37j0KkuATDt1jK/xDDf4mp4="
+        }
+      ]
+    },
+    {
+      "Route": "Home.x0ywfal705.html",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1429"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v6QJQl8UNBKpUlR2te2E37j0KkuATDt1jK/xDDf4mp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 09:10:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x0ywfal705"
+        },
+        {
+          "Name": "label",
+          "Value": "Home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v6QJQl8UNBKpUlR2te2E37j0KkuATDt1jK/xDDf4mp4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/consumeapi.eoay2v8mt6.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\consumeapi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:08:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eoay2v8mt6"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/consumeapi.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/consumeapi.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\consumeapi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:08:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.0i3buxo5is.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0i3buxo5is"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-3.7.1.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.min.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.min.map",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xn1tnCi38hAGU16IdetH6WZ4UqFMRiTu0wHGzqGa5is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xn1tnCi38hAGU16IdetH6WZ4UqFMRiTu0wHGzqGa5is="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.min.o1o13a6vjx.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-3.7.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.min.ql58znfkzc.map",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xn1tnCi38hAGU16IdetH6WZ4UqFMRiTu0wHGzqGa5is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ql58znfkzc"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-3.7.1.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xn1tnCi38hAGU16IdetH6WZ4UqFMRiTu0wHGzqGa5is="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.slim.2z0ns9nrw6.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z0ns9nrw6"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-3.7.1.slim.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.slim.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.slim.min.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.slim.min.map",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbenI8g7j9bDQ9+2A1hdQPmWh/KT01qcSx/mfoOy3WQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbenI8g7j9bDQ9+2A1hdQPmWh/KT01qcSx/mfoOy3WQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.slim.min.muycvpuwrr.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muycvpuwrr"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-3.7.1.slim.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-3.7.1.slim.min.v8kevnro24.map",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\jquery-3.7.1.slim.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbenI8g7j9bDQ9+2A1hdQPmWh/KT01qcSx/mfoOy3WQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Aug 2023 10:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v8kevnro24"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-3.7.1.slim.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbenI8g7j9bDQ9+2A1hdQPmWh/KT01qcSx/mfoOy3WQ="
+        }
+      ]
+    }
+  ]
+}

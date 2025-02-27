@@ -8,7 +8,7 @@ namespace EmployeesWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+   
     public class EmployeesController : ControllerBase
     {
         private readonly IEmployeeDataAccess dal;
@@ -20,26 +20,50 @@ namespace EmployeesWebApi.Controllers
         // GET: api/<EmployeesController>
         [HttpGet]
         [Route("GetAllEmps")]
-        public IEnumerable<Employee> GetAllEmps()
+        //[Authorize(Roles = "Admin,Guest")]
+        public IActionResult GetAllEmps()
         {
-            return dal.GetAll();
+            try
+            {
+                return Ok(dal.GetAll());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
 
         // GET api/<EmployeesController>/5
         [HttpGet]
         [Route("GetEmpById/{id}")]
-        public Employee GetEmpById(int id)
+        public IActionResult GetEmpById(int id)
         {
-            return dal.Get(id);
+            try
+            {
+                return Ok(dal.Get(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // POST api/<EmployeesController>
         [HttpPost]
         [Route("AddEmp")]
-        public void Post([FromBody] Employee employee)
+        //[Authorize(Roles = "Admin")]
+        public IActionResult Post([FromBody] Employee employee)
         {
-            dal.Add(employee);
+            try
+            {
+                dal.Add(employee);
+                return Ok("Record inserted");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // PUT api/<EmployeesController>/5
@@ -53,9 +77,19 @@ namespace EmployeesWebApi.Controllers
         // DELETE api/<EmployeesController>/5
         [HttpDelete]
         [Route("DeleteById/{id}")]
-        public void DeleteById(int id)
+        public IActionResult DeleteById(int id)
         {
-            dal.Delete(id);
+            try
+            {
+                dal.Delete(id);
+                return Ok("Record deleted");
+            }
+            catch (Exception ex)
+            {
+                //log the ex details and send custom msg
+                return BadRequest(ex.Message);
+            }
+           
         }
     }
 }
