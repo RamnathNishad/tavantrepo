@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>eoay2v8mt6</Fingerprint>
-      <Integrity>cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM=</Integrity>
+      <Fingerprint>xxifix9zf9</Fingerprint>
+      <Integrity>pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\consumeapi.js'))</OriginalItemSpec>

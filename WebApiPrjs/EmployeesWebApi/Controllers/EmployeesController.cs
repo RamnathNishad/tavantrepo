@@ -1,6 +1,7 @@
 ﻿using EmployeesWebApi.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -20,9 +21,13 @@ namespace EmployeesWebApi.Controllers
         // GET: api/<EmployeesController>
         [HttpGet]
         [Route("GetAllEmps")]
-        //[Authorize(Roles = "Admin,Guest")]
+        [Authorize(Roles = "Admin,Guest")]
         public IActionResult GetAllEmps()
         {
+            //int a = 10, b = 0;
+            //int res = a / b;
+
+
             try
             {
                 return Ok(dal.GetAll());
@@ -55,15 +60,29 @@ namespace EmployeesWebApi.Controllers
         //[Authorize(Roles = "Admin")]
         public IActionResult Post([FromBody] Employee employee)
         {
+            if(employee.Ename.IsNullOrEmpty())
+            {
+                ModelState.AddModelError("ename", "ename must not be empty");
+            }
+
+
             try
             {
-                dal.Add(employee);
-                return Ok("Record inserted");
+                if (ModelState.IsValid)
+                {
+                    dal.Add(employee);
+                    return Ok("Record inserted");
+                }
+                else
+                {
+                    throw new Exception("ename must not be empty"); ;
+                }
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
-            }
+            }           
+           
         }
 
         // PUT api/<EmployeesController>/5
@@ -88,8 +107,7 @@ namespace EmployeesWebApi.Controllers
             {
                 //log the ex details and send custom msg
                 return BadRequest(ex.Message);
-            }
-           
+            }           
         }
     }
 }

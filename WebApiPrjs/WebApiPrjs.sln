@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesWebApi", "Employee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_JavScriptClient", "WebAPI_JavScriptClient\WebAPI_JavScriptClient.csproj", "{9BB7A561-A86D-4565-928C-DF68CCD24C84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAPIClient", "MVCAPIClient\MVCAPIClient.csproj", "{D05069D5-573A-4D53-8DF3-5950DAE35061}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9BB7A561-A86D-4565-928C-DF68CCD24C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB7A561-A86D-4565-928C-DF68CCD24C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB7A561-A86D-4565-928C-DF68CCD24C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05069D5-573A-4D53-8DF3-5950DAE35061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05069D5-573A-4D53-8DF3-5950DAE35061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05069D5-573A-4D53-8DF3-5950DAE35061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05069D5-573A-4D53-8DF3-5950DAE35061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

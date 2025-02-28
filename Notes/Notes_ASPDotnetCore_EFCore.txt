@@ -426,13 +426,26 @@ c=> c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
 
 
 2mrw's
--Global Exception handling in WEB API
+-Global Exception handling in WEB API:-
+if any exceptions have got missed or unhandled then global error handling should take care of it else service will terminate.
+steps:
+1) define a Global error handler class implementing a IMiddleware interface and configure the error handling to return error details as a json using an object "ProblemDetails".
+
+2) //add and use the Global Error handle middleware
+	builder.Services.AddScoped<GlobalErrorHandler>();    
+	app.UseMiddleware<GlobalErrorClass>();
+
 -ASP.NET MVC client for WEB API 
 --Validation with ModelState
 
 
 
 
+
+Takeaway:-
+-Consuming ASP.NET WEB API using HttpClient
+-Model validation in WEB API
+-Global Exception handling in WEB API
 
 
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPI_JavScriptClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c187d341eeedec7bd9df4184770cb4330a289ebf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+886399b82a26ec51db59bddba69144c37b49154b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPI_JavScriptClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPI_JavScriptClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

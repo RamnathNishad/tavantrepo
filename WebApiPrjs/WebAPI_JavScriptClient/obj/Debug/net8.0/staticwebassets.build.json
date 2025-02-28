@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bh//lMsmgQ9mDeekD7wTjIVdCdYxpn3m6t6v6zeffxA=",
+  "Hash": "dyhUS/Fne2qZi/K/zu2PmWkSt4JtZiw9/4aaBXOAr+k=",
   "Source": "WebAPI_JavScriptClient",
   "BasePath": "_content/WebAPI_JavScriptClient",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eoay2v8mt6",
-      "Integrity": "cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM=",
+      "Fingerprint": "xxifix9zf9",
+      "Integrity": "pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\consumeapi.js"
@@ -269,51 +269,6 @@
       ]
     },
     {
-      "Route": "lib/consumeapi.eoay2v8mt6.js",
-      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\consumeapi.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2043"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 11:08:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eoay2v8mt6"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/consumeapi.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM="
-        }
-      ]
-    },
-    {
       "Route": "lib/consumeapi.js",
       "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\consumeapi.js",
       "Selectors": [],
@@ -324,7 +279,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2043"
+          "Value": "2514"
         },
         {
           "Name": "Content-Type",
@@ -332,11 +287,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM=\""
+          "Value": "\"pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 11:08:58 GMT"
+          "Value": "Thu, 27 Feb 2025 11:33:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -346,7 +301,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cnfjhH2crMie4KsXfeAbslK+Ld2WF725Kc1MReg+CMM="
+          "Value": "sha256-pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/consumeapi.xxifix9zf9.js",
+      "AssetFile": "D:\\tavantrepo\\WebApiPrjs\\WebAPI_JavScriptClient\\wwwroot\\lib\\consumeapi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:33:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxifix9zf9"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/consumeapi.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg="
         }
       ]
     },

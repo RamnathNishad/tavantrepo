@@ -67,6 +67,9 @@ builder.Services.AddCors(options =>
     });
 });
 
+//add the Global Error handle middleware
+builder.Services.AddScoped<GlobalErrorHandler>();    
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -83,4 +86,6 @@ app.MapControllers();
 
 app.UseCors("clients-allowed");
 
+//use the global error handler middleware
+app.UseMiddleware<GlobalErrorHandler>();
 app.Run();

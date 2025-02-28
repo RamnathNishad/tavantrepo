@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x0ywfal705"},{"Name":"integrity","Value":"sha256-v6QJQl8UNBKpUlR2te2E37j0KkuATDt1jK/xDDf4mp4="},{"Name":"label","Value":"_content/WebAPI_JavScriptClient/Home.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1429"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022v6QJQl8UNBKpUlR2te2E37j0KkuATDt1jK/xDDf4mp4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 09:10:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebAPI_JavScriptClient/lib/consumeapi.eoay2v8mt6.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\consumeapi.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eoay2v8mt6"},{"Name":"integrity","Value":"sha256-cnfjhH2crMie4KsXfeAbslK\u002BLd2WF725Kc1MReg\u002BCMM="},{"Name":"label","Value":"_content/WebAPI_JavScriptClient/lib/consumeapi.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2043"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cnfjhH2crMie4KsXfeAbslK\u002BLd2WF725Kc1MReg\u002BCMM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 11:08:58 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebAPI_JavScriptClient/lib/consumeapi.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\consumeapi.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cnfjhH2crMie4KsXfeAbslK\u002BLd2WF725Kc1MReg\u002BCMM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2043"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cnfjhH2crMie4KsXfeAbslK\u002BLd2WF725Kc1MReg\u002BCMM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 11:08:58 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2514"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 11:33:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebAPI_JavScriptClient/lib/consumeapi.xxifix9zf9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\consumeapi.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xxifix9zf9"},{"Name":"integrity","Value":"sha256-pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg="},{"Name":"label","Value":"_content/WebAPI_JavScriptClient/lib/consumeapi.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2514"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pdN06PPdWOAwZJOOKYMdLAQcO6DdXkLmiVUwDX/YaMg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 11:33:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebAPI_JavScriptClient/lib/jquery-3.7.1.0i3buxo5is.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-3.7.1.js'))</AssetFile>

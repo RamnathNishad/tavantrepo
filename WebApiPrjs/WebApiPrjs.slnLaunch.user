@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "EmployeesWebApi\\EmployeesWebApi.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "MVCAPIClient\\MVCAPIClient.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]
