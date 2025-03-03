@@ -7,6 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace EmployeesWebApi.Controllers
 {
+    [Authorize(Roles = "Admin,Guest")]
     [Route("api/[controller]")]
     [ApiController]
    
@@ -20,8 +21,7 @@ namespace EmployeesWebApi.Controllers
 
         // GET: api/<EmployeesController>
         [HttpGet]
-        [Route("GetAllEmps")]
-        [Authorize(Roles = "Admin,Guest")]
+        [Route("GetAllEmps")]      
         public IActionResult GetAllEmps()
         {
             //int a = 10, b = 0;

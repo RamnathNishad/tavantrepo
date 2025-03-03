@@ -1,5 +1,6 @@
 ﻿
 
+using NuGet.Common;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
@@ -9,14 +10,9 @@ namespace MVCAPIClient.Models
     {
         static string baseUrl = "http://localhost:5005/api/Employees/";
         
-        public static List<Employee> GetEmps()
+        public static List<Employee> GetEmps(string token)
         {
-            var login = new LoginModel
-            {
-                userName = "admin",
-                password = "admin123"
-            };
-            string token = GetToken(login);
+            //read the token from Session to access secured API
             if (token != null)
             {
                 var lstEmps = new List<Employee>();
@@ -69,12 +65,15 @@ namespace MVCAPIClient.Models
                 }
             }
         }
-        public static string AddEmp(Employee emp)
+        public static string AddEmp(Employee emp,string token)
         {
             using (var http = new HttpClient())
             {
                 http.BaseAddress = new Uri(baseUrl);
-                var task=http.PostAsJsonAsync<Employee>("AddEmp", emp);
+                //add the authoriation token
+                http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+                var task =http.PostAsJsonAsync<Employee>("AddEmp", emp);
                 task.Wait();
 
                 if(task.IsCompletedSuccessfully)
@@ -85,7 +84,7 @@ namespace MVCAPIClient.Models
                         var responseRead=response.Content.ReadAsStringAsync();
                         responseRead.Wait();
                         var msg = responseRead.Result;
-                        return msg;
+                        return null;
                     }
                     else
                     {

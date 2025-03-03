@@ -8,22 +8,61 @@ namespace MVCAPIClient.Controllers
     {
         public IActionResult Index()
         {
-            List<Employee> lstEmps = ApiConsumer.GetEmps(); //get from API
-            return View(lstEmps);
+             
+            string token = HttpContext.Session.GetString("token");
+            if (token == null)
+            {
+                //send user to login page to get token
+                return RedirectToAction("Login","Account");
+            }
+            else
+            {
+                try
+                {
+                    List<Employee> lstEmps = ApiConsumer.GetEmps(token); //get from API
+                    return View(lstEmps);
+                }
+                catch (Exception ex)
+                {
+                    ViewData.Add("errMsg", ex.Message);
+                    return View("Error");
+                }
+            }
         }
 
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            string token= HttpContext.Session.GetString("token");
+            if (token != null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }            
         }
 
         [HttpPost]
         public IActionResult Create(Employee emp)
         {
-            //call the API AddEmp
-            ApiConsumer.AddEmp(emp);
-            return RedirectToAction("Index");
+            string token=HttpContext.Session.GetString("token");
+            if (token != null)
+            {
+                //call the API AddEmp
+                string msg= ApiConsumer.AddEmp(emp, token);
+                if(msg==null)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ViewData.Add("errMsg", msg);
+                    return View("Error");
+                }                
+            }
+            return RedirectToAction("Login","Account");
         }
 
         [HttpGet]
@@ -61,5 +100,6 @@ namespace MVCAPIClient.Controllers
             var emp=ApiConsumer.GetEmpById(id);
             return View(emp);
         }
+      
     }
 }
