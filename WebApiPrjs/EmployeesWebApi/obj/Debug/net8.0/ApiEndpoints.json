@@ -17,7 +17,7 @@
   },
   {
     "ContainingType": "EmployeesWebApi.Controllers.EmployeesController",
-    "Method": "Post",
+    "Method": "AddEmp",
     "RelativePath": "api/Employees/AddEmp",
     "HttpMethod": "POST",
     "IsController": true,

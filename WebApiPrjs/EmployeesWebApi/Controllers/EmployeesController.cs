@@ -46,7 +46,15 @@ namespace EmployeesWebApi.Controllers
         {
             try
             {
-                return Ok(dal.Get(id));
+                var res = dal.Get(id);
+                if (res == null)
+                {
+                    return NotFound("record not found"); 
+                }
+                else 
+                {
+                    return Ok(res);
+                }
             }
             catch (Exception ex)
             {
@@ -58,7 +66,7 @@ namespace EmployeesWebApi.Controllers
         [HttpPost]
         [Route("AddEmp")]
         //[Authorize(Roles = "Admin")]
-        public IActionResult Post([FromBody] Employee employee)
+        public IActionResult AddEmp([FromBody] Employee employee)
         {
             if(employee.Ename.IsNullOrEmpty())
             {
@@ -83,7 +91,7 @@ namespace EmployeesWebApi.Controllers
                 return BadRequest(ex.Message);
             }           
            
-        }
+        }        
 
         // PUT api/<EmployeesController>/5
         [HttpPut]

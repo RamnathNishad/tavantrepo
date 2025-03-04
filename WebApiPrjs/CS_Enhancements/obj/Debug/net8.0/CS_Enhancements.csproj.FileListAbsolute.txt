@@ -1,0 +1,15 @@
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\bin\Debug\net8.0\CS_Enhancements.exe
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\bin\Debug\net8.0\CS_Enhancements.deps.json
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\bin\Debug\net8.0\CS_Enhancements.runtimeconfig.json
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\bin\Debug\net8.0\CS_Enhancements.dll
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\bin\Debug\net8.0\CS_Enhancements.pdb
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.AssemblyInfoInputs.cache
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.AssemblyInfo.cs
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.csproj.CoreCompileInputs.cache
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.sourcelink.json
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.dll
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\refint\CS_Enhancements.dll
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.pdb
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\CS_Enhancements.genruntimeconfig.cache
+D:\tavantrepo\WebApiPrjs\CS_Enhancements\obj\Debug\net8.0\ref\CS_Enhancements.dll

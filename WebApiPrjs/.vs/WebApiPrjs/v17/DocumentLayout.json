@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "D:\\tavantrepo\\WebApiPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\models\\apiconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\models\\apiconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|d:\\tavantrepo\\webapiprjs\\employeeswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|solutionrelative:employeeswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|d:\\tavantrepo\\webapiprjs\\employeeswebapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|solutionrelative:employeeswebapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|d:\\tavantrepo\\webapiprjs\\employeeswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|solutionrelative:employeeswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "EmployeesWebApi\\Controllers\\EmployeesController.cs",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "EmployeesWebApi\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T05:19:56.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "MVCAPIClient\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "MVCAPIClient\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T05:08:26.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "MVCAPIClient\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "MVCAPIClient\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T04:57:09.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "MVCAPIClient\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "MVCAPIClient\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:55:19.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Program.cs",
-              "RelativeDocumentMoniker": "MVCAPIClient\\Program.cs",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Program.cs",
-              "RelativeToolTip": "MVCAPIClient\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:37:09.813Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MVCAPIClient\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MVCAPIClient\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAIBAwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:31:48.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiConsumer.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Models\\ApiConsumer.cs",
-              "RelativeDocumentMoniker": "MVCAPIClient\\Models\\ApiConsumer.cs",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Models\\ApiConsumer.cs",
-              "RelativeToolTip": "MVCAPIClient\\Models\\ApiConsumer.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAawGcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T10:31:12.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Program.cs",
               "RelativeDocumentMoniker": "EmployeesWebApi\\Program.cs",
               "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Program.cs",
               "RelativeToolTip": "EmployeesWebApi\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:13:31.98Z"
+              "WhenOpened": "2025-03-04T10:23:24.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EmployeesWebApi\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeesWebApi\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:21:02.82Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -4,11 +4,11 @@
     "Projects": [
       {
         "Path": "EmployeesWebApi\\EmployeesWebApi.csproj",
-        "Action": "StartWithoutDebugging"
+        "Action": "Start"
       },
       {
         "Path": "MVCAPIClient\\MVCAPIClient.csproj",
-        "Action": "StartWithoutDebugging"
+        "Action": "Start"
       }
     ]
   }

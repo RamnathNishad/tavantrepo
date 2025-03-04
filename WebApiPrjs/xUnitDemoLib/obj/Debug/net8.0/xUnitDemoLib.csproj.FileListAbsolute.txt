@@ -1,0 +1,12 @@
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\bin\Debug\net8.0\xUnitDemoLib.deps.json
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\bin\Debug\net8.0\xUnitDemoLib.dll
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\bin\Debug\net8.0\xUnitDemoLib.pdb
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\xUnitDemoLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\xUnitDemoLib.AssemblyInfoInputs.cache
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\xUnitDemoLib.AssemblyInfo.cs
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\xUnitDemoLib.csproj.CoreCompileInputs.cache
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\xUnitDemoLib.sourcelink.json
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\xUnitDemoLib.dll
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\refint\xUnitDemoLib.dll
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\xUnitDemoLib.pdb
+D:\tavantrepo\WebApiPrjs\xUnitDemoLib\obj\Debug\net8.0\ref\xUnitDemoLib.dll

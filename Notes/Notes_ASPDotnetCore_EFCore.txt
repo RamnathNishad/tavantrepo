@@ -455,13 +455,93 @@ Takeaway:-
 
 
 
-
+API actions------>DAL----->EmpDbContext+DbSet
 
  
+ // Expression-bodied method
+    public int Cube(int x) => x * x * x;
+
+// Expression-bodied property
+    public string NameShort => _name;
 
 
+------------
+Person person = null;
+
+// Using null-conditional operator
+string name = person?.Name; // No exception, 'name' will be null
+
+Console.WriteLine(name); // Output: null
 
 
+public string Name { get; set; } = "Unknown"; // Direct initialization
 
 
+(string, int) person = ("Alice", 25);
 
+switch enhancements:-
+string GetCategory(object input) => input switch
+{
+    int n when n > 0 => "Positive Number",
+    int n when n < 0 => "Negative Number",
+    0 => "Zero",
+    string s => "A String",
+    _ => "Unknown Type"
+};
+
+swtich(input)
+{
+ case 1:
+break;
+
+default:
+	
+}
+
+class Person
+{
+	public string Name{get;set;}
+	public int Age{get;set;}
+}
+
+var person=new Person{Name="Alice",Age=25};
+
+string result = person switch
+{
+    ("Alice", 25) => "Matched Alice, age 25",
+    (_, 30) => "Someone aged 30",
+    _ => "No match"
+};
+
+string CategorizeAge(int age) => age switch
+{
+    < 18 => "Minor",
+    >= 18 and < 60 => "Adult",
+    _ => "Senior"
+};
+
+
+void GetValues(out int x, out int y)
+{
+    x = 10;
+    y = 20;
+}
+
+GetValues(out int a, out int b); // Inline declaration
+
+Console.WriteLine($"a: {a}, b: {b}"); // Output: a: 10, b: 20
+=================================
+void Validate(string name) => 
+    name != null ? Console.WriteLine($"Hello, {name}") 
+                 : throw new ArgumentNullException(nameof(name));
+
+Validate(null); // Throws ArgumentNullException
+==
+int number = default;   // 0
+bool isActive = default;   // false
+string text = default;   // null
+
+T GetDefaultValue<T>() => default;
+==========
+string? name = null;  // `?` allows null
+Console.WriteLine(name?.Length); //  No exception, safe null check
