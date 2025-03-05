@@ -99,5 +99,37 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "EmployeesWebApi.Controllers.ResumeController",
+    "Method": "DownloadResume",
+    "RelativePath": "api/Resume/download/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeesWebApi.Controllers.ResumeController",
+    "Method": "UploadResume",
+    "RelativePath": "api/Resume/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

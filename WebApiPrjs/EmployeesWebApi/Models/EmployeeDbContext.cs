@@ -10,5 +10,6 @@ namespace EmployeesWebApi.Models
             
         }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Resume> Resumes { get; set; }
     }
 }
