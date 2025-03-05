@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\tavantrepo\\WebApiPrjs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|d:\\tavantrepo\\webapiprjs\\employeeswebapi\\controllers\\resumeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|solutionrelative:employeeswebapi\\controllers\\resumeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\controllers\\resumeclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\controllers\\resumeclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|d:\\tavantrepo\\webapiprjs\\mvcapiclient\\views\\resumeclient\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D05069D5-573A-4D53-8DF3-5950DAE35061}|MVCAPIClient\\MVCAPIClient.csproj|solutionrelative:mvcapiclient\\views\\resumeclient\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|d:\\tavantrepo\\webapiprjs\\employeeswebapi\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|solutionrelative:employeeswebapi\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE9638D2-4881-4C93-8394-3EA9DEFB7B8C}|EmployeesWebApi\\EmployeesWebApi.csproj|d:\\tavantrepo\\webapiprjs\\employeeswebapi\\models\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Upload.cshtml",
               "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Views\\ResumeClient\\Upload.cshtml",
               "RelativeDocumentMoniker": "MVCAPIClient\\Views\\ResumeClient\\Upload.cshtml",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ResumeClientController.cs",
               "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Controllers\\ResumeClientController.cs",
               "RelativeDocumentMoniker": "MVCAPIClient\\Controllers\\ResumeClientController.cs",
@@ -71,15 +71,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResumeController.cs",
-              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\ResumeController.cs",
-              "RelativeDocumentMoniker": "EmployeesWebApi\\Controllers\\ResumeController.cs",
-              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\ResumeController.cs",
-              "RelativeToolTip": "EmployeesWebApi\\Controllers\\ResumeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ResumeApiController.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\ResumeApiController.cs",
+              "RelativeDocumentMoniker": "EmployeesWebApi\\Controllers\\ResumeApiController.cs",
+              "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\EmployeesWebApi\\Controllers\\ResumeApiController.cs",
+              "RelativeToolTip": "EmployeesWebApi\\Controllers\\ResumeApiController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T05:40:12.619Z"
+              "WhenOpened": "2025-03-05T05:40:12.619Z",
+              "EditorCaption": ""
             }
           ]
         }

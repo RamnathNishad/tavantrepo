@@ -42,8 +42,7 @@
               "RelativeToolTip": "MVCAPIClient\\Views\\ResumeClient\\Upload.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T08:43:23.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T08:43:23.068Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "MVCAPIClient\\Controllers\\ResumeClientController.cs",
               "ToolTip": "D:\\tavantrepo\\WebApiPrjs\\MVCAPIClient\\Controllers\\ResumeClientController.cs",
               "RelativeToolTip": "MVCAPIClient\\Controllers\\ResumeClientController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T08:41:02.708Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "EmployeesWebApi\\Models\\Resume.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA4wA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T05:40:48.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T05:40:48.485Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "EmployeesWebApi\\Controllers\\ResumeController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T05:40:12.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T05:40:12.619Z"
             }
           ]
         }

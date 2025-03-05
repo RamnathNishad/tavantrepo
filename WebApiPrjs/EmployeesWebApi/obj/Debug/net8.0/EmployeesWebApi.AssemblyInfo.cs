@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeesWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0764dad2e31e319efc9c317ccf8bd972518cbade")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3500dc804865de6a0f59728550307bc861c0aded")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeesWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeesWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
