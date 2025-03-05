@@ -11,7 +11,10 @@ namespace MVCAPIClient.Controllers
         [Route("Upload")]
         public IActionResult Upload()
         {
-            ViewData.Add("fileName", "dotnetPPTs.ppt");
+            //it is for using in download link in the view,
+            //its value will be provided from DB record or user input
+            ViewData.Add("fileName", "dotnetPPTs.ppt"); 
+
             return View();
         }
         [HttpPost]
