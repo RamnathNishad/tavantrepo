@@ -1,0 +1,18 @@
+<p>
+    Enter number X:
+    <input type="number" [value]="x" />
+</p>
+<p>
+    Enter number Y:
+    <input type="number" [(ngModel)]="y" />
+</p>
+<button class="btn btn-primary" (click)="addNumbers()" [disabled]="isDisabled">Add numbers</button>
+<h4>Result:{{result}}</h4>
+
+<img [src]="imagePath" width="200" height="200" />
+<br/>
+<p *ngIf="msg">Message: {{msg}}</p>
+
+
+<p *ngIf="age>=18">Adult</p>
+<p *ngIf="age<18">Minor</p>

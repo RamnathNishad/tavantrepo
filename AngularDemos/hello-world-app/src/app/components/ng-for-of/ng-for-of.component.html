@@ -1,0 +1,9 @@
+<h3>ng-for-of Demo</h3>
+<hr/>
+<ul>
+    <li *ngFor="let p of people;index as i" [ngClass]="getCssClass(p.age)">
+        {{i+1}}.<img src="{{p.picture}}" [ngStyle]="imgStyle"/>
+         {{p.name}} - {{p.age}} is from {{p.city}}
+        <button class="btn btn-danger" (click)="deletePerson(i)">X</button>
+    </li>
+</ul>

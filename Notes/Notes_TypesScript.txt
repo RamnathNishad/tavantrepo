@@ -1,0 +1,94 @@
+What is TypeScript?
+TypeScript is a superset of JavaScript developed by Microsoft. It extends JavaScript by adding static typing, interfaces, and object-oriented features, making it more scalable and maintainable.
+
+Key Features of TypeScript
+a) Static Typing – Helps catch errors at compile time.
+b) Interfaces – Defines structured objects and enforces type checking.
+c) Object-Oriented Programming (OOP) – Supports classes, inheritance, and modules.
+d) Modern JavaScript Support – Compiles to clean, browser-compatible JavaScript.
+e) Improved Code Maintainability – Reduces runtime errors and enhances developer experience.
+
+
+1. Variable Declarations
+
+let name: string = "John"; 
+let age: number = 25;
+let isActive: boolean = true;
+
+2. Arrays
+let numbers: number[] = [1, 2, 3, 4, 5];
+let names: string[] = ["Alice", "Bob"];
+
+
+3. Tuple (Fixed Type Array)
+let person: [string, number] = ["Alice", 30];
+
+
+4. Enum
+enum Color { Red, Green, Blue }
+let favoriteColor: Color = Color.Green;
+
+5. Functions with Type Annotations
+function add(a: number, b: number): number {
+    return a + b;
+}
+console.log(add(5, 10)); // Output: 15
+
+6. Interfaces
+interface Person {
+    name: string;
+    age: number;
+}
+
+let user: Person = {
+    name: "John",
+    age: 30
+};
+
+7. Classes
+class Car {
+    brand: string;
+    
+    constructor(brand: string) {
+        this.brand = brand;
+    }
+
+    drive(): void {
+        console.log(`Driving a ${this.brand}`);
+    }
+}
+
+let myCar = new Car("Toyota");
+myCar.drive(); // Output: Driving a Toyota
+
+8. Union Types
+let value: string | number;
+value = "Hello";
+value = 100;
+
+9. Type Aliases
+type ID = string | number;
+let userId: ID = 123;
+userId = "abc123";
+
+10. Generics
+function identity<T>(value: T): T {
+    return value;
+}
+
+console.log(identity<string>("Hello")); // Output: Hello
+console.log(identity<number>(100)); // Output: 100
+
+11. Interfaces for Data Models
+Using TypeScript interfaces, you can define structured data models for API responses and components.
+interface User {
+  id: number;
+  name: string;
+  email: string;
+}
+
+let user: User = { id: 1, name: "John Doe", email: "john@example.com" };
+
+
+
+

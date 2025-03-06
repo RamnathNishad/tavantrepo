@@ -450,98 +450,121 @@ Takeaway:-
 
 
 
+To enable Bearer Token authentication in Swagger for an ASP.NET Core application, follow these steps:
+// Add Swagger configuration
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+
+    // Define security scheme for Bearer token authentication
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Enter 'Bearer <your_token>' in the input field."
+    });
+
+    // Add global security requirement
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new List<string>()
+        }
+    });
+});
 
 
 
 
 
-API actions------>DAL----->EmpDbContext+DbSet
+
+
+
+
+
+
+=================Unit Testing================================
+xUnit:-used with latest .NET version like .NET Core. supports dependency injection using constructor and IDisposable for clearing resource.
+
+These two can be used with previous version of .NET like 5 or 6 or earlier. Do not support dependency injection features.
+MS Test is more align and comfortable with Visual Studio IDE.
+NUnit:- 
+MS Test:-
+
+A:- Arrange i.e. arrange all the things needed to run the test method
+A:- Act:- ie. executing the test method and collecting the actual result
+A:- Assert:- validate or verify whether test is passed or failed based on actual returned result and expected for. Assert.Equal(actual,expected)
+
+Moq:- It is a mocking tool to mock dependency object in .NET Core.
+
+
+
+
+
+
+Create a library with a class Employee having a method to return bonus of the salary as 10% if salary >5000 else 20%.
+Write a xunit test case project to test this method.
+Write 3 test cases:
+1) for salary >5000
+2) for salary<5000
+3) for salary=5000
+
+4) for salary 0 or less it should throw exception
+
+
+
+
+Hands-On: Write and Run a Basic xUnit Test
+Hands-On: Implement Parameterized Tests with Theory and Inline Data
+Using Inline and MemberData for Test Data
+Assertions in xUnit (Assert.Equal, Assert.Throws, etc.)
+[Fact]
+public void ThrowsAny_ExceptionTest()
+{
+    // Act & Assert
+    Assert.ThrowsAny<Exception>(() => ThrowDifferentErrors(true));
+}
+Writing Unit Tests for Controller Methods
+Mocking HttpContext and ActionContext
+Validating Return Types: OkObjectResult, BadRequest, NotFound
+Testing Endpoints with Dependencies
+Hands-On: Write Unit Tests for a Controller with CRUD Operations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
- // Expression-bodied method
-    public int Cube(int x) => x * x * x;
-
-// Expression-bodied property
-    public string NameShort => _name;
 
 
-------------
-Person person = null;
-
-// Using null-conditional operator
-string name = person?.Name; // No exception, 'name' will be null
-
-Console.WriteLine(name); // Output: null
 
 
-public string Name { get; set; } = "Unknown"; // Direct initialization
 
 
-(string, int) person = ("Alice", 25);
 
-switch enhancements:-
-string GetCategory(object input) => input switch
-{
-    int n when n > 0 => "Positive Number",
-    int n when n < 0 => "Negative Number",
-    0 => "Zero",
-    string s => "A String",
-    _ => "Unknown Type"
-};
-
-swtich(input)
-{
- case 1:
-break;
-
-default:
-	
-}
-
-class Person
-{
-	public string Name{get;set;}
-	public int Age{get;set;}
-}
-
-var person=new Person{Name="Alice",Age=25};
-
-string result = person switch
-{
-    ("Alice", 25) => "Matched Alice, age 25",
-    (_, 30) => "Someone aged 30",
-    _ => "No match"
-};
-
-string CategorizeAge(int age) => age switch
-{
-    < 18 => "Minor",
-    >= 18 and < 60 => "Adult",
-    _ => "Senior"
-};
-
-
-void GetValues(out int x, out int y)
-{
-    x = 10;
-    y = 20;
-}
-
-GetValues(out int a, out int b); // Inline declaration
-
-Console.WriteLine($"a: {a}, b: {b}"); // Output: a: 10, b: 20
-=================================
-void Validate(string name) => 
-    name != null ? Console.WriteLine($"Hello, {name}") 
-                 : throw new ArgumentNullException(nameof(name));
-
-Validate(null); // Throws ArgumentNullException
-==
-int number = default;   // 0
-bool isActive = default;   // false
-string text = default;   // null
-
-T GetDefaultValue<T>() => default;
-==========
-string? name = null;  // `?` allows null
-Console.WriteLine(name?.Length); //  No exception, safe null check

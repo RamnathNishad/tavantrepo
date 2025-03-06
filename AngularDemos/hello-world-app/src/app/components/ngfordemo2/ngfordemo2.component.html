@@ -1,0 +1,38 @@
+<p>ngfordemo2 works!</p>
+
+<p>
+    <label>Ecode:</label>
+    <input type="text" [(ngModel)]="ecode">
+</p>
+<p>
+    <label>Ename:</label>
+    <input type="text" [(ngModel)]="ename">
+</p>
+<p>
+    <label>Salary:</label>
+    <input type="text" [(ngModel)]="salary">
+</p>
+<p>
+    <label>Deptid:</label>
+    <input type="text" [(ngModel)]="deptid">
+</p>
+
+<p>
+    <button class="btn btn-success" (click)="addEmployee()">Add Employee</button>
+</p>
+
+<table class="table">
+    <tr>
+        <th>Ecode</th>
+        <th>Ename</th>
+        <th>Salary</th>
+        <th>Deptid</th>
+    </tr>
+    <tr *ngFor="let emp of employees">
+        <td><img src="{{emp.picture}}" width="100" height="70" /></td>
+        <td>{{emp.ecode}}</td>
+        <td>{{emp.ename}}</td>
+        <td>{{emp.salary}}</td>
+        <td>{{emp.deptid}}</td>
+</table>
+

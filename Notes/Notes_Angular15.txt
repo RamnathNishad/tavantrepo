@@ -1,0 +1,71 @@
+Steps for setup for Angular:
+1) install nodejs from nodejs.org/download
+	to verify node: node --version  or  -v
+2) install angular cli:
+	npm i @angular/cli@15  --global
+
+To create angular application:
+	ng new hello-world-app    ...it will asku u series of questions
+	cd hello-world-app
+	to run the application: ng serve  -o 
+
+Files info:-
+1) main.ts----->specifies starting Module file app.moduel.ts with class AppModule
+2) app.module.ts----> contains NgModule class AppModule, also specifies bootstrapping component from the file app.component.ts with class AppComponent having decorator @Component(selector:"app-root",templateUrl,styleUrls)
+3)index.html is the single file in which component will be loaded as per selector
+4) package.json:- for packages details
+5) angular.json:- for application settings, if modified must restart the server
+
+to create component:-
+	ng generate component components/app-calculator --prefix="" --specs=false
+	ng g c components/app-calculator --prefix="" --specs=false
+	
+	  -------calcuator.componet.html,css,ts,spec
+	selector will automatically as <app-calculator>
+
+installing and using bootstrap:-
+	npm i bootstrap  --save
+
+Angular supports data- bindings:
+1) one-way component to view : {{}}   and []
+2) one-way from view to component
+3) two-way i.e. changes in view reflects in component and vice-versa (using ngModel directive which resides in FormsModule to be imported in AppModule
+		[(ngModel)]  -----> banana in a box [()]
+
+{{}} and [] difference:
+-{{}} is used for string value binding not for non-string like boolean whereas [] used for non-string value data-binding. 
+
+Directives:- are used to manipulate DOM 
+predefined directives:- ngIf,ngFor,ngSwitch,ngSwitchCase,ngSwitchDefault,ngStyle,ngClass,ngForm,ngHidden
+1) Structural directives:- which modifies the element structures like *ngIf,*ngForOf,*ngSwitchCase,*ngSwitchDefault
+Note: these are used with asterik(*)
+
+2) Attribute directives:- which do not modifies the element structure , just changes their styles  and attributes.
+
+
+
+
+
+
+Takeaway:
+-basics of Angular SPA
+-Setup of angular
+-structure and various files of an angular app
+-Creating angular app
+-databinding: event binding, property binidng,attribute binding
+-predefined directives:- ngIf,ngFor,ngStyle,ngClass,ngModel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
