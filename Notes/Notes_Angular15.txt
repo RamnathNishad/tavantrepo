@@ -44,6 +44,40 @@ Note: these are used with asterik(*)
 
 
 
+1)Following bindings flow data in one direction i.e. from component class property to an html element property.
+-interpolation
+-Property binding
+-Attribute binding
+-Class binding
+-Style binding
+
+2)Event binding flows data in opposite direction i.e. from HTML element to a component.
+	<button (click)="onClick()">Click here</button>
+
+3)Two-way binding is done using [(ngModel)] . we need to import FormsModule in the app module file.
+
+
+Note: -Attribute binding
+	class Demo
+	{
+		colSize:number=2;
+	}
+	<td [colspan]="colSize">Data</td>
+This will give u error bcoz colspan property of html element is not having representation in DOM tree. We shud use different syntax for this attribute binding:
+
+	<td [attr.colspan]="colSize">
+	or
+	<td attr.colspan="{{colSize}}">
+
+
+	
+
+
+
+
+
+
+
 
 
 
