@@ -69,6 +69,23 @@ This will give u error bcoz colspan property of html element is not having repre
 	or
 	<td attr.colspan="{{colSize}}">
 
+=================Angular Pipes==================================
+Pipes transform the data:-
+in-built pipes:-
+-uppercase
+-lowercase
+-date
+-currency
+-percent
+-decimal
+
+==================Creating a Phonebook Application===================
+
+
+
+
+
+
 
 	
 
