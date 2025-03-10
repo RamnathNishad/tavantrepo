@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tavantrepo\\PhoneBookApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|d:\\tavantrepo\\phonebookapi\\phonebookapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|d:\\tavantrepo\\phonebookapi\\phonebookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|d:\\tavantrepo\\phonebookapi\\phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|d:\\tavantrepo\\phonebookapi\\phonebookapi\\models\\contactdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\models\\contactdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|d:\\tavantrepo\\phonebookapi\\phonebookapi\\models\\contactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\models\\contactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|d:\\tavantrepo\\phonebookapi\\phonebookapi\\models\\icontactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\models\\icontactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|d:\\tavantrepo\\phonebookapi\\phonebookapi\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{837920DC-927C-4234-A9C8-13954A06CC74}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PhoneBookApi\\appsettings.json",
+              "ToolTip": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\appsettings.json",
+              "RelativeToolTip": "PhoneBookApi\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T04:53:49.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Program.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Program.cs",
+              "ToolTip": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Program.cs",
+              "RelativeToolTip": "PhoneBookApi\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIA0wAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:42:21.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Controllers\\ContactsController.cs",
+              "ToolTip": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "PhoneBookApi\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:34:07.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactDbContext.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\ContactDbContext.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Models\\ContactDbContext.cs",
+              "ToolTip": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\ContactDbContext.cs",
+              "RelativeToolTip": "PhoneBookApi\\Models\\ContactDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:26:26.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactDataAccess.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\ContactDataAccess.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Models\\ContactDataAccess.cs",
+              "ToolTip": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\ContactDataAccess.cs",
+              "RelativeToolTip": "PhoneBookApi\\Models\\ContactDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:25:56.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IContactDataAccess.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\IContactDataAccess.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Models\\IContactDataAccess.cs",
+              "ToolTip": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\IContactDataAccess.cs",
+              "RelativeToolTip": "PhoneBookApi\\Models\\IContactDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:24:48.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Models\\Contact.cs",
+              "ToolTip": "D:\\tavantrepo\\PhoneBookApi\\PhoneBookApi\\Models\\Contact.cs",
+              "RelativeToolTip": "PhoneBookApi\\Models\\Contact.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:19:41.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

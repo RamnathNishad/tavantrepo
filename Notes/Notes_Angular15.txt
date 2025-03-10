@@ -81,6 +81,11 @@ in-built pipes:-
 
 ==================Creating a Phonebook Application===================
 
+====================Angular  Forms===================
+1) Template-driven forms:- validations etc are done inside the html of the form. It is used simple forms.
+2) Reactive forms:- It is controlled by the component class for all the validations. It is used for extensive forms.
+
+
 
 
 
